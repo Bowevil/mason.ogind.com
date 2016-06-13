@@ -1,0 +1,2490 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Balthazar);
+
+body{
+    background-color:black;
+    background-image: url("../oandg_background_texture.gif");
+}
+
+header {
+     background-color: #eeeeee !important;   
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important;    
+    font-size:2.625em !important; /* 16x.875= 42 */
+    text-transform: none;    
+}
+
+h1.page-header{
+    position: relative;
+    top: 20px;
+    padding-left: 5% !important;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important;    
+    font-size:2.625em !important; /* 16x.875=42 */
+    text-transform: uppercase; 
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a; 
+    font-size:2.000em !important; /* 16x.875=32 */       
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: #b6985a;
+    text-transform: uppercase;   
+}
+
+p {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important;
+    margin-bottom: 20px;
+}
+
+li {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important;  
+}
+
+a {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.col-md-4 .views-field-body .field-content a, .tb-megamenu-menu-seconday-menu a, .tb-megamenu-main-menu a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+#block-views-front-block-1 h2{
+    color: #757575 !important; 
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#block-views-front-block-1 > h2{
+    color: #757575 !important; 
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#block-views-division-landing-page-block-2 h2 {
+    text-align: center;   
+}
+
+.page-top h2{
+    border-bottom: 0px !important;
+    padding: 0px !important;
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+img {
+    /* display: block;
+    width: 100%;
+    height: auto;  */
+}
+
+p.callout{
+    text-align: center;
+    font-family: 'Helvetica', sans-serif !important;
+    font-style: italic;
+    font-weight: 400;
+    color: #000000 !important;
+    font-size:1.250em; /* 16x.875=20 */
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    margin-bottom: 15px;
+}
+
+
+p.marketing{
+    text-align: left;
+    font-family: 'Helvetica', sans-serif !important;
+    font-style: italic;
+    font-weight: 400;
+    color: #808080 !important;
+    font-size:1.500em !important; /* 16x.875=24 */ 
+}
+
+
+
+#navbar-static-top {
+    background-color:black  !important;
+}
+
+#navbar {
+    background-color:black  !important;    
+}
+/* begin Booststrap tweaks */
+
+.page-division-building-construction-services h1.page-header{
+    display: none;
+}
+.page-division-heavy-civil h1.page-header {
+    display: none;   
+}
+.page-division-special-projects h1.page-header {
+    display: none; 
+}
+.page-division-asphalt-paving h1.page-header {
+    display: none; 
+}
+.page-division-construction-materials h1.page-header {
+    display: none; 
+}
+.page-division-mason-products h1.page-header {
+    display: none; 
+}
+.page-product-mason-products h1.page-header {
+    display: none; 
+}
+.page-product-construction-materials h1.page-header {
+    display: none; 
+}
+.page-materials h1.page-header, .page-mason h1.page-header {
+    display: none; 
+}
+.texture-container {
+    z-index: -999;
+    margin: 0 auto;
+    width: 100%;  
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    height: 200px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;    
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    background-color: #eeeeee !important;
+}
+
+.division-landing-page {
+    padding-top: 15px;
+    padding-left: 2% !important;
+    padding-bottom: 2% !important;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+.navbar-collapse, .navbar-header {
+    background-color: black;
+}
+
+.region-sidebar-second{
+    /*padding-top: 25%;*/
+}
+
+.views-field-field-project-display-title {
+    display: none;
+}
+.division-landing-page-title .views-field-title {
+    display: none;   
+}
+
+.gold-header {
+    border-bottom:  1px solid #b6985a !important;
+    width: auto; /* undo width: 100%  in flexslider.css*/
+    max-width:100%;  /* Make sure the image stays inside its surrounding container. */
+    height: 2px; /* keep the aspect ratio */
+    margin-right: auto;
+    margin-left: auto;    
+}
+
+.views-exposed-widgets {
+    margin-bottom: 15px;
+}
+
+.pagination ul {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+    
+.pagination {
+    display: inline-block;
+    width: 100%;
+    height: auto !important;    
+    margin-left: 2%;
+    margin-right: auto;   
+}
+
+.pagination li{
+    float: left;
+}
+
+.pagination li>a, .pagination li>span {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 400 !important;
+    color: #b6985a;
+    text-transform: uppercase;  
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #000000;
+    border: 0px solid #ddd;
+    border-radius: 0px;
+}
+
+.pagination li.active, .pagination li:active>span {
+    background-color: #b6985a;
+
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    background-color: #b6985a;
+}
+
+.pagination li>a:hover, .pagination li>span:hover{
+    background-color: #b6985a;
+    color: #000000;
+}
+
+/* end  Booststrap tweaks */
+
+/* begin tb-megamenu core css */
+
+.tb-megamenu-main-menu .items-4, .tb-megamenu-menu-seconday-menu .items-3 {
+    position: relative;
+}
+
+.tb-megamenu .nav > li > a {
+    background:none !important;
+    border-right: none;
+    border-top: none;
+    padding: 0px 20px 0px 0px;
+    color: #ffffff !important;
+}
+
+.tb-megamenu-menu-seconday-menu .nav > li > a {
+    background:none !important;
+    border-right: none;
+    border-top: none;
+    padding: 0px 20px 0px 0px;
+    color: #b6985a !important;
+}
+
+
+.tb-megamenu .nav > li > a:hover {
+    color: #b6985a !important;
+}
+
+.tb-megamenu-menu-seconday-menu .nav > li > a:hover {
+    color: #ffffff !important;
+}
+
+.tb-megamenu .nav > li {
+    padding-right: 10px;
+}
+
+.tb-megamenu li > a:hover {
+    color: #b6985a !important;
+}
+
+.tb-megamenu li > a:active {
+    background-color: #b6985a !important;
+}
+
+.tb-megamenu .dropdown-menu .active > a,
+.tb-megamenu .dropdown-menu .active > a:hover {
+	background-color: #645431;
+	background-image: none !important;
+}
+
+.tb-megamenu .btn-navbar {
+  display: none;
+  float: left;
+  padding: 10px;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: transparent;
+  border-color: #b6985a;
+}
+
+/* end tb-megamenu core css */
+
+/* begin user menu */
+
+#block-system-user-menu {
+    border-top: 1px solid #b6985a;    
+    background-color: #000000;
+}
+
+#block-system-user-menu > h2.block-title {
+    display: none;
+}
+#block-system-user-menu > .nav>li>a {
+    color: #b6985a;
+    float: left;
+}
+
+li .open:hover {
+    background-color:#000000 !important;
+}
+/* end user menu */
+
+
+/* begin Products submenu menu */
+
+
+#block-views-division-landing-page-block-3, #block-views-division-landing-page-block-6, #block-views-division-landing-page-block-4 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#block-views-division-landing-page-block-3 > .view-id-division_landing_page, #block-views-division-landing-page-block-6 > .view-id-division_landing_page {
+    /*float: right;
+    width: 90%; */
+}
+
+
+.mason-product-sub-links {
+    padding-top: 25px;
+    padding-bottom: 8%;
+}
+
+.building-product-sub-links {
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.page-division-construction-materials #block-views-division-landing-page-block-3 .view-id-division_landing_page {
+    float: right;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.materials-product-sub-links {
+    float: right;
+    width: 90%;
+    padding-top: 25px;
+    padding-bottom: 5%;
+}
+
+.products-submenu {
+    position: relative;
+    border: 1px solid #aaaaaa;
+    text-align: center;
+    background-color: #b6985a;
+    min-height: 42px;
+    line-height: 42px;
+}
+
+.products-submenu:hover {
+    background-color: #000000;
+}
+
+.products-submenu a {
+    font-size: x-small;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    /*position: absolute;*/
+    /*white-space: nowrap;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.products-submenu span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.products-submenu:hover > span a{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/* end Products submenu menu */
+
+
+
+/* Begin New Mason Divsion pages */
+
+.page-division.page-division-mason-division .container {
+    position: absolute;
+    top: -1px;
+    max-width: none;
+}
+
+.page-division.page-division-mason-division .footer {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top: 1px solid #E5E5E5;
+}
+
+.page-division.page-division-mason-division .row .division-landing-page .field-content p {
+    font-family: 'Balthazar', serif !important;   
+    font-size: 1.25em; /* 16x.875=20 */
+    text-transform: none;
+    text-align: justify;
+
+}
+
+.page-division.page-division-mason-division .row {
+    height: 100vh;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow: hidden;
+}
+
+.page-division.page-division-mason-division div.container {
+    display: block;
+}
+
+
+#block-menu-menu-mason-division-menu {
+    background-color: #b6985a !important;
+    
+}
+
+.mason-division-icon img {
+    width: auto; /* undo width: 100%  in flexslider.css*/
+    max-width:100%;  /* Make sure the image stays inside its surrounding container. */
+    height: auto; /* keep the aspect ratio */
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+.mason-division-icon {
+    border-style: dashed;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: .2px dashed #E0D9B8 !important;
+}
+
+.page-division.page-division-mason-division .row h2.block-title {
+    display: none;  
+}
+
+#block-menu-menu-mason-division-menu h2.block-title.mason-block-title {
+    display: none;
+}
+
+#mason-flexslider-container .view-display-id-mason_division_flexslider > div > .flexslider .slides img {
+    height: 100vh;
+    width: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.view-display-id-mason_division_flexslider > div > .flexslider {
+    height: 100vh;
+    width: 100vh;
+    background-color: #b6985a !important;
+    border-top: 0px solid #b6985a !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 0px solid #b6985a !important;
+    margin-right: 5px;    
+}
+
+.view-display-id-mason_division_flexslider .flex-control-nav {
+    z-index: 2;
+    bottom: 20px;
+}
+
+.page-division.page-division-mason-division .region-sidebar-first {
+    position: relative;
+    /*left: 0px;*/
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#block-menu-menu-mason-division-menu {  
+    position: absolute;
+    background-color: #7F1334 !important;  
+    height: 100vh; 
+}    
+    
+#mason-nav-container {  
+    position: relative;
+    left: 0px;
+    background-color: #E0D9B8;
+    width: 187px;
+    height: 100vh;
+    margin-right: 18px;    
+    padding-left: 0px;
+    padding-right: 0px;
+    /*overflow: hidden;*/
+}
+
+#mason-nav-container a {
+    font-family: 'Balthazar', serif !important;   
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 1.125em; /* 16x.875=18 */
+    text-transform: none;
+    text-align: center;
+    border-style: solid;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: .2px dashed #E0D9B8 !important;    
+}
+
+#mason-nav-container a .caret {
+    display: none;
+
+}
+
+.mason-dropdown {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left:187px;
+    z-index: 1000;
+    text-align: right;
+    padding: 5px 0;
+    margin: 0 auto;
+    background-color: #E0D9B8;
+    /*
+    padding:0px;   
+    position: relative;
+    top: 0px;
+    left: 200px;
+    width: 100%;
+    height: 600px;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    list-style: none;*/
+    border: 0px solid #ccc;
+    border: 0px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.175);
+    box-shadow: 0 0px 0px rgba(0,0,0,0.175);
+    background-clip: padding-box;
+}
+
+#block-menu-menu-mason-division-menu .dropdown-menu.mason-dropdown a {
+    font-family: 'Garamond', serif !important;  
+    color: #000000 !important;
+    background-color: transparent !important;
+    font-size: 1.125em; /* 16x.875=18 */
+    text-transform: capitalize !important;
+    text-align: center;
+    border-style: solid;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: .2px dashed #000000 !important;   
+}
+    
+    
+.shrink {
+    -webkit-transform: scale(.8,1);
+    -ms-transform: scale(.8,1);
+    transform: scale(.8,1);
+    -ms-transform: translate(-160px, 0px); /* IE 9 */
+    -webkit-transform: translate(-160px, 0px);/* Safari */
+    transform: translate(-160px, 0px);
+}
+
+/* End New Mason Divsion pages */
+
+
+
+/* begin Products tb-menu  */
+
+.tb-megamenu-menu-mason-products-menu .style-black {
+    float: none;
+}
+
+
+#block-tb-megamenu-menu-mason-products-menu {
+    z-index: 1;
+    float: none;
+    position: relative;
+    width: auto;
+    padding-bottom: 30px;
+    top: 0px;
+    background: #b6985a !important;
+}
+
+.tb-megamenu-menu-mason-products-menu > .nav {
+    background-color: #b6985a !important;
+    padding-left: 7%;
+    padding-top: 0px;
+}
+
+.tb-megamenu-menu-mason-products-menu > a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.tb-megamenu-menu-mason-products-menu .nav li {
+    padding-right: 0px;
+    font-size: 1.125em; /* 16x.875=18 */
+}
+
+.tb-megamenu-menu-mason-products-menu .nav li a {
+    background:none !important;
+    border-right: none;
+    border-top: none;
+    padding: 5px 20px 0px 0px;
+    color: #ffffff !important;
+}
+
+.tb-megamenu-menu-mason-products-menu > .nav li a:hover, .tb-megamenu-menu-mason-products-menu > .nav li a:focus {
+    color: #000000 !important;
+}
+
+
+
+.tb-megamenu-menu-mason-products-menu > .navbar-nav li .dropdown-menu {
+    margin-top: 8px;
+}
+
+.tb-megamenu-menu-mason-products-menu .dropdown-menu {
+    background: #000000 !important;
+}
+
+.tb-megamenu-menu-mason-products-menu .dropdown-menu li a {
+    color: #ffffff !important;
+}
+
+.tb-megamenu-menu-mason-products-menu .dropdown-menu li a:hover, .tb-megamenu-menu-mason-products-menu .dropdown-menu li a:focus {
+    color: #b6985a !important;
+}
+
+.tb-megamenu-menu-mason-products-menu .dropdown-menu .active a,
+.tb-megamenu-menu-mason-products-menu .dropdown-menu .active a:hover {
+    background-color: #000000;
+    background-image: none !important;
+}
+
+#block-tb-megamenu-menu-mason-products-menu span.caret {
+    border-top-color: #000000;
+    border-bottom-color: #000000;
+}
+/* end Products tb-menu */
+
+
+/* Begin header */ 
+#header-top {
+    overflow: visible;
+}
+
+#header {
+    height: 50px !important;
+    min-height: 75px !important;
+    padding: 0px 0  !important;
+}
+
+#header > .container {
+    height: 75px !important;
+}
+
+#header .logo {
+    vertical-align: top;
+}
+
+.navbar .logo{
+    margin-left: 0px;
+}
+
+/* End header */
+
+/* Begin Page Top */ 
+.page-top {
+    background-color: transparent !important;
+    border-bottom: 0px solid #CCC !important;
+    border-top: 0px solid #384045 !important;
+    margin-bottom: 0px !important;
+    min-height: 50px !important;
+    padding: 0px 0 !important;
+}
+
+.col-md-4 { 
+    /* padding: 15px;*/
+}
+
+/* End Page Top */ 
+
+/* Begin breadcrumbs */
+
+.easy-breadcrumb {
+    display: none;
+    padding-top: 10px;
+    padding-left: 5%;
+}
+
+.easy-breadcrumb_segment-separator{
+    color: #b6985a;
+    display: none;
+}
+
+.easy-breadcrumb_segment.easy-breadcrumb_segment-2 {
+    display: none;
+}
+
+.breadcrumb a, .easy-breadcrumb a {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;      
+}
+
+.breadcrumb-wrap .col-md-12{
+    display: inline-block;
+}
+
+/* End breadcrumbs */
+
+/* Begin flexslider */
+.flexslider {
+    background-color: #b6985a !important;
+    border-top:  4px solid #b6985a !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom:  2px solid #b6985a !important;
+}
+
+.flexslider .slides img{
+    width: auto; /* undo width: 100%  in flexslider.css*/
+    max-width:100%;  /* Make sure the image stays inside its surrounding container. */
+    height: auto; /* keep the aspect ratio */
+    margin-right: auto;
+    margin-left: auto;
+}
+.flex-direction-nav a:before, .flex-direction-nav a.flex-next:before {
+    color: #b6985a;
+}
+
+/* End flexslider */
+
+/* Begin Front page view */
+
+
+.view-showcase .views-field-field-image-front-division .col-md-4 {    
+    min-height: 350px;
+    max-height: 350px;
+}
+
+.front-page-landing-page-container .col-md-4 {
+    padding-bottom: 15px;
+}
+
+.views-field-field-title-front-division {
+    color: #eeeeee;
+    background-color: #b6985a;
+    padding-top:10px;
+    padding-bottom:10px;    
+}
+
+.views-field-field-title-front-division {
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;    
+}
+
+.views-field-field-image-front-division img {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #cacad9;
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;    
+}
+
+.views-field-field-title-front-division .field-content{
+    text-align: center;   
+}
+
+.views-field-field-description-front-division {
+    min-height: 130px;
+    background-color: #FFFFFF;
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;   
+}
+
+.views-field-field-link-front-division {
+    background-color: #FFFFFF;   
+}
+
+.views-field-field-description-front-division p {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+.views-field-field-link-front-division {
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;
+    border-bottom: 1px solid #cacad9;  
+}
+
+.views-field-field-link-front-division a {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+
+.views-field-field-link-front-division .field-content {
+    padding-right: 10px;
+    text-align: right;
+}
+
+/* End Front page view */
+
+
+/* Begin profolio page exposed filters */
+
+.not-front.page-portfolio .view-showcase {
+   /* margin: 0 auto;
+    width: 100%;
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+    padding-bottom: 2% !important; */
+}
+
+.views-exposed-form {
+    /* padding-left: 40px; */
+}
+
+.views-exposed-form label{
+    font-weight: 300 !important;
+}
+
+.form-item-field-project-category-tid .form-type-bef-checkbox{
+    float: left;
+    width: 340px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+
+.views-widget-filter-field_project_category_tid {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: larger;
+    color: #b6985a !important;
+}
+
+.bef-checkboxes {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #757575 !important;
+    padding-left: 0px;
+}
+
+
+.form-item-field-project-category-tid .form-control{
+    display: inline;
+    width: 20px;
+    height: 34px;
+    padding: 0px 0px;
+    /*font-size: inherit; */
+    line-height: 1.428571429;
+    color: #ffffff;
+    vertical-align: bottom;
+    background-color: #ffffff;
+    border: 0px solid transparent;    
+    /*
+    border: 1px solid transparent;
+    border-radius: 4px;
+    */
+}
+
+/* End profolio page exposed filters */
+
+
+/* Begin portfolio page view */
+
+
+.not-front .view-showcase .portfolio-heading {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.not-front .view-showcase .portfolio-heading p{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.view-display-id-block_1 .view-header, .view-display-id-page_3 .view-header {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: #b6985a;
+   /* text-transform: uppercase; */   
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 10PX
+}
+
+#block-views-showcase-block-1 {
+    padding-bottom: 2% !important;
+}
+
+#block-views-showcase-block-1 > .block-title {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.view-id-showcase .col-md-6 {
+    /*min-height: 250px;
+    max-height: 250px;*/
+    padding-bottom: 15px;
+}
+
+.col-md-6 .views-field-field-project-showcase-image img {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #cacad9;
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;     
+}
+
+.view-id-showcase .views-field-title-field {
+    min-height: 70px;  
+    text-align: center;
+    vertical-align: middle;
+    background-color: #b6985a;
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;     
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;   
+}
+
+.portfolio-division .views-field.views-field-title {
+    min-height: 70px;  
+    text-align: center;
+    vertical-align: middle;
+    background-color: #b6985a !important;
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;     
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;         
+}
+
+.portfolio-division .views-field.views-field-title a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.portfolio-single-node-details-related-client-projects > .views-field-title-field {
+    min-height: 20px;  
+    text-align: left;
+    vertical-align: middle;
+    background-color: transparent;
+    border-left: 0px solid #cacad9;
+    border-right: 0px solid #cacad9;     
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px;
+    padding-right: 0px;  
+}    
+    
+.portfolio-single-node-details-related-client-projects > .views-field-title-field a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+
+.views-field-title-field a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.views-field-title-field > .field-content {
+    margin-top: 10px;
+}
+
+.portfolio-showcase-description {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #ffffff;
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9; 
+    border-bottom: 1px solid #cacad9;     
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.portfolio-label {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important; 
+}
+
+.view-showcase .views-field-title {
+    background-color: #ffffff;
+}
+
+.views-field-title a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+
+
+/* End portfolio page view */
+
+
+/* Begin portfolio project single page view */
+
+#block-views-showcase-block-4 .block-title {
+    padding-left: 2%;
+}
+
+
+.views-field-field-project-marketing-headline {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: italic;
+    font-weight: 400;
+    color: #808080 !important;
+    font-size:1.500em !important; /* 16x.875=24 */ 
+    margin-bottom: 15px;
+}
+
+.views-label-field-project-client, .views-label-field-project-city, .views-label-field-project-architect-engineer, .views-label-field-project-services-provided, .views-label-field-project-date, .views-label-field-project-size {
+    color: #b6985a !important; 
+}
+
+.view-id-showcase.view-display-id-block_6 {
+    padding-top: 20px;
+}
+
+.view-header p .views-label-field-project-award {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    color: #b6985a !important; 
+}
+
+.portfolio-single-node-details .views-field.views-field-title {
+    background-color: transparent !important;
+}
+
+.views-row-first.portfolio-single-node-details {
+    /*padding-bottom: 10px;*/
+}
+
+.views-field-field-project-client, .views-field-field-project-city, .views-field-field-project-architect-engineer, .views-field-field-project-services-provided, .views-field-field-project-date, .views-field-field-project-size {
+    padding-bottom: 10px;
+}
+
+.views-field-field-project-images img{
+    width: 180px;
+    height: auto;
+    margin: 5px;
+
+}
+.views-field-field-project-images .field-content {
+    color: #eeeeee;
+}
+
+.col-centered{
+    padding-top:15px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: transparent;
+}
+
+.views-field-field-project-description {
+    padding-bottom: 2% !important;
+    
+}
+
+.more-link {
+    margin-top: 16px;
+}
+
+.more-link a {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+    float: right;
+}
+
+/* End portfolio project page view */
+
+
+/* Begin division page view */
+
+.division-landing-page-sections {
+    float: left;
+    width: 280px;
+    height: 270px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+}
+
+.views-field-field-division-callouts-title .field-content:before {
+    display: inline-block;
+    content: url(../check.png);
+    vertical-align:middle; 
+    padding-right: 10px;
+    border: none;
+}
+
+.views-field-field-division-callouts-title {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: #b6985a;
+    text-transform: uppercase;
+    padding-top:10px;
+    padding-bottom:10px;    
+}
+
+.views-field-field-division-callouts-title a{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: #b6985a;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.views-field-field-division-callouts-title a:hover {
+    color: #000000;
+}
+
+
+.views-field-field-bn-call-out-text {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.views-field-field-title-front-division a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.views-field-field-division-callouts-title .field-content{
+    text-align: center
+}
+
+
+.views-field-field-division-callouts-descript {
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+.views-field-field-division-callouts-link {
+    padding-left: 40px;
+}
+.views-field-field-division-callouts-link a {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+
+/* End division page view */
+
+/* Begin division page blog news view */
+
+
+
+.division-landing-page-blognews .views-field-field-bn-call-out-image {
+    width: 100%;
+    height: auto;
+    width: inherit;
+    padding-top: 5px;    
+    padding-bottom: 10px;   
+}
+
+.division-landing-page-blognews .views-field-field-bn-call-out-image img {
+    width: 100% !important;
+    height: auto !important;
+}   
+
+.division-landing-page-blognews {
+    border-color: #b6985a green white blue;
+    border-style: solid none none none;
+    border-width: 1px 0px 0px 0px;
+    margin-left: 10px;
+    margin-right: 10px;    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.division-landing-page-blognews .views-field-title {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+
+.division-landing-page-blognews a {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+    text-decoration: none;
+}
+
+
+
+/* End division page blog news view */
+
+
+/* Begin generic page view */
+
+.generic-page {
+    width: 100%;
+   /* padding-left: 5% !important;
+    padding-right: 5% !important;    
+    margin-right: 15px;
+    margin-bottom: 15px; */
+}
+
+.generic-page .views-field-title {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important;    
+    font-size:2.625em; /* 16x.875=42 */
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 5% !important;
+    
+}
+
+.views-field-field-product-cm-description {
+    padding-top: 5% !important;
+   padding-left: 4% !important;
+   padding-right: 5% !important;   
+   padding-bottom: 2% !important;
+}
+
+
+.field-name-field-generic-marketing-desc {
+   padding-left: 4% !important;
+   padding-right: 5% !important;   
+   padding-bottom: 2% !important;
+}
+
+.field-name-field-generic-marketing-desc h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.views-field-field-generic-marketing-headline p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: italic;
+    font-weight: 400;
+    color: #808080 !important;
+    font-size:1.250em;    
+    margin-bottom: 15px;
+}
+
+/*
+.views-field-field-generic-marketing-desc {
+    float: left;
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 15px;    
+}
+.views-field-field-generic-marketing-image {
+    float: left;
+}
+*/
+
+.field-name-field-generic-marketing-headline p{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: italic;
+    font-weight: 400;
+    color: #808080 !important;
+    font-size:1.500em !important; /* 16x.875=24 */ 
+    padding-left: 4% !important;
+    padding-right: 5% !important;
+    margin-bottom: 15px;
+}
+
+
+.field-name-field-generic-marketing-image {
+    float:right;
+    clear: right;    
+    padding: 10px;
+    /* padding-right: 5% !important; */
+    padding-bottom: 2% !important;    
+}
+
+/* begin service page */
+
+.field-name-field-service-description {
+    padding-left: 4% !important;
+}
+.field-name-field-service-call-out-image {
+    float:right;
+    clear: right;    
+    padding: 10px;
+}
+
+/* end service page */
+
+/* begin mason product page */
+
+.views-field-field-product-mp-description {
+    padding-top: 5% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;   
+    padding-bottom: 2% !important;
+}
+
+
+.views-field-field-product-mp-call-out-image {
+    padding-top: 2% !important;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+}
+
+.views-field-field-product-mp-call-out-image img {
+    width: 100%;
+    height: auto;
+    width: inherit;
+}
+
+/* end mason product page */
+
+/* Begin mason marketing product page */
+
+.view-display-id-attachment_masonry_marketing_products {
+    padding-left: 4%;
+}
+.mason-marketing-product img {
+    width: 100%;
+    height: auto;
+}
+
+.mason-market-product-image {
+    min-height: 220px;
+    max-height: 220px;
+    margin-bottom: 25px;
+}
+
+.mason-marketing-product .views-field-field-marketing-call-out-text {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: italic;
+    font-weight: 400;
+    color: #808080 !important;
+    font-size: 1.500em !important;
+    padding-left: 4% !important;
+    padding-right: 5% !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.mason-marketing-product .views-field-field-marketing-description {
+    margin-bottom: 15px;
+    padding-left: 4% !important;
+}
+
+.mason-market-product-image h4{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 0.875em !important;
+    text-transform: inherit;
+    color: #000000;
+}
+
+/* End mason marketing product page */
+
+/* begin marketing - Greenpatch page */
+
+.field-name-field-marketing-description {
+    padding-left: 4% !important;
+}
+
+.field-name-field-marketing-call-out-image {
+    float:right;
+    clear: right;
+    padding: 10px;
+}
+
+.field-name-field-marketing-call-out-text {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: italic;
+    font-weight: 400;
+    color: #808080 !important;
+    font-size: 1.500em !important;
+    padding-left: 4% !important;
+    padding-right: 5% !important;
+    margin-bottom: 15px;
+}
+
+/* end marketing - Greenpatch page */
+
+/* begin marketing - Techo Bloc page */
+
+.page-mason-techo-bloc h1.page-header {
+    display: block;
+}
+.views-field-field-marketing-description {
+    padding-left: 3% !important;
+}
+
+/* end marketing - Techo Bloc page  */
+
+
+/* begin text toggle + - */
+
+.toggle-readmore {
+    color: #b6985a !important;
+    cursor:pointer;
+}
+
+.toggle-readmore:before {
+  display: inline-block;
+  content: "[+]";
+  text-decoration: none !important;
+  border: none;
+}
+
+.toggle-readmore.change:before {
+  content: "[-]";
+}
+/* end text toggle + - */
+
+/* begin Locations page */
+
+
+.region-sidebar-second .view-locations {
+    border-color: #b6985a green white blue;
+    border-style: solid none none none;
+    border-width: 1px 0px 0px 0px;
+    margin-left: 10px;
+    margin-right: 10px;    
+    padding-left: 10% !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.region-sidebar-second .view-display-id-block_3 .view-header {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important; 
+}
+
+.region-sidebar-second .views-field-field-location-address {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important;
+    font-size: small !important;
+}
+
+.view-header > .block-title {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    width: 100%;
+    max-width: 900px;
+}
+.views-field-field-location-address{ 
+    min-height: 80px;
+}
+
+.views-field-field-location-address{
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important; 
+}
+
+.views-field-field-location-address .country {
+}
+.addressfield-container-inline .name-block{
+    font-weight: bold;
+}
+
+.views-field-field-location-phone-number{
+    padding-bottom: 10px;
+}
+/* end Locations page */
+
+/* begin new locations page */
+
+.phone-div.col-md-12 {
+    padding-bottom: 20px;
+}
+
+.phone-headers {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+    background-color: #3f3f3f;
+    font-size:medium;
+    white-space: nowrap;
+    padding-top: 5px;
+    padding-bottom: 10px;    
+}
+
+h4.caption{
+    padding-top: 40px;
+    padding-left: 15px; 
+}
+
+.view-view-locations-by-type.view-id-view_locations_by_type {
+   padding-left: 3% !important;
+   padding-right: 5% !important;   
+   padding-bottom: 2% !important;
+}
+
+
+.views-table.cols-0.table caption {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 18px;
+    color: #b6985a;
+    text-transform: uppercase;    
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 10PX;
+}
+
+.view-view-locations-by-type  .views-table.cols-0.table td{
+    border-top: 0px solid #ddd !important;
+}
+
+.view-view-locations-by-type .col-md-4 {
+    min-height: 140px;
+
+}
+
+.view-view-locations-by-type .form-type-bef-checkbox {
+    float: left;
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.view-view-locations-by-type .form-type-bef-checkbox.col-md-4 {
+    padding: 0px !important;
+    padding-left: 25px !important;
+    padding-bottom: 25px !important;
+    min-width: 340px !important;
+    min-height: 20px !important;
+    max-height: 20px !important;
+}
+
+
+.view-view-locations-by-type input[type="checkbox"] {
+    margin: 0px  !important;
+    
+}
+.view-view-locations-by-type .views-exposed-form .views-exposed-widget {
+    /*padding-top: 20px;*/
+    padding-bottom: 5px;    
+}
+
+.view-view-locations-by-type .form-control {
+    display: inline;
+    width: 20px;
+    height: 34px;
+    padding: 0px 0px;
+    font-size: inherit;
+    line-height: 1.428571429;
+    color: #ffffff;
+    vertical-align: bottom;
+    background-color: #ffffff;
+    border: 0px solid transparent;    
+}
+
+/* end new locations page */
+
+/* begin news landing page */
+
+
+#block-views-locations-block-1 > .block-title {
+    text-align: center;
+}
+
+#block-views-division-landing-page-block-1 > .block-title {
+    text-align: center;
+}
+
+.col-md-12  .views-field-field-bn-call-out-image img {
+    width: 100%;
+    height: auto;
+    padding-left: 15px;
+}
+.col-md-12 .views-field-field-bn-date-backdated {
+    white-space: nowrap;
+}
+.col-md-12 .views-field-title a {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+    padding-left: 0px !important;
+}
+
+/* end news landing page */
+
+/* begin news dashboard page */
+
+
+.dashboard {
+    border-top: 1px solid #cacad9;    
+}
+
+.dashboard .field-content {
+    margin-top: 0px;
+}
+
+td.dashboard {
+    padding: 20px;
+}
+
+td.dashboard h4 {
+    background-color: #000000;
+    padding: 10px;
+}
+
+.dashboard-description {
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+
+.dashboard-city-state, .dashboard-backdate, .dashboard-readmore {
+    float: right;
+    color: #999999;
+}
+
+.dashboard-readmore a {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+    padding-left: 0px !important;    
+}
+
+/* end news dashboard page */
+
+
+/* begin news dashboard-2 page */
+
+.view-dashboard-2 .dashboard-2 .views-field-field-bn-description {
+     text-align: justify;
+
+}
+.dashboard-2 h4 {
+    background-color: #000000;
+    padding: 10px;
+   /* background: #d5d5d5 url(../point.png); */
+}
+
+.dashboard-2 h4 a {
+    color: #ffffff !important;
+    word-wrap: break-word;
+}
+
+/* end news dashboard-2 page */
+
+
+/* begin news page node */
+
+.field-name-field-bn-callout-quote > .field-items > .field-item p{
+    text-align: left;
+    font-family: 'Helvetica', sans-serif !important;
+    font-style: italic;
+    font-weight: 400;
+    color: #000000 !important;
+    font-size:1.250em; /* 16x.875=20 */
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    margin-bottom: 15px;
+}
+
+.field-name-field-bn-call-out-image {
+    float:right;
+    clear: right;    
+    padding: 10px;
+    padding-right: 5% !important;
+}
+
+.field-name-field-bn-call-out-text {
+    color: #808080 !important;
+    width: 480px;
+    float: right;
+    clear: both;   
+    margin-left: 50px;
+    margin-right: 50px; 
+    margin-bottom: 10px;
+}
+
+.field-name-field-bn-description {
+    padding-right: 5% !important;
+    padding-left: 4% !important;
+    margin-bottom: 15px;    
+}
+
+.field-name-field-bn-media-downloads div.field-items {
+    clear: both;
+}
+
+.field-name-field-bn-media-downloads div.field-items td {
+    padding: 0;
+}
+
+.field-name-field-bn-media-downloads thead tr{
+    height: 5px !important;
+}
+
+.field-name-field-bn-date-backdated {
+    padding-left: 4% !important;
+    margin-bottom: 6px;
+}
+
+.field-name-field-bn-media-downloads {
+    padding-left: 4% !important;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td {
+    color: #f5f5f5 !important;
+    background-color: #f5f5f5 !important;
+    border-top: 0px;   
+}
+
+
+.field-name-field-bn-media-downloads .field-label {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: #b6985a;
+    text-transform: uppercase;  
+}
+
+.field-name-field-bn-media-downloads .file a{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+
+.field-name-field-bn-media-downloads thead tr th{
+    display: none;
+}
+
+.field-name-field-bn-media-downloads thead tr {
+    height: 20px;
+}
+
+/* end news page node */
+
+/* begin awards page node */
+
+.view-awards .views-field-field-award-title {
+    padding-bottom: 10px;
+}
+
+/* end awards page node */
+
+
+/* begin forms page */
+.view-id-multimedia {
+   padding-left: 4% !important;
+   padding-right: 5% !important;   
+   padding-bottom: 2% !important;
+}
+
+.view-id-multimedia h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.views-field-field-media-url-embed-video img {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #cacad9;
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;     
+}
+
+.view-id-multimedia .views-field-title {
+    color: #ffffff;
+    width: 100%;
+    min-height: 60px;  
+    text-align: center;
+    vertical-align: middle;
+    background-color: #b6985a;
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;     
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;   
+}
+/* end forms page */
+
+/* begin job postings page */
+
+
+.field-name-field-jp-job-location, .field-name-field-jp-job-description, .field-name-field-jp-desired-skills-and-exp, .field-name-field-jp-essential-job-functions, .field-name-field-jp-job-requirements, .field-name-field-jp-posting-date, .field-name-field-jp-how-to-apply, .field-name-field-jp-job-eoe {
+   padding-left: 3% !important;
+   padding-right: 5% !important;   
+   padding-bottom: 2% !important;
+}
+
+.view-job-posting {
+   padding-left: 3% !important;
+   padding-right: 5% !important;   
+   padding-bottom: 2% !important;
+}
+
+.view-job-posting h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.view-job-posting .views-field-title h3{
+    margin-top: 5px;   
+}
+
+.view-job-posting .views-field-title-1 {
+    padding-top: 05px;    
+    padding-bottom: 15px;
+}
+
+.view-job-posting .views-field-title-1 a {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+    padding-left: 0px !important;
+}
+
+.view-job-posting .views-field-title {
+    border-top: 1px solid #b6985a;
+    border-right: 1px solid #b6985a;    
+}
+
+.view-job-posting .views-field-field-jp-job-description {
+    margin-top: 15px;
+}
+
+.view-job-posting .views-field-field-jp-posting-date {
+    padding-top: 10px;
+    padding-bottom: 20px; 
+}
+
+/* end job postings page */
+
+/* begin webform */
+.field-name-field-webform-introductory-text{
+    padding-bottom: 15px;
+}
+
+.panel {
+    margin-top: 15px;
+}
+
+.panel-default{
+    border-color: #b6985a;
+}
+.panel-default>.panel-heading {
+    color: #b6985a;
+    background-color: #000000;
+}
+
+.webform-component .description {
+    display: none;
+}
+
+.webform-component label {
+    margin-top: 10px;    
+}
+
+.webform-submit.button-primary {
+    margin-top: 10px;    
+    margin-right: 10px;
+    margin-bottom: 10px;        
+}
+.btn-default, .btn-primary {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 400 !important;
+    color: #000000;
+    text-transform: uppercase;  
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #b6985a;
+    border: 0px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn-default:hover, .btn-primary:hover{
+    background-color: #000000;
+    color: #b6985a;
+}
+
+.url-textfield {
+    display: none;
+}
+
+/* end webfrom */
+
+/* begin mason division site css */
+
+.mason-promotion {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.mason-promotion .views-field-title {
+    background-color: rgb(94, 135, 165);
+}
+
+
+.views-field-field-mason-product-image img {
+    width: 100%;
+    height: auto;
+    border-top: 10px solid rgb(120, 165, 199);
+    border-left: 10px solid rgb(120, 165, 199);
+    border-right: 10px solid rgb(120, 165, 199);
+}
+
+.mason-promotion .views-field-field-mason-product-number {
+    background-color: rgb(94, 135, 165);
+    padding-left: 5%;
+}
+
+
+.views-field-field-mason-call-out-text {
+    font-size: 1.750em !important; /* 16x.875= 28 */
+    color: #ffffff !important;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(120, 165, 199);
+    text-decoration: none;
+}
+
+.promotion-description {
+    font-size: 1.375em !important; /* 16x.875= 22 */
+    color: #000000 !important;
+    text-align: center;
+    text-transform: capitalize;
+    padding-left: 5%;
+}
+
+.promotion-dimension p{
+    text-transform: capitalize;
+    background-color: rgb(94, 135, 165);
+    padding-left: 5%;
+}
+
+.views-field-field-mason-price {
+    font-size: 1.375em !important; /* 16x.875= 22 */
+    color: #ffffff !important;
+    text-align: left;
+    text-transform: capitalize;
+    background-color: rgb(55, 89, 115);
+    width: 100%;
+    padding-left: 5%;
+    height: auto;
+    clear: right;
+    float: left;
+}
+
+.views-field-field-mason-piece-count {
+    font-size: 1.375em !important; /* 16x.875= 22 */
+    color: #ffffff !important;
+    text-align: left;
+    text-transform: capitalize;
+    background-color: rgb(55, 89, 115);
+    width: 100%;
+    padding-left: 5%;
+    height: auto;
+    clear: left;
+    float: left;
+}
+
+.view-id-multimedia.view-display-id-block_3 .views-table.cols-0.table caption, .view-display-id-mason_division_multimedia_taxonomy .views-table.cols-0.table caption {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important;
+    font-size: 14px;
+    text-transform: none;    
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 10PX;
+    margin-bottom: 20px;
+}
+
+
+.view-id-multimedia.view-display-id-block_3 .view-grouping-header,  .view-display-id-mason_division_multimedia_taxonomy .view-grouping-header {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a; 
+    font-size:2.000em !important; /* 16x.875=32 */ 
+}
+
+.view-calendar-mason-events .views-row-first {
+    border-top: 1px solid #b6985a;
+    border-right: 1px solid #b6985a;    
+}
+
+.view-calendar-mason-events .date-display-single {
+    padding: 6px;
+    color: #000000;
+    background-color: #b6985a;
+    border-top: 1px solid #b6985a;
+    border-right: 1px solid #b6985a;
+}
+
+.views-field.views-field-field-sch-image img {
+    margin-top: 20px;  
+}
+
+/* end mason division site css */
+
+/* begin footer */
+
+.footer {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    border-top: 0px !important; 
+}
+
+   /*
+.region-footer {
+   margin: 0 auto;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin: 0 auto;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    max-width: 1200px  !important;    
+    height: auto;
+    background-color: black !important;
+}
+*/
+
+#block-views-quicklinks-block .col-md-4 {
+    width: 27% !important;
+    padding-left: 45px;
+}
+
+.view-id-quicklinks {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+    font-size:small;
+}
+
+.col-md-4 .views-field-body .field-content p{
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+    font-size:small;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    padding-left: 6% !important;
+}
+
+.footer-text a {
+    background:none !important;
+    border-right: none;
+    border-top: none;
+    padding: 0px 20px 0px 0px;
+    color: #ffffff !important;
+    font-size:small;
+    
+}
+
+.footer-text a:hover {
+    text-decoration: none;
+    color: #b6985a !important; 
+}
+
+#blank:before {
+    display:inline-block;
+    content: url(../oandg-blank.png);
+    vertical-align:middle; 
+    padding-right: 10px;
+    border: none;
+}
+
+#location:before {
+    display:inline-block;
+    content: url(../oandg-location.png);
+    vertical-align:middle;
+    padding-right: 10px;
+    border: none;
+}
+.space {
+    position: relative;
+    top: -10px;
+}
+
+#email:before {
+    display:inline-block;
+    content: url(../oandg-envelope.png);
+    vertical-align:middle; 
+    padding-right: 10px;
+    border: none;
+}
+
+#phone:before {
+    display:inline-block;   
+    content: url(../oandg-phone.png);
+    vertical-align:middle; 
+    padding-right: 10px;
+    border: none;
+}
+
+#linkedin:before {
+    display:inline-block;   
+    content: url(../oandg-linkedin.png);
+    vertical-align:middle; 
+    padding-right: 10px;
+    border: none;
+}
+
+#block-views-blog-news-block-5{
+    z-index: 1;
+    float: right;
+    position: relative;
+    background-color: #000000;
+    width: 44%;
+}
+
+.col-md-4 .views-field-field-bn-date-backdated {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+    font-size:small;
+}
+
+.footerimage {
+    width: 30px;
+    height: auto;
+}
+
+/* end footer */
+
+/* begin mason maketing product image caption/link */
+
+div.mason-product-image-field-caption {
+    min-height: 20px;
+    max-width: 220px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #b6985a;    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;;   
+}
+
+div.mason-product-image-field-caption p {
+    min-height: 20px;  
+    text-align: center;
+    vertical-align: middle;
+    background-color: #b6985a !important;     
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;         
+}
+
+div.mason-product-image-field-caption  a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+/* end mason maketing product image caption/link */
+    
+
+/* begin sub-footer */
+#block-block-7 {
+    padding-top: 10px;
+    padding-left: 60px;
+}
+/* end sub-footer */
+
+
+/* begin media Queries */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+    
+    .view-id-showcase .col-md-4 {
+   /* min-height: 250px;
+    max-height: 250px; */
+    padding-bottom: 15px;
+}
+
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    
+.views-field-field-description-front-division {
+   /* min-height: 60px;*/
+}
+
+.front-page-landing-page-container .col-md-4 {
+   /* padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;  */  
+}
+    
+/*#block-views-blog-news-block-5{
+    float: right;
+    position: relative;
+    width: 500px;
+}    
+    
+    #block-views-quicklinks-block .col-md-4 {
+    width: 40% !important;
+    padding-left: 0px;
+}
+*/
+
+    .view-id-showcase .col-md-4 {
+   /* min-height: 400px;
+    max-height: 400px;
+    padding-bottom: 15px; */
+}
+
+    #block-tb-megamenu-main-menu {
+    float: right;
+    z-index: 1;
+    position: relative;
+    width: 550px;    
+    top: 5px;
+    background-color: transparent;
+}
+
+    #block-tb-megamenu-menu-seconday-menu {
+    z-index: 1;
+    float: right;    
+    position: relative;
+    /*width: 400px;*/
+    top: -32px;
+    background-color: transparent;
+}
+}
+
+@media(max-width:767px){
+    
+.dashboard .field-content {
+    margin-top: 10px;
+}    
+    
+.pagination {
+    padding-left: 5%;   
+}    
+
+    .field-name-field-generic-marketing-image img, .field-name-field-bn-call-out-image img, .field-name-field-service-call-out-image img {   
+    display: block;
+    max-width: 100%;
+    height: auto;
+    float:right;
+    clear: right;    
+    padding: 10px;
+    padding-right: 5% !important;
+}
+    
+.not-front.page-portfolio .view-showcase img {
+    margin: 0 auto;
+    width: 100%;
+    padding-right:auto !important;
+    padding-left:auto !important;
+    padding-bottom: 0% !important;
+} 
+    
+    .field-name-field-bn-call-out-text {
+    float: right;
+    clear: both;   
+    margin-left: inherit;
+    margin-right: inherit; 
+    width: inherit;
+    margin-bottom: 10px;
+}
+    .division-landing-page-blognews {
+    border-color: #b6985a green white blue;
+    border-style: solid none none none;
+    border-width: 1px 0px 0px 0px;
+    margin-left: 10px;
+    margin-right: 10px;    
+    padding-left: 0% !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    .views-field-field-description-front-division {
+    min-height: 10px;
+    min-height: 10px;
+    background-color: #FFFFFF;   
+    }
+    #block-views-blog-news-block-5{
+    width: 100%;
+    position: relative;
+    padding-top: 10px;
+    top: 500px;
+    left:0px;  
+}
+#block-views-blog-news-block-5{
+    position: relative;
+    top:0px;
+    background-color: #000000;  
+}
+
+h4.caption{
+    padding-top: 0px;
+    padding-left: 0px; 
+}
+
+.view-view-locations-by-type .form-type-bef-checkbox{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.views-table.cols-0.table caption {
+    padding-left: 0px;
+    padding-bottom: 10PX;
+}
+
+#block-block-7 {
+    padding-left: 20px;
+    padding-top: 20px; 
+}
+.footer-text {
+    padding-top: 20px;  
+}
+#block-views-quicklinks-block .col-md-4 {
+    width: 100% !important;
+    padding-left: 0px;
+}
+    .views-field-field-mason-call-out-text {
+        font-size: 2.000em !important; /* 16x.875= 32 */
+    }
+}
+@media(min-width:768px){
+    
+    .block-tb-megamenu {
+   height: 20px !important;
+}
+    .tb-megamenu .dropdown-menu {
+    top: 20px;
+} 
+ 
+#block-views-blog-news-block-5{
+    float: right;
+    position: relative;
+    background-color: #000000;
+}
+    .views-field-field-mason-call-out-text {
+        font-size: 1.750em !important; /* 16x.875= 28 */
+    }
+}
+@media(min-width:992px){
+    .block-tb-megamenu {
+   height: 20px !important;
+}
+    .tb-megamenu .dropdown-menu {
+    top: 20px;
+}     
+    #block-tb-megamenu-main-menu {
+    float: right;
+    z-index: 1;
+    position: relative;
+    width: 550px;    
+    top: 50px;
+    background-color: transparent;
+}
+
+    #block-tb-megamenu-menu-seconday-menu {
+    z-index: 1;
+    float: right;    
+    position: relative;
+    /*width: 400px;*/
+    top: 0px;
+    background-color: transparent;
+}
+    .views-field-field-mason-call-out-text {
+        font-size: 2.000em !important; /* 16x.875= 32 */
+    }
+}
+@media(min-width:1200px){
+     .block-tb-megamenu {
+   height: 20px !important;
+}
+    .tb-megamenu .dropdown-menu {
+    top: 20px;
+}    
+    #block-tb-megamenu-main-menu {
+    float: right;
+    z-index: 1;
+    position: relative;
+    width: 750px;    
+    top: 50px;
+    background-color: transparent;
+}
+
+    #block-tb-megamenu-menu-seconday-menu {
+    z-index: 1;
+    float: right;    
+    position: relative;
+    /*width: 380px;*/
+    top: 0px;
+    background-color: transparent;
+}
+    #block-tb-megamenu-menu-mason-products-menu {
+        width: auto;
+    }
+    .views-field-field-mason-call-out-text {
+        font-size: 1.750em !important; /* 16x.875= 28 */
+    }
+}
