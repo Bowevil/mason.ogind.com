@@ -1,0 +1,1034 @@
+@import url(http://fonts.googleapis.com/css?family=Balthazar);
+
+html, body {
+
+}
+
+h1 {
+    font-family: 'Balthazar', serif !important; 
+    color: #000000 !important;    
+    font-size:2.625em !important; /* 16x.875= 42 */
+    text-transform: none;    
+}
+
+h2 {
+    font-family: 'Balthazar', serif !important; 
+    color: #000000 !important;    
+    font-size:2.625em !important; /* 16x.875=42 */
+    text-transform: uppercase; 
+}
+
+h3{
+    font-family: 'Balthazar', serif !important; 
+    color: #b6985a; 
+    font-size:2.000em !important; /* 16x.875=32 */       
+}
+
+h4 {
+    font-family: 'Balthazar', serif !important; 
+    color: #b6985a;
+    text-transform: uppercase;   
+}
+
+p {
+    font-family: 'Balthazar', serif !important;
+    font-size: 1.25em;
+    text-transform: none;
+    text-align: justify;
+}
+
+li {
+    font-family: 'Balthazar', serif !important; 
+    color: #000000 !important;  
+}
+
+a {
+    font-family: 'Balthazar', serif !important; 
+    font-weight: 300 !important;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.row-fluid {
+    background-color: transparent;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+.fluid-container {
+    background-color: transparent;
+    height: 100%;
+    width: 100vw;    
+}
+
+#navbar {
+    display: none;
+}
+
+/* Begin New Mason Divsion pages */
+
+.footer {
+    display: none;
+}
+
+.page-division.page-division-mason-division .row .division-landing-page .field-content p {
+    font-family: 'Balthazar', serif !important;   
+    font-size: 1.25em; /* 16x.875=20 */
+    text-transform: none;
+    text-align: justify;
+
+}
+
+.mason-division-icon img {
+    width: auto; /* undo width: 100%  in flexslider.css*/
+    max-width:100%;  /* Make sure the image stays inside its surrounding container. */
+    height: auto; /* keep the aspect ratio */
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+.mason-division-icon {
+    border-style: dashed;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: .2px dashed #E0D9B8;
+}
+
+.block-title.mason-block-title {
+    display: none;
+}
+
+.flexslider .slides img {
+    width: 100%;
+    height: 100%;
+}
+
+.flexslider {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #b6985a !important;
+    border-top: 0px solid #b6985a !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 0px solid #b6985a !important;
+    margin-right: 5px;    
+}
+
+.flex-control-nav {
+    z-index: 2;
+    bottom: 20px;
+}
+
+.page-division.page-division-mason-division .region-sidebar-first {
+    position: relative;
+    /*left: 0px;*/
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+#block-system-main-menu {  
+    position: absolute;
+    background-color: #7F1334 !important;  
+}    
+    
+#mason-nav-container {  
+    position: relative;
+    left: 0px;
+    z-index: 99;
+    background-color: #7F1334;
+    width: 187px;
+    height: 100vh;
+    margin-right: 18px;    
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+ul.menu.nav > li > a {
+    font-family: 'Balthazar', serif !important;   
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 1.125em; /* 16x.875=18 */
+    text-transform: none;
+    text-align: center;
+    border-style: solid;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: .2px dashed #E0D9B8 !important;    
+}
+
+ul.menu.nav > li > a .caret {
+    display: none;
+
+}
+
+.menu.nav > li {
+    text-align: center;    
+    border-style: solid;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: .2px dashed #E0D9B8 !important;    
+}
+
+.menu.nav > li > span {
+    font-family: 'Balthazar', serif !important;   
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 1.125em; /* 16x.875=18 */
+}
+
+
+/*.mason-dropdown:before {
+   content: "";
+   display: block;
+   width: 100px;
+   height: 300px;
+   z-index: -9;
+} */
+
+.mason-dropdown {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    z-index: 9;
+    left:187px;
+    background-color: #E0D9B8;
+    border: 0px solid #ccc;
+    border: 0px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.175);
+    box-shadow: 0 0px 0px rgba(0,0,0,0.175);
+    background-clip: padding-box;    
+
+}
+
+.dropdown-menu.mason-dropdown a {
+    font-family: 'Garamond', serif !important;
+    color: #000000 !important;
+    background-color: transparent !important;
+    font-size: 1.125em;
+    text-transform: capitalize !important;
+    text-align: center;
+    border-style: solid;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: .2px dashed #000000 !important;
+}
+    
+.shrink {
+    -webkit-transform: scaleX(0.5);
+    -ms-transform: scaleX(0.5);
+    transform: scaleX(0.5);
+    -ms-transform: translate(-160px, 0px); /* IE 9 */
+    -webkit-transform: translate(-160px, 0px);/* Safari */
+    transform: translate(-160px, 0px);
+    -webkit-transition-duration: .9s; /* Safari */
+    transition-duration: .9s;
+}
+
+.grow {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    -ms-transform: translate(0px, 0px); /* IE 9 */
+    -webkit-transform: translate(0px, 0px);/* Safari */
+    transform: translate(0px, 0px);
+    -webkit-transition-duration: .9s; /* Safari */
+    transition-duration: .9s;
+}
+
+
+/* End New Mason Divsion pages */
+
+
+/* begin mason product page */
+
+.views-field-field-product-mp-description {
+    padding-top: 5% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;   
+    padding-bottom: 2% !important;
+}
+
+
+.views-field-field-product-mp-call-out-image {
+    padding-top: 2% !important;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+}
+
+.views-field-field-product-mp-call-out-image img {
+    width: 100%;
+    height: auto;
+    width: inherit;
+}
+
+/* end mason product page */
+
+/* Begin mason marketing product page */
+
+.view-display-id-attachment_masonry_marketing_products {
+    padding-left: 4%;
+}
+.mason-marketing-product img {
+    width: 100%;
+    height: auto;
+}
+
+.mason-market-product-image {
+    min-height: 220px;
+    max-height: 220px;
+    margin-bottom: 25px;
+}
+
+.mason-marketing-product .views-field-field-marketing-call-out-text {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: italic;
+    font-weight: 400;
+    color: #808080 !important;
+    font-size: 1.500em !important;
+    padding-left: 4% !important;
+    padding-right: 5% !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.mason-marketing-product .views-field-field-marketing-description {
+    margin-bottom: 15px;
+    padding-left: 4% !important;
+}
+
+.mason-market-product-image h4{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 0.875em !important;
+    text-transform: inherit;
+    color: #000000;
+}
+
+/* End mason marketing product page */
+
+/* begin marketing - Greenpatch page */
+
+.field-name-field-marketing-description {
+    padding-left: 4% !important;
+}
+
+.field-name-field-marketing-call-out-image {
+    float:right;
+    clear: right;
+    padding: 10px;
+}
+
+.field-name-field-marketing-call-out-text {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: italic;
+    font-weight: 400;
+    color: #808080 !important;
+    font-size: 1.500em !important;
+    padding-left: 4% !important;
+    padding-right: 5% !important;
+    margin-bottom: 15px;
+}
+
+/* end marketing - Greenpatch page */
+
+/* begin marketing - Techo Bloc page */
+
+.page-mason-techo-bloc h1.page-header {
+    display: block;
+}
+.views-field-field-marketing-description {
+    padding-left: 3% !important;
+}
+
+/* end marketing - Techo Bloc page  */
+
+
+/* begin text toggle + - */
+
+.toggle-readmore {
+    color: #b6985a !important;
+    cursor:pointer;
+}
+
+.toggle-readmore:before {
+  display: inline-block;
+  content: "[+]";
+  text-decoration: none !important;
+  border: none;
+}
+
+.toggle-readmore.change:before {
+  content: "[-]";
+}
+/* end text toggle + - */
+
+/* begin Locations page */
+
+
+.region-sidebar-second .view-locations {
+    border-color: #b6985a green white blue;
+    border-style: solid none none none;
+    border-width: 1px 0px 0px 0px;
+    margin-left: 10px;
+    margin-right: 10px;    
+    padding-left: 10% !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.region-sidebar-second .view-display-id-block_3 .view-header {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important; 
+}
+
+.region-sidebar-second .views-field-field-location-address {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important;
+    font-size: small !important;
+}
+
+.view-header > .block-title {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    width: 100%;
+    max-width: 900px;
+}
+.views-field-field-location-address{ 
+    min-height: 80px;
+}
+
+.views-field-field-location-address{
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important; 
+}
+
+.views-field-field-location-address .country {
+}
+.addressfield-container-inline .name-block{
+    font-weight: bold;
+}
+
+.views-field-field-location-phone-number{
+    padding-bottom: 10px;
+}
+/* end Locations page */
+
+/* begin new locations page */
+
+.phone-div.col-md-12 {
+    padding-bottom: 20px;
+}
+
+.phone-headers {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+    background-color: #3f3f3f;
+    font-size:medium;
+    white-space: nowrap;
+    padding-top: 5px;
+    padding-bottom: 10px;    
+}
+
+h4.caption{
+    padding-top: 40px;
+    padding-left: 15px; 
+}
+
+.view-view-locations-by-type.view-id-view_locations_by_type {
+   padding-left: 3% !important;
+   padding-right: 5% !important;   
+   padding-bottom: 2% !important;
+}
+
+
+.views-table.cols-0.table caption {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 18px;
+    color: #b6985a;
+    text-transform: uppercase;    
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 10PX;
+}
+
+.view-view-locations-by-type  .views-table.cols-0.table td{
+    border-top: 0px solid #ddd !important;
+}
+
+.view-view-locations-by-type .col-md-4 {
+    min-height: 140px;
+
+}
+
+.view-view-locations-by-type .form-type-bef-checkbox {
+    float: left;
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.view-view-locations-by-type .form-type-bef-checkbox.col-md-4 {
+    padding: 0px !important;
+    padding-left: 25px !important;
+    padding-bottom: 25px !important;
+    min-width: 340px !important;
+    min-height: 20px !important;
+    max-height: 20px !important;
+}
+
+
+.view-view-locations-by-type input[type="checkbox"] {
+    margin: 0px  !important;
+    
+}
+.view-view-locations-by-type .views-exposed-form .views-exposed-widget {
+    /*padding-top: 20px;*/
+    padding-bottom: 5px;    
+}
+
+.view-view-locations-by-type .form-control {
+    display: inline;
+    width: 20px;
+    height: 34px;
+    padding: 0px 0px;
+    font-size: inherit;
+    line-height: 1.428571429;
+    color: #ffffff;
+    vertical-align: bottom;
+    background-color: #ffffff;
+    border: 0px solid transparent;    
+}
+
+/* end new locations page */
+
+/* begin news landing page */
+
+
+#block-views-locations-block-1 > .block-title {
+    text-align: center;
+}
+
+#block-views-division-landing-page-block-1 > .block-title {
+    text-align: center;
+}
+
+.col-md-12  .views-field-field-bn-call-out-image img {
+    width: 100%;
+    height: auto;
+    padding-left: 15px;
+}
+.col-md-12 .views-field-field-bn-date-backdated {
+    white-space: nowrap;
+}
+.col-md-12 .views-field-title a {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+    padding-left: 0px !important;
+}
+
+/* end news landing page */
+
+/* begin news dashboard page */
+
+
+.dashboard {
+    border-top: 1px solid #cacad9;    
+}
+
+.dashboard .field-content {
+    margin-top: 0px;
+}
+
+td.dashboard {
+    padding: 20px;
+}
+
+td.dashboard h4 {
+    background-color: #000000;
+    padding: 10px;
+}
+
+.dashboard-description {
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+
+.dashboard-city-state, .dashboard-backdate, .dashboard-readmore {
+    float: right;
+    color: #999999;
+}
+
+.dashboard-readmore a {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+    padding-left: 0px !important;    
+}
+
+/* end news dashboard page */
+
+
+/* begin news dashboard-2 page */
+
+.view-dashboard-2 .dashboard-2 .views-field-field-bn-description {
+     text-align: justify;
+
+}
+.dashboard-2 h4 {
+    background-color: #000000;
+    padding: 10px;
+   /* background: #d5d5d5 url(../point.png); */
+}
+
+.dashboard-2 h4 a {
+    color: #ffffff !important;
+    word-wrap: break-word;
+}
+
+/* end news dashboard-2 page */
+
+
+/* begin news page node */
+
+.field-name-field-bn-callout-quote > .field-items > .field-item p{
+    text-align: left;
+    font-family: 'Helvetica', sans-serif !important;
+    font-style: italic;
+    font-weight: 400;
+    color: #000000 !important;
+    font-size:1.250em; /* 16x.875=20 */
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    margin-bottom: 15px;
+}
+
+.field-name-field-bn-call-out-image {
+    float:right;
+    clear: right;    
+    padding: 10px;
+    padding-right: 5% !important;
+}
+
+.field-name-field-bn-call-out-text {
+    color: #808080 !important;
+    width: 480px;
+    float: right;
+    clear: both;   
+    margin-left: 50px;
+    margin-right: 50px; 
+    margin-bottom: 10px;
+}
+
+.field-name-field-bn-description {
+    padding-right: 5% !important;
+    padding-left: 4% !important;
+    margin-bottom: 15px;    
+}
+
+.field-name-field-bn-media-downloads div.field-items {
+    clear: both;
+}
+
+.field-name-field-bn-media-downloads div.field-items td {
+    padding: 0;
+}
+
+.field-name-field-bn-media-downloads thead tr{
+    height: 5px !important;
+}
+
+.field-name-field-bn-date-backdated {
+    padding-left: 4% !important;
+    margin-bottom: 6px;
+}
+
+.field-name-field-bn-media-downloads {
+    padding-left: 4% !important;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td {
+    color: #f5f5f5 !important;
+    background-color: #f5f5f5 !important;
+    border-top: 0px;   
+}
+
+
+.field-name-field-bn-media-downloads .field-label {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: #b6985a;
+    text-transform: uppercase;  
+}
+
+.field-name-field-bn-media-downloads .file a{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+
+.field-name-field-bn-media-downloads thead tr th{
+    display: none;
+}
+
+.field-name-field-bn-media-downloads thead tr {
+    height: 20px;
+}
+
+/* end news page node */
+
+/* begin awards page node */
+
+.view-awards .views-field-field-award-title {
+    padding-bottom: 10px;
+}
+
+/* end awards page node */
+
+
+/* begin forms page */
+.view-id-multimedia {
+   padding-left: 4% !important;
+   padding-right: 5% !important;   
+   padding-bottom: 2% !important;
+}
+
+.view-id-multimedia h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.views-field-field-media-url-embed-video img {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #cacad9;
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;     
+}
+
+.view-id-multimedia .views-field-title {
+    color: #ffffff;
+    width: 100%;
+    min-height: 60px;  
+    text-align: center;
+    vertical-align: middle;
+    background-color: #b6985a;
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;     
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;   
+}
+/* end forms page */
+
+/* begin job postings page */
+
+
+.field-name-field-jp-job-location, .field-name-field-jp-job-description, .field-name-field-jp-desired-skills-and-exp, .field-name-field-jp-essential-job-functions, .field-name-field-jp-job-requirements, .field-name-field-jp-posting-date, .field-name-field-jp-how-to-apply, .field-name-field-jp-job-eoe {
+   padding-left: 3% !important;
+   padding-right: 5% !important;   
+   padding-bottom: 2% !important;
+}
+
+.view-job-posting {
+   padding-left: 3% !important;
+   padding-right: 5% !important;   
+   padding-bottom: 2% !important;
+}
+
+.view-job-posting h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.view-job-posting .views-field-title h3{
+    margin-top: 5px;   
+}
+
+.view-job-posting .views-field-title-1 {
+    padding-top: 05px;    
+    padding-bottom: 15px;
+}
+
+.view-job-posting .views-field-title-1 a {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+    padding-left: 0px !important;
+}
+
+.view-job-posting .views-field-title {
+    border-top: 1px solid #b6985a;
+    border-right: 1px solid #b6985a;    
+}
+
+.view-job-posting .views-field-field-jp-job-description {
+    margin-top: 15px;
+}
+
+.view-job-posting .views-field-field-jp-posting-date {
+    padding-top: 10px;
+    padding-bottom: 20px; 
+}
+
+/* end job postings page */
+
+/* begin webform */
+.field-name-field-webform-introductory-text{
+    padding-bottom: 15px;
+}
+
+.panel {
+    margin-top: 15px;
+}
+
+.panel-default{
+    border-color: #b6985a;
+}
+.panel-default>.panel-heading {
+    color: #b6985a;
+    background-color: #000000;
+}
+
+.webform-component .description {
+    display: none;
+}
+
+.webform-component label {
+    margin-top: 10px;    
+}
+
+.webform-submit.button-primary {
+    margin-top: 10px;    
+    margin-right: 10px;
+    margin-bottom: 10px;        
+}
+.btn-default, .btn-primary {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 400 !important;
+    color: #000000;
+    text-transform: uppercase;  
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #b6985a;
+    border: 0px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn-default:hover, .btn-primary:hover{
+    background-color: #000000;
+    color: #b6985a;
+}
+
+.url-textfield {
+    display: none;
+}
+
+/* end webfrom */
+
+/* begin mason division site css */
+
+.mason-promotion {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.mason-promotion .views-field-title {
+    background-color: rgb(94, 135, 165);
+}
+
+
+.views-field-field-mason-product-image img {
+    width: 100%;
+    height: auto;
+    border-top: 10px solid rgb(120, 165, 199);
+    border-left: 10px solid rgb(120, 165, 199);
+    border-right: 10px solid rgb(120, 165, 199);
+}
+
+.mason-promotion .views-field-field-mason-product-number {
+    background-color: rgb(94, 135, 165);
+    padding-left: 5%;
+}
+
+
+.views-field-field-mason-call-out-text {
+    font-size: 1.750em !important; /* 16x.875= 28 */
+    color: #ffffff !important;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(120, 165, 199);
+    text-decoration: none;
+}
+
+.promotion-description {
+    font-size: 1.375em !important; /* 16x.875= 22 */
+    color: #000000 !important;
+    text-align: center;
+    text-transform: capitalize;
+    padding-left: 5%;
+}
+
+.promotion-dimension p{
+    text-transform: capitalize;
+    background-color: rgb(94, 135, 165);
+    padding-left: 5%;
+}
+
+.views-field-field-mason-price {
+    font-size: 1.375em !important; /* 16x.875= 22 */
+    color: #ffffff !important;
+    text-align: left;
+    text-transform: capitalize;
+    background-color: rgb(55, 89, 115);
+    width: 100%;
+    padding-left: 5%;
+    height: auto;
+    clear: right;
+    float: left;
+}
+
+.views-field-field-mason-piece-count {
+    font-size: 1.375em !important; /* 16x.875= 22 */
+    color: #ffffff !important;
+    text-align: left;
+    text-transform: capitalize;
+    background-color: rgb(55, 89, 115);
+    width: 100%;
+    padding-left: 5%;
+    height: auto;
+    clear: left;
+    float: left;
+}
+
+.view-id-multimedia.view-display-id-block_3 .views-table.cols-0.table caption, .view-display-id-mason_division_multimedia_taxonomy .views-table.cols-0.table caption {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important;
+    font-size: 14px;
+    text-transform: none;    
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 10PX;
+    margin-bottom: 20px;
+}
+
+
+.view-id-multimedia.view-display-id-block_3 .view-grouping-header,  .view-display-id-mason_division_multimedia_taxonomy .view-grouping-header {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a; 
+    font-size:2.000em !important; /* 16x.875=32 */ 
+}
+
+.view-calendar-mason-events .views-row-first {
+    border-top: 1px solid #b6985a;
+    border-right: 1px solid #b6985a;    
+}
+
+.view-calendar-mason-events .date-display-single {
+    padding: 6px;
+    color: #000000;
+    background-color: #b6985a;
+    border-top: 1px solid #b6985a;
+    border-right: 1px solid #b6985a;
+}
+
+.views-field.views-field-field-sch-image img {
+    margin-top: 20px;  
+}
+
+/* end mason division site css */
+
+/* begin mason maketing product image caption/link */
+
+div.mason-product-image-field-caption {
+    min-height: 20px;
+    max-width: 220px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #b6985a;    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;;   
+}
+
+div.mason-product-image-field-caption p {
+    min-height: 20px;  
+    text-align: center;
+    vertical-align: middle;
+    background-color: #b6985a !important;     
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;         
+}
+
+div.mason-product-image-field-caption  a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+/* end mason maketing product image caption/link */
+    
+
+
+/* begin media Queries */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+    
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    
+}
+
+@media(max-width:767px){
+
+}
+@media(min-width:768px){
+
+}
+@media(min-width:992px){
+
+}
+@media(min-width:1200px){
+
+}
