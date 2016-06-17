@@ -160,10 +160,14 @@ hr {
     display: block;
 }
 
-
+.dropdown-menu {
+    top: 92%;
+}
+    
+    
 #block-system-main-menu {  
     position: absolute;
-    background-color: #7F1334;  
+    background-color: #7F1334;
 }    
     
 #mason-nav-container {  
@@ -187,6 +191,10 @@ hr {
     border-right: none !important;
     border-bottom: .2px dashed #E0D9B8 !important;    
 }
+
+#block-system-main-menu li > a:hover {
+    background-color: #E0D9B8;   
+} 
 
 #block-system-main-menu li > a .caret {
     display: none;
@@ -258,13 +266,13 @@ hr {
 #block-menu-menu-secondary-menu {
     position: absolute;
     top: 0px;
-    right: 200px;
+    right: 0px;
     z-index: 19;
     width: auto;
     height: 100px;
     margin-right: 18px;    
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #block-menu-menu-secondary-menu .dropdown-menu li {
@@ -297,12 +305,16 @@ hr {
 
 
 #block-menu-menu-secondary-menu li > a {
-    text-align: center;
-    border-style: none;
-    border-top: none !important;
-    border-left: none !important;
-    border-right: none !important;
-    border-bottom: .2px dashed #E0D9B8 !important;    
+    
+}
+
+#block-menu-menu-secondary-menu .dropdown-menu {
+    width: 48px;
+    min-width: 48px;
+}
+
+#block-menu-menu-secondary-menu .dropdown-menu li {
+    padding: 0px;
 }
 
 #block-menu-menu-secondary-menu .dropdown-menu.mason-dropdown a {
@@ -317,6 +329,10 @@ hr {
     border-left: none !important;
     border-right: none !important;
     border-bottom: none !important;
+}
+
+#block-menu-menu-secondary-menu .dropdown-menu.mason-dropdown a:hover {
+    background-color: #580d24;
 }
 
 #block-menu-menu-secondary-menu li > span .caret {
@@ -366,23 +382,25 @@ hr {
     top: 1px;
     display: inline-block;
     font-family: 'Glyphicons Halflings';
-    padding: 0 10px;
+    padding: 0px;
     content:"\e123";
+    color: #ffffff;
 }
 
 .twitter:before {
     position: relative;
-    top: 1px;
+    top: 5px;
     display: inline-block;
     font-family: 'Glyphicons Halflings';
-    padding: 0 10px;
+    padding: 0px;
     content:"\e122";
+    color: #ffffff;
 }
 
 .blank:before {
     position: relative;
-    top: 1px;
-    display: inline-block;
+    top: 5px;
+    display: inline-block;   
     font-family: 'Glyphicons Halflings';
     padding: 0 10px;
     content:"\e122";
