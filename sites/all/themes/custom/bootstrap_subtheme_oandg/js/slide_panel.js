@@ -18,13 +18,27 @@
                 jQuery( "span:contains('Subscribe ')" ).addClass("subscribe");
                 jQuery(".first.expanded.dropdown").css("background-color", "#7F1334" );
                 jQuery( ".subscribe").empty();
-                
+ 
+                  jQuery( "a:contains('Houzz')" ).addClass("houzz");
+                 jQuery( ".houzz").empty();                
  
                  jQuery( "a:contains('Facebook')" ).addClass("facebook");
                  jQuery( ".facebook").empty();     
 
                  jQuery( "a:contains('Twitter')" ).addClass("twitter");
                  jQuery( ".twitter").empty();  
+ 
+                 jQuery( "a:contains('Youtube')" ).addClass("youtube");
+                 jQuery( ".youtube").empty();
+                 
+                 jQuery( "a:contains('Pintrest')" ).addClass("pintrest");
+                 jQuery( ".pintrest").empty();
+               
+                 jQuery( "a:contains('Blogspot')" ).addClass("blogspot");
+                 jQuery( ".blogspot").empty();
+                 
+                 jQuery( "a:contains('Linkedin')" ).addClass("linkedin");
+                 jQuery( ".linkedin").empty();                  
                 
                 jQuery( "span:contains('Gallery')" ).addClass("gallery");
                 jQuery( "span:contains('Locations & Hours')" ).addClass("road");
@@ -39,17 +53,12 @@
 
                 
                 jQuery("#block-system-main-menu ul.menu.nav li.expanded.dropdown").mouseover(function(){
-                    jQuery(this).css("background-color", "#E0D9B8" );
-                   /* jQuery("#mason-nav-container").animate({left: '-=150'}, "slow");*/
                 if (jQuery("#mason-nav-container.shrink")[0]){
-                    // Do something if class exists
                 } else {
                     jQuery("#mason-nav-container").removeClass("grow").addClass("shrink");
                 }                                                          
                 });            
                 jQuery("#block-system-main-menu ul.menu.nav li.expanded.dropdown").mouseleave(function() {
-                       jQuery(this).css("background-color", "#7F1334" );
-                      /* jQuery("#mason-nav-container").animate({left: '+=150'}, "slow");*/
                       jQuery("#mason-nav-container").removeClass("shrink").addClass("grow");                                                            
                 });                        
               
