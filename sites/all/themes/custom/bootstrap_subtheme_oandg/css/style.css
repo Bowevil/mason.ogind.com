@@ -241,8 +241,8 @@ hr {
     -ms-transform: translate(-160px, 0px); /* IE 9 */
     -webkit-transform: translate(-160px, 0px);/* Safari */
     transform: translate(-160px, 0px);
-    -webkit-transition-duration: .9s; /* Safari */
-    transition-duration: .9s;
+    -webkit-transition-duration: 1.0s; /* Safari */
+    transition-duration: 1.0s;
 }
 
 .grow {
@@ -252,9 +252,49 @@ hr {
     -ms-transform: translate(0px, 0px); /* IE 9 */
     -webkit-transform: translate(0px, 0px);/* Safari */
     transform: translate(0px, 0px);
-    -webkit-transition-duration: .9s; /* Safari */
-    transition-duration: .9s;
+    -webkit-transition-duration: 1.0s; /* Safari */
+    transition-duration: 1.0s;
 }
+
+/* Begin awesome fade in code */
+.dropdown-menu {
+  animation-name: slidenavAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-name: slidenavAnimation;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+
+  -moz-animation-name: slidenavAnimation;
+  -moz-animation-duration: 2s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: forwards;
+}
+
+@keyframes slidenavAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slidenavAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* End awesome fade in code */
 
 #block-menu-menu-secondary-menu {
     position: fixed;
