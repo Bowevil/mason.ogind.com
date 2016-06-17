@@ -37,19 +37,12 @@ p {
     text-align: justify;
 }
 
-li > span {
-    font-family: 'Balthazar', serif !important;   
-    color: #ffffff;
-    background-color: transparent;
-    font-size: 1.125em; /* 16x.875=18 */
-    text-transform: uppercase;    
-}
 
-li > a {
+li > span, li > a {
     font-family: 'Balthazar', serif !important;   
     color: #ffffff;
     background-color: transparent;
-    font-size: 1.125em; /* 16x.875=18 */
+    font-size: 1.25em; /* 16x.875=18 */
     text-transform: uppercase;
 }
 
@@ -182,6 +175,14 @@ hr {
     padding-right: 0px;
 }
 
+#block-system-main-menu li {
+    text-align: center;    
+    border-style: solid;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: .2px dashed #E0D9B8 !important;    
+}
 
 #block-system-main-menu li > a {
     text-align: center;
@@ -200,15 +201,6 @@ hr {
 #block-system-main-menu li > a .caret {
     display: none;
 
-}
-
-#block-system-main-menu li {
-    text-align: center;    
-    border-style: solid;
-    border-top: none !important;
-    border-left: none !important;
-    border-right: none !important;
-    border-bottom: .2px dashed #E0D9B8 !important;    
 }
 
 #block-system-main-menu .mason-dropdown {
@@ -265,15 +257,10 @@ hr {
 }
 
 #block-menu-menu-secondary-menu {
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    position: fixed;
+    right: 0;    
     z-index: 19;
     width: auto;
-    height: 100px;
-    margin-right: 18px;    
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
 #block-menu-menu-secondary-menu .dropdown-menu li {
@@ -295,15 +282,12 @@ hr {
 
 #block-menu-menu-secondary-menu li {
     float: left;
+    height: 39px;
     background-color: #B4975A;
     padding: 5px;
     border-style: none;
-    border-top: none !important;
-    border-left: none !important;
-    border-right: none !important;
-    border-bottom: none !important;    
+   
 }
-
 
 #block-menu-menu-secondary-menu li > a {
     
@@ -363,7 +347,6 @@ hr {
     display: inline-block;
     font-family: 'Glyphicons Halflings';
     padding: 0 10px;
-    content:"\e060";
 }
 
 .road:before {
@@ -372,7 +355,6 @@ hr {
     display: inline-block;
     font-family: 'Glyphicons Halflings';
     padding: 0 10px;
-    content:"\e024";
 }
 .blog:before {
     position: relative;
@@ -380,7 +362,6 @@ hr {
     display: inline-block;
     font-family: 'Glyphicons Halflings';
     padding: 0 10px;
-    content:"\e115";
 }
 
 .houzz:before {
