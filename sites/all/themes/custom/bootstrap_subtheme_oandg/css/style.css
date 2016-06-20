@@ -37,12 +37,20 @@ p {
     text-align: justify;
 }
 
+a {
+    font-family: 'Balthazar', serif !important;   
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 0.938em; /* 15x.875=18 */
+    text-transform: uppercase;
+}
+
 
 li > span, li > a {
     font-family: 'Balthazar', serif !important;   
     color: #ffffff;
     background-color: transparent;
-    font-size: 1.25em; /* 16x.875=18 */
+    font-size: 0.938em; /* 15x.875=18 */
     text-transform: uppercase;
 }
 
@@ -193,14 +201,18 @@ hr {
     border-bottom: .2px dashed #E0D9B8 !important;    
 }
 
+#block-system-main-menu .dropdown-menu > li > a {
+    padding: 10px;
+}
+
+
 #block-system-main-menu li > a:hover {
     color: #000000;
     background-color: #E0D9B8;   
-} 
+}
 
 #block-system-main-menu li > a .caret {
     display: none;
-
 }
 
 #block-system-main-menu .mason-dropdown {
@@ -213,7 +225,7 @@ hr {
     background-color: #E0D9B8;
     border: 0px solid #ccc;
     border: 0px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
+    border-radius: 0px;
     -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.175);
     box-shadow: 0 0px 0px rgba(0,0,0,0.175);
     background-clip: padding-box;    
@@ -224,7 +236,6 @@ hr {
     font-family: 'Garamond', serif !important;
     color: #000000 !important;
     background-color: transparent !important;
-    font-size: 1.125em;
     text-transform: capitalize !important;
     text-align: center;
     border-style: solid;
@@ -233,7 +244,12 @@ hr {
     border-right: none !important;
     border-bottom: .2px dashed #000000 !important;
 }
-    
+
+#block-system-main-menu .dropdown-menu.mason-dropdown a:hover {
+    color: #ffffff !important;
+    background-color: #B4975A !important;
+}
+     
 .shrink {
     -webkit-transform: scaleX(0.5);
     -ms-transform: scaleX(0.5);
@@ -322,23 +338,26 @@ hr {
 
 #block-menu-menu-secondary-menu li {
     float: left;
-    height: 39px;
+    height: 40px;
     background-color: #B4975A;
-    padding: 5px;
     border-style: none;
    
 }
 
 #block-menu-menu-secondary-menu li > a {
-    
+    background-color: transparent;
+}
+
+#block-menu-menu-secondary-menu li > a:hover {
+    color: #000000;
 }
 
 #block-menu-menu-secondary-menu .dropdown-menu {
-    width: 48px;
-    min-width: 48px;
+    width: 50px;
+    min-width: 50px;
 }
 
-#block-menu-menu-secondary-menu .dropdown-menu>li>a {
+#block-menu-menu-secondary-menu .dropdown-menu > li > a {
     padding: 0px;
     
 }
@@ -351,7 +370,6 @@ hr {
     font-family: 'Garamond', serif !important;
     color: #000000 !important;
     background-color: #7F1334;
-    font-size: 1.125em;
     text-transform: capitalize !important;
     text-align: center;
     border-style: solid;
@@ -375,86 +393,98 @@ hr {
 }
 .subscribe:before {
     position: relative;
-    top: 1px;
-    display: inline-block;
+    display: inline-block;    
+    width: 50px;
+    padding: 8px;
+    text-align: center;
     font-family: 'Glyphicons Halflings';
-    padding: 0 10px;
+    font-size: 1.000em;
     content:"\e066";
 }
 .gallery:before {
     position: relative;
-    top: 1px;
-    display: inline-block;
+    display: inline-block;    
+    width: 50px;
+    padding: 6px;
+    text-align: center;
     font-family: 'Glyphicons Halflings';
-    padding: 0 10px;
 }
 
 .road:before {
     position: relative;
-    top: 1px;
-    display: inline-block;
+    display: inline-block;    
+    width: 50px;
+    padding: 6px;
+    text-align: center;
     font-family: 'Glyphicons Halflings';
-    padding: 0 10px;
 }
 .blog:before {
     position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    padding: 0 10px;
+    display: inline-block;    
+    width: 50px;
+    padding: 6px;
+    text-align: center;
+
 }
 
 .houzz:before {
     position: relative;
-    top: 1px;
-    display: inline-block;
-    padding: 0px;
+    display: inline-block;    
+    width: 50px;
+    padding: 6px;
+    text-align: center;
     content: url(../icons/mason_social_icons_houzz.png);
 }
 
 .facebook:before {
     position: relative;
-    top: 1px;
-    display: inline-block;
-    padding: 0px;
+    display: inline-block;    
+    width: 50px;
+    padding: 6px;
+    text-align: center;
     content: url(../icons/mason_social_icons_facebook.png);
 }
 
 .twitter:before {
     position: relative;
-    top: 5px;
-    display: inline-block;
-    padding: 0px;
+    display: inline-block;    
+    width: 50px;
+    padding: 6px;
+    text-align: center;
     content: url(../icons/mason_social_icons_twitter.png);
 }
 .youtube:before {
     position: relative;
-    top: 5px;
-    display: inline-block;
-    padding: 0px;
+    display: inline-block;    
+    width: 50px;
+    padding: 6px;
+    text-align: center;
     content: url(../icons/mason_social_icons_youtube.png);
 }
 .pintrest:before {
     position: relative;
-    top: 5px;
-    display: inline-block;
-    padding: 0px;
+    display: inline-block;    
+    width: 50px;
+    padding: 6px;
+    text-align: center;
     content: url(../icons/mason_social_icons_pintrest.png);
 }
 
 .blogspot:before {
     position: relative;
-    top: 5px;
-    display: inline-block;
-    padding: 0px;
+    display: inline-block;    
+    width: 50px;
+    padding: 6px;
+    text-align: center;
     content: url(../icons/mason_social_icons_blogspot.png);
 }
 
 .linkedin:before {
     position: relative;
-    top: 5px;
-    display: inline-block;
-    padding: 0px;
+    display: inline-block;    
+    width: 50px;
+    padding: 6px;
+    text-align: center;
     content: url(../icons/mason_social_icons_linkedin.png);
 }
 

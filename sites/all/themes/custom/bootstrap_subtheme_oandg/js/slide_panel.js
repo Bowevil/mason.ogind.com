@@ -62,6 +62,9 @@
                       jQuery("#mason-nav-container").removeClass("shrink").addClass("grow");                                                            
                 });                        
               
+                jQuery(document).ready(function(){
+                  jQuery('a[href^="http"]').attr('target','_blank');                
+                });    
             // end our js code
   }       
     };})(jQuery);
