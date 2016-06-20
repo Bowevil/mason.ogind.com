@@ -64,7 +64,27 @@
               
                 jQuery(document).ready(function(){
                   jQuery('a[href^="http"]').attr('target','_blank');                
-                });    
+                });
+                
+
+                jQuery(window).resize(function() {
+                    if((window.fullScreen) || (window.innerWidth == screen.width && window.innerHeight == screen.height)) {
+                        jQuery("html").css("overflow", "hidden");
+                    } else {
+                        jQuery("html").css("overflow", "auto");
+                    }
+                });
+                
+                jQuery(document).ready(function(){
+                    jQuery(window).resize();
+                    // trigger the function when the page loads
+                    // if you have another $(document).ready(), simply add this line to it
+                });            
+                
+                
+                
+                
+                
             // end our js code
   }       
     };})(jQuery);

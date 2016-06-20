@@ -126,7 +126,9 @@ hr {
 }
 
 .flexslider .slides img {
-    width: 110%;
+    width: auto;
+    min-width: 0;
+    display: table;
 }
 
 .flex-direction-nav {
