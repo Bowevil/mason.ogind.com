@@ -209,6 +209,20 @@ hr {
     display: none;
 }
 
+#block-system-main-menu .dropdown-menu:before {
+    display: inline-block;
+    position: fixed;
+    z-index: -99;
+    top: 0px;
+    left:187px;    
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    background-color: #E0D9B8;
+    border-bottom: .2px dashed #000000;
+    content: url(../icons/sub_top.png);
+}
+
 #block-system-main-menu .mason-dropdown {
     position: absolute;
     width: 100%;
@@ -245,43 +259,37 @@ hr {
 }
      
 .shrink {
-    -webkit-transform: scaleX(0.5);
-    -ms-transform: scaleX(0.5);
-    transform: scaleX(0.5);
     -ms-transform: translate(-160px, 0px); /* IE 9 */
     -webkit-transform: translate(-160px, 0px);/* Safari */
     transform: translate(-160px, 0px);
-    -webkit-transition-duration: 1.0s; /* Safari */
-    transition-duration: 1.0s;
+    -webkit-transition-duration: 1s; /* Safari */
+    transition-duration: 1s;
 }
 
 .grow {
-    -webkit-transform: scaleX(1);
-    -ms-transform: scaleX(1);
-    transform: scaleX(1);
     -ms-transform: translate(0px, 0px); /* IE 9 */
     -webkit-transform: translate(0px, 0px);/* Safari */
     transform: translate(0px, 0px);
-    -webkit-transition-duration: 1.0s; /* Safari */
-    transition-duration: 1.0s;
+    -webkit-transition-duration: 1s; /* Safari */
+    transition-duration: 1s;
 }
 
 /* Begin awesome fade in code */
 .dropdown-menu {
   animation-name: slidenavAnimation;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-iteration-count: 1;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
 
   -webkit-animation-name: slidenavAnimation;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: ease;
   -webkit-animation-fill-mode: forwards;
 
   -moz-animation-name: slidenavAnimation;
-  -moz-animation-duration: 2s;
+  -moz-animation-duration: 1s;
   -moz-animation-iteration-count: 1;
   -moz-animation-timing-function: ease;
   -moz-animation-fill-mode: forwards;
@@ -308,7 +316,7 @@ hr {
 
 #block-menu-menu-secondary-menu {
     position: fixed;
-    right: 0;    
+    right: 0px;    
     z-index: 19;
     width: auto;
 }

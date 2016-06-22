@@ -55,11 +55,11 @@
                 jQuery("#block-system-main-menu ul.menu.nav li.expanded.dropdown").mouseover(function(){
                 if (jQuery("#mason-nav-container.shrink")[0]){
                 } else {
-                    jQuery("#mason-nav-container").removeClass("grow").addClass("shrink");
+                    jQuery("#mason-nav-container").removeClass("grow").addClass("shrink");                           
                 }                                                          
                 });            
                 jQuery("#block-system-main-menu ul.menu.nav li.expanded.dropdown").mouseleave(function() {
-                      jQuery("#mason-nav-container").removeClass("shrink").addClass("grow");                                                            
+                      jQuery("#mason-nav-container").removeClass("shrink").addClass("grow");                      
                 });                        
               
                 jQuery(document).ready(function(){
