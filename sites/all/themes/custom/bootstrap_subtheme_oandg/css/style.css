@@ -183,7 +183,7 @@ hr {
     border-top: none !important;
     border-left: none !important;
     border-right: none !important;
-    border-bottom: .2px dashed #E0D9B8 !important;    
+    border-bottom: .2px dashed #E0D9B8;    
 }
 
 #block-system-main-menu li > a {
@@ -220,8 +220,10 @@ hr {
     padding: 0px;
     background-color: #E0D9B8;
     border-bottom: .2px dashed #000000;
-    content: url(../icons/sub_top.png);
+    background-image: url(../icons/sub_top.png);
+    content: 'The Gold Standard in Masonry Products and Services';
 }
+
 
 #block-system-main-menu .mason-dropdown {
     position: absolute;
@@ -247,9 +249,14 @@ hr {
     text-transform: capitalize !important;
     text-align: center;
     border-style: solid;
-    border-top: none !important;
+    border-top: .2px dashed #000000 !important;
     border-left: none !important;
     border-right: none !important;
+
+}
+
+.dropdown-menu.mason-dropdown > li.last {
+    border-style: solid;
     border-bottom: .2px dashed #000000 !important;
 }
 

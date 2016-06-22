@@ -50,7 +50,7 @@
 
                 jQuery( "span:contains('blank')" ).addClass("blank");
                 jQuery( "span.blank").empty();
-
+                
                 
                 jQuery("#block-system-main-menu ul.menu.nav li.expanded.dropdown").mouseover(function(){
                 if (jQuery("#mason-nav-container.shrink")[0]){
