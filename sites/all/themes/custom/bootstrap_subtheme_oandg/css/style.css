@@ -196,8 +196,6 @@ hr {
     background-color: #000000;    
 }
 
-
-    
 #mason-nav-container {  
     position: relative;
     left: 0px;
@@ -368,6 +366,10 @@ hr {
 
 #block-menu-menu-secondary-menu #mason-dropdown li {
     float: none !important;
+}
+
+#block-menu-menu-secondary-menu li.first.expanded.dropdown {
+    background-color: #7F1334;
 }
 
 #block-menu-menu-secondary-menu li.last.leaf {
