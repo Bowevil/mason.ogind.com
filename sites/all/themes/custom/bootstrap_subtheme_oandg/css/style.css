@@ -97,8 +97,12 @@ hr {
 }
 
 .footer {
-    display: none;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top: 0px none #E5E5E5;
 }
+
 
 .mason-division-icon img {
     width: auto; /* undo width: 100%  in flexslider.css*/
@@ -162,8 +166,37 @@ hr {
     
 #block-system-main-menu {  
     position: absolute;
-    background-color: #7F1334;
-}    
+}
+
+.original{  
+    background-color: #7F1334 !important;
+}
+
+#block-system-main-menu li > a:hover {
+    color: #000000;
+    background-color: #E0D9B8;
+}
+
+.black{  
+    background-color: #000000 !important;
+}
+
+.darkerburgandy {
+    background-color: #4c0b1f !important;    
+}
+
+.colormargin {  
+    border-left: 15px solid #000000;
+    border-right:15px solid #000000;     
+}
+
+.showfooter {
+    display: block;
+    height: 30px;
+    background-color: #000000;    
+}
+
+
     
 #mason-nav-container {  
     position: relative;

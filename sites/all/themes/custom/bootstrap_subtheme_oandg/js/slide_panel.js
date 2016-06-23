@@ -16,7 +16,7 @@
                 jQuery(".row").removeClass().addClass("row-fluid");
                 
                 jQuery( "span:contains('Subscribe ')" ).addClass("subscribe");
-                jQuery(".first.expanded.dropdown").css("background-color", "#7F1334" );
+                
                 jQuery( ".subscribe").empty();
  
                   jQuery( "a:contains('Houzz')" ).addClass("houzz");
@@ -80,11 +80,34 @@
                     // trigger the function when the page loads
                     // if you have another $(document).ready(), simply add this line to it
                 });            
-                
-                
-                
-                
-                
+               jQuery('.original').hover(function (){
+                 jQuery('#mason-nav-container').removeClass("black").removeClass("darkerburgandy").toggleClass("original");
+                });  
+                jQuery('.black').hover(function (){
+                    jQuery('#mason-nav-container').toggleClass("black");
+                    jQuery('.views-field-field-media-thumbnail').toggleClass("original");                                     
+                });             
+              jQuery('.burgandy').hover(function (){
+                 jQuery('#mason-nav-container').toggleClass("darkerburgandy");
+                });
+                jQuery('.blackburgandy').hover(function (){
+                    jQuery('#mason-nav-container').toggleClass("black");
+                    jQuery('.views-field-field-media-thumbnail').toggleClass("darkerburgandy");                                     
+                });                                                   
+              jQuery('.justblack').hover(function (){
+                    jQuery('#mason-nav-container').toggleClass("black");
+                    jQuery('.views-field-field-media-thumbnail').toggleClass("black");
+                });              
+  
+              jQuery('.colormargin').click(function (){
+                    jQuery('#mason-nav-container').toggleClass("colormargin");
+                   
+                });
+              jQuery('.showfooter').click(function (){
+                    jQuery('.footer').toggleClass("showfooter");
+                   
+                });                 
+
             // end our js code
   }       
     };})(jQuery);
