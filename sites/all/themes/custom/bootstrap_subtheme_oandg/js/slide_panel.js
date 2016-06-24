@@ -99,10 +99,11 @@
                     jQuery('.views-field-field-media-thumbnail').toggleClass("black");
                 });               
               jQuery('.colormargin').click(function (){
-                    jQuery('#mason-nav-container').toggleClass("colormargin");                 
+                    jQuery('#mason-nav-container').toggleClass("colormargin");
+                    
                 });
               jQuery('.colormarginleft').click(function (){
-                    jQuery('#mason-nav-container').toggleClass("colormarginleft");                 
+                    jQuery('#mason-nav-container').toggleClass("colormarginleft");                  
                 });                          
               jQuery('.showfooter').click(function (){
                     jQuery('.footer').toggleClass("showfooter");                  
