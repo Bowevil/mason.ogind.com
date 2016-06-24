@@ -190,6 +190,10 @@ hr {
     border-right:15px solid #000000;     
 }
 
+.colormarginleft  {  
+    border-left: 15px solid #000000;    
+}
+
 .showfooter {
     display: block;
     height: 30px;
