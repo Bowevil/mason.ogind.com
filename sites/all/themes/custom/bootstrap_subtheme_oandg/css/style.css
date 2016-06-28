@@ -1,13 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Balthazar);
 
 html, body {
-
+    background-color: #e1d5bd;
 }
 
 h1 {
     font-family: 'Balthazar', serif !important; 
     color: #000000 !important;    
-    font-size:2.625em !important; /* 16x.875= 42 */
+    font-size:2.000em !important; /* 16x.875=32 */  
     text-transform: none;    
 }
 
@@ -39,7 +39,7 @@ p {
 
 a {
     font-family: 'Balthazar', serif !important;   
-    color: #ffffff;
+    color: #000000;
     background-color: transparent;
     font-size: 0.938em; /* 15x.875=18 */
     text-transform: uppercase;
@@ -48,7 +48,7 @@ a {
 
 li > span, li > a {
     font-family: 'Balthazar', serif !important;   
-    color: #ffffff;
+    color: #000000;
     background-color: transparent;
     font-size: 0.938em; /* 15x.875=18 */
     text-transform: uppercase;
@@ -90,10 +90,14 @@ hr {
 
 /* Begin New Mason Divsion pages */
 
+#front-page-spacer {
+    width:100%;
+    height:200px;
+    background:transparent;   
+}
 
 .region-content {
     position: relative;
-    margin-top: 50%;
 }
 
 .footer {
@@ -102,7 +106,6 @@ hr {
     padding-bottom: 0px;
     border-top: 0px none #E5E5E5;
 }
-
 
 .mason-division-icon img {
     width: auto; /* undo width: 100%  in flexslider.css*/
@@ -169,7 +172,7 @@ hr {
 }
 
 .original{  
-    background-color: #7F1334 !important;
+    background-color: #b6985a !important;
 }
 
 #block-system-main-menu li > a:hover {
@@ -204,7 +207,7 @@ hr {
     position: relative;
     left: 0px;
     z-index: 99;
-    background-color: #7F1334;
+    background-color: #b6985a;
     width: 187px;
     height: 100vh;
     margin-right: 18px;    
@@ -296,7 +299,7 @@ hr {
 }
 
 #block-system-main-menu .dropdown-menu.mason-dropdown a:hover {
-    color: #ffffff !important;
+    color: #000000 !important;
     background-color: #B4975A !important;
 }
      
@@ -380,10 +383,10 @@ hr {
 #block-menu-menu-bottom-menu li > a {
     text-align: center;
     border-style: solid;
-    border-top: none !important;
+    border-top: .2px dashed #E0D9B8 !important;
     border-left: none !important;
     border-right: none !important;
-    border-bottom: .2px dashed #E0D9B8 !important;    
+    border-bottom: none !important;    
 }
 
 #block-menu-menu-bottom-menu .dropdown-menu > li > a {
@@ -433,7 +436,7 @@ hr {
 
 
 #block-menu-menu-bottom-menu .dropdown-menu.mason-dropdown a:hover {
-    color: #ffffff !important;
+    color: #000000 !important;
     background-color: #B4975A !important;
 }
 
@@ -456,15 +459,15 @@ hr {
 }
 
 #block-menu-menu-secondary-menu li.first.expanded.dropdown {
-    background-color: #7F1334;
+    background-color: #b6985a;
 }
 
 #block-menu-menu-secondary-menu li.last.leaf {
-    background-color: #7F1334;
+    background-color: #b6985a;
 }
 
 #block-menu-menu-secondary-menu li.first.leaf.active {
-    background-color: #7F1334;
+    background-color: #b6985a;
 }
 
 #block-menu-menu-secondary-menu li {
@@ -481,6 +484,7 @@ hr {
 
 #block-menu-menu-secondary-menu li > a:hover {
     color: #000000;
+    background-color: #7f6a3e;
 }
 
 #block-menu-menu-secondary-menu .dropdown-menu {
@@ -500,7 +504,7 @@ hr {
 #block-menu-menu-secondary-menu .dropdown-menu.mason-dropdown a {
     font-family: 'Garamond', serif !important;
     color: #000000 !important;
-    background-color: #7F1334;
+    background-color: #b6985a;
     text-transform: capitalize !important;
     text-align: center;
     border-style: solid;
@@ -511,7 +515,7 @@ hr {
 }
 
 #block-menu-menu-secondary-menu .dropdown-menu.mason-dropdown a:hover {
-    background-color: #580d24;
+    background-color: #7f6a3e;
 }
 
 #block-menu-menu-secondary-menu li > span .caret {
@@ -536,7 +540,7 @@ hr {
     position: relative;
     display: inline-block;    
     width: 50px;
-    padding: 6px;
+    padding: 2px;
     text-align: center;
     font-family: 'Glyphicons Halflings';
 }
@@ -629,9 +633,29 @@ hr {
 }
 
 .blank {
-    color: #7F1334;
+    color: #b6985a;
 }
 
+/* End seconday menu */
+
+
+/* Begin form links */
+
+.form-type-bef-link a {
+    color: #000000;
+}
+
+.views-exposed-form .form-item {
+    float: left;
+    padding-left: 10px;
+}
+
+
+.page-header {
+    padding-bottom: 0px;
+    margin: 0px 0 0px;
+    border-bottom: 1px dashed #eee;
+}
 
 /* End New Mason Divsion pages */
 
@@ -825,7 +849,7 @@ hr {
 .phone-headers {
     font-family: 'Helvetica', sans-serif !important;
     font-weight: 300 !important;
-    color: #ffffff !important;
+    color: #000000 !important;
     background-color: #3f3f3f;
     font-size:medium;
     white-space: nowrap;
@@ -898,9 +922,9 @@ h4.caption{
     padding: 0px 0px;
     font-size: inherit;
     line-height: 1.428571429;
-    color: #ffffff;
+    color: #000000;
     vertical-align: bottom;
-    background-color: #ffffff;
+    background-color: #000000;
     border: 0px solid transparent;    
 }
 
@@ -988,7 +1012,7 @@ td.dashboard h4 {
 }
 
 .dashboard-2 h4 a {
-    color: #ffffff !important;
+    color: #000000 !important;
     word-wrap: break-word;
 }
 
@@ -1113,7 +1137,7 @@ td.dashboard h4 {
 }
 
 .view-id-multimedia .views-field-title {
-    color: #ffffff;
+    color: #000000;
     width: 100%;
     min-height: 60px;  
     text-align: center;
@@ -1261,7 +1285,7 @@ td.dashboard h4 {
 
 .views-field-field-mason-call-out-text {
     font-size: 1.750em !important; /* 16x.875= 28 */
-    color: #ffffff !important;
+    color: #000000 !important;
     text-align: center;
     text-transform: uppercase;
     background-color: rgb(120, 165, 199);
@@ -1284,7 +1308,7 @@ td.dashboard h4 {
 
 .views-field-field-mason-price {
     font-size: 1.375em !important; /* 16x.875= 22 */
-    color: #ffffff !important;
+    color: #000000 !important;
     text-align: left;
     text-transform: capitalize;
     background-color: rgb(55, 89, 115);
@@ -1297,7 +1321,7 @@ td.dashboard h4 {
 
 .views-field-field-mason-piece-count {
     font-size: 1.375em !important; /* 16x.875= 22 */
-    color: #ffffff !important;
+    color: #000000 !important;
     text-align: left;
     text-transform: capitalize;
     background-color: rgb(55, 89, 115);
@@ -1375,7 +1399,7 @@ div.mason-product-image-field-caption p {
 div.mason-product-image-field-caption  a {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
-    color: #ffffff !important;
+    color: #000000 !important;
     text-decoration: none;
 }
 

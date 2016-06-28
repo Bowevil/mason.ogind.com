@@ -77,6 +77,12 @@
 <?php $url =  "//{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}"; ?>
 <?php $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' ); ?>
 
+<?php if (strpos($url,'mason-products') !== false) {
+         $col ='<aside class="col-sm-3" role="complementary" id="mason-flexslider-container-small" z-index="9">';       
+    } else {
+        $col = '<aside class="col-sm-7" role="complementary" id="mason-flexslider-container" z-index="9">';
+};?>
+
 
 <?php if (strpos($escaped_url, 'mason-division') == false): ?>
 
@@ -177,7 +183,7 @@
 
     <?php if (!empty($page['sidebar_second'])): ?>
         <?php if (!empty($page['sidebar_first'])): ?>
-        <aside class="col-sm-7" role="complementary" id="mason-flexslider-container">
+            <?php print $col; ?>
       <?php endif; ?>
         <?php if (empty($page['sidebar_first'])): ?>
         <aside class="col-sm-4" role="complementary">

@@ -107,8 +107,8 @@
                 });                          
               jQuery('.showfooter').click(function (){
                     jQuery('.footer').toggleClass("showfooter");                  
-                });                 
-
+                });
+              
             // end our js code
   }       
     };})(jQuery);
