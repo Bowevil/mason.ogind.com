@@ -5,29 +5,29 @@ html, body {
 }
 
 h1 {
-    font-family: 'Balthazar', serif !important; 
-    color: #000000 !important;    
-    font-size:2.000em !important; /* 16x.875=32 */  
-    text-transform: none;    
+    font-family: 'Balthazar', serif !important;
+    color: #000000 !important;
+    font-size:2.000em !important; /* 16x.875=32 */
+    text-transform: none;
 }
 
 h2 {
-    font-family: 'Balthazar', serif !important; 
-    color: #000000 !important;    
+    font-family: 'Balthazar', serif !important;
+    color: #000000 !important;
     font-size:2.625em !important; /* 16x.875=42 */
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 h3{
-    font-family: 'Balthazar', serif !important; 
-    color: #b6985a; 
-    font-size:2.000em !important; /* 16x.875=32 */       
+    font-family: 'Balthazar', serif !important;
+    color: #b6985a;
+    font-size:2.000em !important; /* 16x.875=32 */
 }
 
 h4 {
-    font-family: 'Balthazar', serif !important; 
+    font-family: 'Balthazar', serif !important;
     color: #b6985a;
-    text-transform: uppercase;   
+    text-transform: uppercase;
 }
 
 p {
@@ -38,7 +38,7 @@ p {
 }
 
 a {
-    font-family: 'Balthazar', serif !important;   
+    font-family: 'Balthazar', serif !important;
     color: #000000;
     background-color: transparent;
     font-size: 0.938em; /* 15x.875=18 */
@@ -47,7 +47,7 @@ a {
 
 
 li > span, li > a {
-    font-family: 'Balthazar', serif !important;   
+    font-family: 'Balthazar', serif !important;
     color: #000000;
     background-color: transparent;
     font-size: 0.938em; /* 15x.875=18 */
@@ -81,7 +81,7 @@ hr {
 .fluid-container {
     background-color: transparent;
     height: 100%;
-    width: 100vw;    
+    width: 100vw;
 }
 
 #navbar {
@@ -93,7 +93,7 @@ hr {
 #front-page-spacer {
     width:100%;
     height:200px;
-    background:transparent;   
+    background:transparent;
 }
 
 .region-content {
@@ -112,7 +112,7 @@ hr {
     max-width:100%;  /* Make sure the image stays inside its surrounding container. */
     height: auto; /* keep the aspect ratio */
     margin-right: auto;
-    margin-left: auto;  
+    margin-left: auto;
 }
 
 .mason-division-icon {
@@ -129,7 +129,7 @@ hr {
 
 .mason-flexslider-container {
     width: 100%;
-    height: 100%;     
+    height: 100%;
 }
 
 .flexslider .slides img {
@@ -155,7 +155,7 @@ hr {
     border-left: none !important;
     border-right: none !important;
     border-bottom: 0px solid #b6985a !important;
-    margin-right: 5px;    
+    margin-right: 5px;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -165,13 +165,13 @@ hr {
 .dropdown-menu {
     top: 92%;
 }
-    
-    
-#block-system-main-menu {  
+
+
+#block-system-main-menu {
     position: absolute;
 }
 
-.original{  
+.original{
     background-color: #b6985a !important;
 }
 
@@ -180,48 +180,48 @@ hr {
     background-color: #E0D9B8;
 }
 
-.black{  
+.black{
     background-color: #000000 !important;
 }
 
 .darkerburgandy {
-    background-color: #4c0b1f !important;    
+    background-color: #4c0b1f !important;
 }
 
-.colormargin {  
+.colormargin {
     border-left: 15px solid #000000;
-    border-right:15px solid #000000;     
+    border-right:15px solid #000000;
 }
 
-.colormarginleft  {  
-    border-left: 15px solid #000000;    
+.colormarginleft  {
+    border-left: 15px solid #000000;
 }
 
 .showfooter {
     display: block;
     height: 30px;
-    background-color: #000000;    
+    background-color: #000000;
 }
 
-#mason-nav-container {  
+#mason-nav-container {
     position: relative;
     left: 0px;
     z-index: 99;
     background-color: #b6985a;
     width: 187px;
     height: 100vh;
-    margin-right: 18px;    
+    margin-right: 18px;
     padding-left: 0px;
     padding-right: 0px;
 }
 
 #block-system-main-menu li {
-    text-align: center;    
+    text-align: center;
     border-style: solid;
     border-top: none !important;
     border-left: none !important;
     border-right: none !important;
-    border-bottom: .2px dashed #E0D9B8;    
+    border-bottom: .2px dashed #E0D9B8;
 }
 
 #block-system-main-menu li > a {
@@ -230,7 +230,7 @@ hr {
     border-top: none !important;
     border-left: none !important;
     border-right: none !important;
-    border-bottom: .2px dashed #E0D9B8 !important;    
+    border-bottom: .2px dashed #E0D9B8 !important;
 }
 
 #block-system-main-menu .dropdown-menu > li > a {
@@ -240,7 +240,7 @@ hr {
 
 #block-system-main-menu li > a:hover {
     color: #000000;
-    background-color: #E0D9B8;   
+    background-color: #E0D9B8;
 }
 
 #block-system-main-menu li > a .caret {
@@ -252,7 +252,7 @@ hr {
     position: fixed;
     z-index: -99;
     top: 0px;
-    left:187px;    
+    left:187px;
     width: 100%;
     height: 100%;
     padding: 0px;
@@ -276,7 +276,7 @@ hr {
     border-radius: 0px;
     -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.175);
     box-shadow: 0 0px 0px rgba(0,0,0,0.175);
-    background-clip: padding-box;    
+    background-clip: padding-box;
 
 }
 
@@ -302,7 +302,7 @@ hr {
     color: #000000 !important;
     background-color: #B4975A !important;
 }
-     
+
 .shrink {
     -ms-transform: translate(-160px, 0px); /* IE 9 */
     -webkit-transform: translate(-160px, 0px);/* Safari */
@@ -366,18 +366,18 @@ hr {
     position: absolute;
     float: left;
     bottom: 0px;
-    width: 100%;  
+    width: 100%;
     z-index: 99;
     background-color: transparent;
 }
 
 #block-menu-menu-bottom-menu li {
-    text-align: center;    
+    text-align: center;
     border-style: solid;
     border-top: none !important;
     border-left: none !important;
     border-right: none !important;
-    border-bottom: .2px dashed #E0D9B8;    
+    border-bottom: .2px dashed #E0D9B8;
 }
 
 #block-menu-menu-bottom-menu li > a {
@@ -386,7 +386,7 @@ hr {
     border-top: .2px dashed #E0D9B8 !important;
     border-left: none !important;
     border-right: none !important;
-    border-bottom: none !important;    
+    border-bottom: none !important;
 }
 
 #block-menu-menu-bottom-menu .dropdown-menu > li > a {
@@ -396,7 +396,7 @@ hr {
 
 #block-menu-menu-bottom-menu li > a:hover {
     color: #000000;
-    background-color: #E0D9B8;   
+    background-color: #E0D9B8;
 }
 
 #block-menu-menu-bottom-menu li > a .caret {
@@ -417,7 +417,7 @@ hr {
     border-radius: 0px;
     -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.175);
     box-shadow: 0 0px 0px rgba(0,0,0,0.175);
-    background-clip: padding-box;    
+    background-clip: padding-box;
 
 }
 
@@ -444,7 +444,7 @@ hr {
 
 #block-menu-menu-secondary-menu {
     position: fixed;
-    right: 0px;    
+    right: 0px;
     z-index: 19;
     width: auto;
 }
@@ -475,7 +475,7 @@ hr {
     height: 40px;
     background-color: #B4975A;
     border-style: none;
-   
+
 }
 
 #block-menu-menu-secondary-menu li > a {
@@ -494,7 +494,7 @@ hr {
 
 #block-menu-menu-secondary-menu .dropdown-menu > li > a {
     padding: 0px;
-    
+
 }
 
 #block-menu-menu-secondary-menu .dropdown-menu li {
@@ -528,7 +528,7 @@ hr {
 }
 .subscribe:before {
     position: relative;
-    display: inline-block;    
+    display: inline-block;
     width: 50px;
     padding: 8px;
     text-align: center;
@@ -538,7 +538,7 @@ hr {
 }
 .gallery:before {
     position: relative;
-    display: inline-block;    
+    display: inline-block;
     width: 50px;
     padding: 2px;
     text-align: center;
@@ -547,7 +547,7 @@ hr {
 
 .road:before {
     position: relative;
-    display: inline-block;    
+    display: inline-block;
     width: 50px;
     padding: 6px;
     text-align: center;
@@ -555,7 +555,7 @@ hr {
 }
 .blog:before {
     position: relative;
-    display: inline-block;    
+    display: inline-block;
     width: 50px;
     padding: 6px;
     text-align: center;
@@ -564,7 +564,7 @@ hr {
 
 .houzz:before {
     position: relative;
-    display: inline-block;    
+    display: inline-block;
     width: 50px;
     padding: 6px;
     text-align: center;
@@ -573,7 +573,7 @@ hr {
 
 .facebook:before {
     position: relative;
-    display: inline-block;    
+    display: inline-block;
     width: 50px;
     padding: 6px;
     text-align: center;
@@ -582,7 +582,7 @@ hr {
 
 .twitter:before {
     position: relative;
-    display: inline-block;    
+    display: inline-block;
     width: 50px;
     padding: 6px;
     text-align: center;
@@ -590,7 +590,7 @@ hr {
 }
 .youtube:before {
     position: relative;
-    display: inline-block;    
+    display: inline-block;
     width: 50px;
     padding: 6px;
     text-align: center;
@@ -598,7 +598,7 @@ hr {
 }
 .pintrest:before {
     position: relative;
-    display: inline-block;    
+    display: inline-block;
     width: 50px;
     padding: 6px;
     text-align: center;
@@ -607,7 +607,7 @@ hr {
 
 .blogspot:before {
     position: relative;
-    display: inline-block;    
+    display: inline-block;
     width: 50px;
     padding: 6px;
     text-align: center;
@@ -616,7 +616,7 @@ hr {
 
 .linkedin:before {
     position: relative;
-    display: inline-block;    
+    display: inline-block;
     width: 50px;
     padding: 6px;
     text-align: center;
@@ -626,7 +626,7 @@ hr {
 .blank:before {
     position: relative;
     top: 5px;
-    display: inline-block;   
+    display: inline-block;
     font-family: 'Glyphicons Halflings';
     padding: 0 10px;
     content:"\e122";
@@ -637,6 +637,11 @@ hr {
 }
 
 /* End seconday menu */
+
+/* Begin product pop-up */
+
+
+/* End product pop-up */
 
 
 /* Begin form links */
@@ -665,7 +670,7 @@ hr {
 .views-field-field-product-mp-description {
     padding-top: 5% !important;
     padding-left: 5% !important;
-    padding-right: 5% !important;   
+    padding-right: 5% !important;
     padding-bottom: 2% !important;
 }
 
@@ -793,7 +798,7 @@ hr {
     border-style: solid none none none;
     border-width: 1px 0px 0px 0px;
     margin-left: 10px;
-    margin-right: 10px;    
+    margin-right: 10px;
     padding-left: 10% !important;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -802,7 +807,7 @@ hr {
 .region-sidebar-second .view-display-id-block_3 .view-header {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
-    color: #b6985a !important; 
+    color: #b6985a !important;
 }
 
 .region-sidebar-second .views-field-field-location-address {
@@ -819,14 +824,14 @@ hr {
     width: 100%;
     max-width: 900px;
 }
-.views-field-field-location-address{ 
+.views-field-field-location-address{
     min-height: 80px;
 }
 
 .views-field-field-location-address{
     font-family: 'Helvetica', sans-serif !important;
     font-weight: 300 !important;
-    color: #000000 !important; 
+    color: #000000 !important;
 }
 
 .views-field-field-location-address .country {
@@ -854,17 +859,17 @@ hr {
     font-size:medium;
     white-space: nowrap;
     padding-top: 5px;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;
 }
 
 h4.caption{
     padding-top: 40px;
-    padding-left: 15px; 
+    padding-left: 15px;
 }
 
 .view-view-locations-by-type.view-id-view_locations_by_type {
    padding-left: 3% !important;
-   padding-right: 5% !important;   
+   padding-right: 5% !important;
    padding-bottom: 2% !important;
 }
 
@@ -874,7 +879,7 @@ h4.caption{
     font-weight: 400 !important;
     font-size: 18px;
     color: #b6985a;
-    text-transform: uppercase;    
+    text-transform: uppercase;
     text-align: left;
     padding-left: 15px;
     padding-bottom: 10PX;
@@ -908,11 +913,11 @@ h4.caption{
 
 .view-view-locations-by-type input[type="checkbox"] {
     margin: 0px  !important;
-    
+
 }
 .view-view-locations-by-type .views-exposed-form .views-exposed-widget {
     /*padding-top: 20px;*/
-    padding-bottom: 5px;    
+    padding-bottom: 5px;
 }
 
 .view-view-locations-by-type .form-control {
@@ -925,7 +930,7 @@ h4.caption{
     color: #000000;
     vertical-align: bottom;
     background-color: #000000;
-    border: 0px solid transparent;    
+    border: 0px solid transparent;
 }
 
 /* end new locations page */
@@ -962,7 +967,7 @@ h4.caption{
 
 
 .dashboard {
-    border-top: 1px solid #cacad9;    
+    border-top: 1px solid #cacad9;
 }
 
 .dashboard .field-content {
@@ -981,7 +986,7 @@ td.dashboard h4 {
 .dashboard-description {
     float: right;
     padding-top: 10px;
-    padding-bottom: 10px;   
+    padding-bottom: 10px;
 }
 
 .dashboard-city-state, .dashboard-backdate, .dashboard-readmore {
@@ -993,7 +998,7 @@ td.dashboard h4 {
     font-family: 'Helvetica', sans-serif !important;
     font-weight: 300 !important;
     color: #b6985a !important;
-    padding-left: 0px !important;    
+    padding-left: 0px !important;
 }
 
 /* end news dashboard page */
@@ -1035,7 +1040,7 @@ td.dashboard h4 {
 
 .field-name-field-bn-call-out-image {
     float:right;
-    clear: right;    
+    clear: right;
     padding: 10px;
     padding-right: 5% !important;
 }
@@ -1044,16 +1049,16 @@ td.dashboard h4 {
     color: #808080 !important;
     width: 480px;
     float: right;
-    clear: both;   
+    clear: both;
     margin-left: 50px;
-    margin-right: 50px; 
+    margin-right: 50px;
     margin-bottom: 10px;
 }
 
 .field-name-field-bn-description {
     padding-right: 5% !important;
     padding-left: 4% !important;
-    margin-bottom: 15px;    
+    margin-bottom: 15px;
 }
 
 .field-name-field-bn-media-downloads div.field-items {
@@ -1080,7 +1085,7 @@ td.dashboard h4 {
 .table-striped>tbody>tr:nth-child(odd)>td {
     color: #f5f5f5 !important;
     background-color: #f5f5f5 !important;
-    border-top: 0px;   
+    border-top: 0px;
 }
 
 
@@ -1088,7 +1093,7 @@ td.dashboard h4 {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 400 !important;
     color: #b6985a;
-    text-transform: uppercase;  
+    text-transform: uppercase;
 }
 
 .field-name-field-bn-media-downloads .file a{
@@ -1119,7 +1124,7 @@ td.dashboard h4 {
 /* begin forms page */
 .view-id-multimedia {
    padding-left: 4% !important;
-   padding-right: 5% !important;   
+   padding-right: 5% !important;
    padding-bottom: 2% !important;
 }
 
@@ -1133,22 +1138,22 @@ td.dashboard h4 {
     height: auto;
     border-top: 1px solid #cacad9;
     border-left: 1px solid #cacad9;
-    border-right: 1px solid #cacad9;     
+    border-right: 1px solid #cacad9;
 }
 
 .view-id-multimedia .views-field-title {
     color: #000000;
     width: 100%;
-    min-height: 60px;  
+    min-height: 60px;
     text-align: center;
     vertical-align: middle;
     background-color: #b6985a;
     border-left: 1px solid #cacad9;
-    border-right: 1px solid #cacad9;     
+    border-right: 1px solid #cacad9;
     padding-top: 20px;
     padding-bottom: 5px;
     padding-left: 10px;
-    padding-right: 10px;   
+    padding-right: 10px;
 }
 /* end forms page */
 
@@ -1157,13 +1162,13 @@ td.dashboard h4 {
 
 .field-name-field-jp-job-location, .field-name-field-jp-job-description, .field-name-field-jp-desired-skills-and-exp, .field-name-field-jp-essential-job-functions, .field-name-field-jp-job-requirements, .field-name-field-jp-posting-date, .field-name-field-jp-how-to-apply, .field-name-field-jp-job-eoe {
    padding-left: 3% !important;
-   padding-right: 5% !important;   
+   padding-right: 5% !important;
    padding-bottom: 2% !important;
 }
 
 .view-job-posting {
    padding-left: 3% !important;
-   padding-right: 5% !important;   
+   padding-right: 5% !important;
    padding-bottom: 2% !important;
 }
 
@@ -1173,11 +1178,11 @@ td.dashboard h4 {
 }
 
 .view-job-posting .views-field-title h3{
-    margin-top: 5px;   
+    margin-top: 5px;
 }
 
 .view-job-posting .views-field-title-1 {
-    padding-top: 05px;    
+    padding-top: 05px;
     padding-bottom: 15px;
 }
 
@@ -1190,7 +1195,7 @@ td.dashboard h4 {
 
 .view-job-posting .views-field-title {
     border-top: 1px solid #b6985a;
-    border-right: 1px solid #b6985a;    
+    border-right: 1px solid #b6985a;
 }
 
 .view-job-posting .views-field-field-jp-job-description {
@@ -1199,7 +1204,7 @@ td.dashboard h4 {
 
 .view-job-posting .views-field-field-jp-posting-date {
     padding-top: 10px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
 
 /* end job postings page */
@@ -1226,19 +1231,19 @@ td.dashboard h4 {
 }
 
 .webform-component label {
-    margin-top: 10px;    
+    margin-top: 10px;
 }
 
 .webform-submit.button-primary {
-    margin-top: 10px;    
+    margin-top: 10px;
     margin-right: 10px;
-    margin-bottom: 10px;        
+    margin-bottom: 10px;
 }
 .btn-default, .btn-primary {
     font-family: 'Helvetica', sans-serif !important;
     font-weight: 400 !important;
     color: #000000;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     display: inline-block;
     padding: 5px 14px;
     background-color: #b6985a;
@@ -1337,7 +1342,7 @@ td.dashboard h4 {
     font-weight: 300 !important;
     color: #000000 !important;
     font-size: 14px;
-    text-transform: none;    
+    text-transform: none;
     text-align: left;
     padding-left: 15px;
     padding-bottom: 10PX;
@@ -1348,13 +1353,13 @@ td.dashboard h4 {
 .view-id-multimedia.view-display-id-block_3 .view-grouping-header,  .view-display-id-mason_division_multimedia_taxonomy .view-grouping-header {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
-    color: #b6985a; 
-    font-size:2.000em !important; /* 16x.875=32 */ 
+    color: #b6985a;
+    font-size:2.000em !important; /* 16x.875=32 */
 }
 
 .view-calendar-mason-events .views-row-first {
     border-top: 1px solid #b6985a;
-    border-right: 1px solid #b6985a;    
+    border-right: 1px solid #b6985a;
 }
 
 .view-calendar-mason-events .date-display-single {
@@ -1366,7 +1371,7 @@ td.dashboard h4 {
 }
 
 .views-field.views-field-field-sch-image img {
-    margin-top: 20px;  
+    margin-top: 20px;
 }
 
 /* end mason division site css */
@@ -1378,22 +1383,22 @@ div.mason-product-image-field-caption {
     max-width: 220px;
     text-align: center;
     vertical-align: middle;
-    background-color: #b6985a;    
+    background-color: #b6985a;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
-    padding-right: 5px;;   
+    padding-right: 5px;;
 }
 
 div.mason-product-image-field-caption p {
-    min-height: 20px;  
+    min-height: 20px;
     text-align: center;
     vertical-align: middle;
-    background-color: #b6985a !important;     
+    background-color: #b6985a !important;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
-    padding-right: 5px;         
+    padding-right: 5px;
 }
 
 div.mason-product-image-field-caption  a {
@@ -1404,21 +1409,21 @@ div.mason-product-image-field-caption  a {
 }
 
 /* end mason maketing product image caption/link */
-    
+
 
 
 /* begin media Queries */
 
-@media only screen 
-and (min-device-width : 768px) 
+@media only screen
+and (min-device-width : 768px)
 and (max-device-width : 1024px){
-    
+
 }
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
 and (orientation : portrait) {
-    
+
 }
 
 @media(max-width:767px){

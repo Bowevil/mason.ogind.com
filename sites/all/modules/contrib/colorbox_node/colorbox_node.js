@@ -1,4 +1,12 @@
 (function ($) {
+    Drupal.ajax.prototype.commands.colorboxNodeReload = function(ajax, response) {
+        location.reload();
+    };
+
+    Drupal.ajax.prototype.commands.colorboxNodeRedirect = function(ajax, response) {
+        window.location.replace(response.data);
+    };
+
     Drupal.behaviors.colorboxNode = {
         // Lets find our class name and change our URL to
         // our defined menu path to open in a colorbox modal.
@@ -81,6 +89,7 @@
 
         // Bind Ajax behaviors to all items showing the class.
         var element_settings = {};
+        element_settings.async = true;
 
         // This removes any loading/progress bar on the clicked link
         // and displays the colorbox loading screen instead.
@@ -143,8 +152,8 @@
         var $this = $(this);
         var rel = $this.attr('rel');
         if(rel && $this.hasClass('colorbox-node-gallery')) {
-            if ($('a.colorbox-node-gallery[rel="' + rel + '"]:not("#colorbox a[rel="' + rel + '"]")').length > 1) {
-                $related = $('a.colorbox-node-gallery[rel="' + rel + '"]:not("#colorbox a[rel="' + rel + '"]")');
+            if ($('a.colorbox-node-gallery[rel="' + rel + '"]:not(#colorbox a[rel="' + rel + '"])').length > 1) {
+                $related = $('a.colorbox-node-gallery[rel="' + rel + '"]:not(#colorbox a[rel="' + rel + '"])');
 
                 // filter $related array by href, to have mutliple colorbox links to the same target
                 // appear as one item in the gallery only
