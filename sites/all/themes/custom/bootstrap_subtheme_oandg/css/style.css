@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Balthazar);
 
 html, body {
-    background-color: #e1d5bd;
+    background-color: #ffffff;
 }
 
 h1 {
@@ -86,6 +86,28 @@ hr {
 
 #navbar {
     display: none;
+}
+
+.col-sm-7 {
+  z-index: 89;
+  background-color: #ffffff;
+}
+.col-sm-3 {
+    z-index: 79;
+  background-color: #ffffff;
+}
+.flexslider{
+    z-index: 79;
+  background-color: #ffffff;
+}
+
+.dropdown-menu {
+  border: 0px solid #ccc;
+  border: 0px solid rgba(0,0,0,0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.175);
+  box-shadow: 0 0px 0px rgba(0,0,0,0.175);
+  background-clip: padding-box;
 }
 
 /* Begin New Mason Divsion pages */
@@ -177,17 +199,17 @@ hr {
 
 #block-system-main-menu li > a:hover {
     color: #000000;
-    background-color: #E0D9B8;
+    background-color: #b6985a  !important;
 }
 
 .black{
-    background-color: #000000 !important;
+    background-color: #E0D9B8 !important;
 }
-
+/*
 .darkerburgandy {
     background-color: #4c0b1f !important;
 }
-
+*/
 .colormargin {
     border-left: 15px solid #000000;
     border-right:15px solid #000000;
@@ -207,7 +229,7 @@ hr {
     position: relative;
     left: 0px;
     z-index: 99;
-    background-color: #b6985a;
+    background-color: #E0D9B8;
     width: 187px;
     height: 100vh;
     margin-right: 18px;
@@ -396,7 +418,7 @@ hr {
 
 #block-menu-menu-bottom-menu li > a:hover {
     color: #000000;
-    background-color: #E0D9B8;
+    background-color: #b6985a !important;
 }
 
 #block-menu-menu-bottom-menu li > a .caret {
@@ -434,7 +456,6 @@ hr {
 
 }
 
-
 #block-menu-menu-bottom-menu .dropdown-menu.mason-dropdown a:hover {
     color: #000000 !important;
     background-color: #B4975A !important;
@@ -445,7 +466,7 @@ hr {
 #block-menu-menu-secondary-menu {
     position: fixed;
     right: 0px;
-    z-index: 19;
+    z-index: 99;
     width: auto;
 }
 
@@ -460,10 +481,12 @@ hr {
 
 #block-menu-menu-secondary-menu li.first.expanded.dropdown {
     background-color: #b6985a;
+    height: 38px;
 }
 
 #block-menu-menu-secondary-menu li.last.leaf {
     background-color: #b6985a;
+    height: 38px;
 }
 
 #block-menu-menu-secondary-menu li.first.leaf.active {
@@ -472,7 +495,6 @@ hr {
 
 #block-menu-menu-secondary-menu li {
     float: left;
-    height: 40px;
     background-color: #B4975A;
     border-style: none;
 
@@ -627,6 +649,7 @@ hr {
     position: relative;
     top: 5px;
     display: inline-block;
+    color: #b6985a;
     font-family: 'Glyphicons Halflings';
     padding: 0 10px;
     content:"\e122";
@@ -659,7 +682,7 @@ hr {
 .page-header {
     padding-bottom: 0px;
     margin: 0px 0 0px;
-    border-bottom: 1px dashed #eee;
+    border-bottom: 1px dashed #000000;
 }
 
 /* End New Mason Divsion pages */
