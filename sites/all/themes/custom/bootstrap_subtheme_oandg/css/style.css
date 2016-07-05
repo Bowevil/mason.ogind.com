@@ -197,11 +197,6 @@ hr {
     background-color: #b6985a !important;
 }
 
-#block-system-main-menu li > a:hover {
-    color: #000000;
-    background-color: #b6985a  !important;
-}
-
 .black{
     background-color: #E0D9B8 !important;
 }
@@ -242,7 +237,7 @@ hr {
     position: relative;
     left: 0px;
     z-index: 99;
-    background-color: #E0D9B8;
+    background-color: #b6985a;
     width: 187px;
     height: 100vh;
     margin-right: 18px;
@@ -275,7 +270,7 @@ hr {
 
 #block-system-main-menu li > a:hover {
     color: #000000;
-    background-color: #E0D9B8;
+    background-color:#E0D9B8;
 }
 
 #block-system-main-menu li > a .caret {
@@ -431,7 +426,7 @@ hr {
 
 #block-menu-menu-bottom-menu li > a:hover {
     color: #000000;
-    background-color: #b6985a !important;
+    background-color: #E0D9B8 !important;
 }
 
 #block-menu-menu-bottom-menu li > a .caret {
@@ -508,7 +503,7 @@ hr {
 
 #block-menu-menu-secondary-menu li {
     float: left;
-    background-color: #B4975A;
+    background-color: #E0D9B8;
     border-style: none;
 
 }
