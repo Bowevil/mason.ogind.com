@@ -188,29 +188,24 @@ hr {
     top: 92%;
 }
 
-
 #block-system-main-menu {
     position: absolute;
 }
-
 .original{
     background-color: #b6985a !important;
 }
-
 .black{
+    background-color: #000000 !important;
+}
+.lighttan{
     background-color: #E0D9B8 !important;
 }
 .gray{
     background-color: #a8a3a7 !important;
 }
-
 .grad{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e0d00+0,a8a3a7+3,b6985a+77 */
-  background: #1e0d00; /* Old browsers */
-  background: -moz-linear-gradient(left,  #1e0d00 0%, #a8a3a7 3%, #b6985a 77%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left,  #1e0d00 0%,#a8a3a7 3%,#b6985a 77%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right,  #1e0d00 0%,#a8a3a7 3%,#b6985a 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e0d00', endColorstr='#b6985a',GradientType=1 ); /* IE6-9 */
+    background-color: #e0d9b8 !important;
 }
 /*
 }

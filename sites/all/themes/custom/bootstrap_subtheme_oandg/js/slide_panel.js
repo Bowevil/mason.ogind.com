@@ -89,8 +89,11 @@
                 jQuery('.grad').hover(function (){
                     jQuery('#mason-nav-container').toggleClass("grad");
                 });
-              jQuery('.burgandy').hover(function (){
-                 jQuery('#mason-nav-container').toggleClass("darkerburgandy");
+                jQuery('.black').hover(function (){
+                   jQuery('#mason-nav-container').toggleClass("darkerburgandy");
+                  });
+              jQuery('.black').hover(function (){
+                 jQuery('#mason-nav-container').toggleClass("black");
                 });
                 jQuery('.blackburgandy').hover(function (){
                     jQuery('#mason-nav-container').toggleClass("black");
