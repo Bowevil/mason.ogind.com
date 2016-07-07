@@ -126,14 +126,6 @@ hr {
   float: left;
 }
 
-.cboxOverlay {
-  position: relative !important
-  top: 0px !important
-  left: 0px !important
-  opacity: 0.4 !important
-
-}
-
 /*
 [class*="product-"] {
   background-color: #ccffff;
