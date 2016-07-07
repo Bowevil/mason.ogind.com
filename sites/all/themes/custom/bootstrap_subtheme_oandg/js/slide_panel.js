@@ -66,7 +66,6 @@
                   jQuery('a[href^="http"]').attr('target','_blank');
                 });
 
-
                 jQuery(window).resize(function() {
                     if((window.fullScreen) || (window.innerWidth == screen.width && window.innerHeight == screen.height)) {
                         jQuery("html").css("overflow", "hidden");
@@ -113,6 +112,7 @@
               jQuery('.showfooter').click(function (){
                     jQuery('.footer').toggleClass("showfooter");
                 });
+
 
             // end our js code
   }

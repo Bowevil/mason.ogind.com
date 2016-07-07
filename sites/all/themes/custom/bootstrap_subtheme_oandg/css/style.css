@@ -110,6 +110,56 @@ hr {
   background-clip: padding-box;
 }
 
+.pager {
+  clear: both;
+}
+
+[class*="product-"] {
+  background-color: transparent;
+  padding-top: 15px;
+  padding-left: 20px;
+  overflow: hidden;
+  width: 220px;
+  max-width: 220px;
+  height: auto;
+  z-index: 19;
+  float: left;
+}
+
+.cboxOverlay {
+  position: relative !important
+  top: 0px !important
+  left: 0px !important
+  opacity: 0.4 !important
+
+}
+
+/*
+[class*="product-"] {
+  background-color: #ccffff;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: hidden;
+  width: 220px;
+  max-width: 220px;
+  height: auto;
+  z-index: 19;
+  float: left;
+}
+
+[class*="product-large"] {
+  background-color: #0f654b;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: visible;;
+  width: 440px;
+  min-width: 440px;
+  height: auto;
+  z-index: 29;
+}
+*/
 /* Begin New Mason Divsion pages */
 
 #front-page-spacer {
