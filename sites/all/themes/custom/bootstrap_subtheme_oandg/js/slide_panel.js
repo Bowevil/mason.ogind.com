@@ -119,7 +119,7 @@
 
                 jQuery("#colorbox").css('display', 'inline-block').css('top', '137px').css('left', '240px').css('position', 'absolute').css('z-index', '99');
 
-                jQuery("#cboxOverlay").css('display', 'inline-block').css('top', '687px').css('left', '561px').css('width', '550px').css('height', '550px').css('position', 'absolute').css('z-index', '29');
+                jQuery("#cboxOverlay").css('display', 'inline-block').css('top', '687px').css('left', '561px').css('width', '550px').css('height', '550px').css('position', 'relative').css('z-index', '29');
 
             // end our js code
   }
