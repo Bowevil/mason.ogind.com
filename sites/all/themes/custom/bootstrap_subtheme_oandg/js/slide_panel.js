@@ -44,13 +44,10 @@
                 jQuery( "span:contains('Locations & Hours')" ).addClass("road");
                 jQuery( "span:contains('Blog')" ).addClass("blog");
 
-
                 jQuery( "span:contains('Blog')" ).addClass("blog");
-
 
                 jQuery( "span:contains('blank')" ).addClass("blank");
                 jQuery( "span.blank").empty();
-
 
                 jQuery("#block-system-main-menu ul.menu.nav li.expanded.dropdown").mouseover(function(){
                 if (jQuery("#mason-nav-container.shrink")[0]){
@@ -64,6 +61,7 @@
 
                 jQuery(document).ready(function(){
                   jQuery('a[href^="http"]').attr('target','_blank');
+                  jQuery(window).resize();
                 });
 
                 jQuery(window).resize(function() {
@@ -74,11 +72,7 @@
                     }
                 });
 
-                jQuery(document).ready(function(){
-                    jQuery(window).resize();
-                    // trigger the function when the page loads
-                    // if you have another $(document).ready(), simply add this line to it
-                });
+                /*
                jQuery('.original').hover(function (){
                  jQuery('#mason-nav-container').removeClass("black").removeClass("darkerburgandy").toggleClass("original");
                 });
@@ -112,15 +106,14 @@
               jQuery('.showfooter').click(function (){
                     jQuery('.footer').toggleClass("showfooter");
                 });
-
+*/
                 var p = jQuery( "#colorbox" );
                 var position = p.position();
                 //jQuery( "#colorbox" ).text( "left: " + position.left + ", top: " + position.top );
+                jQuery("#colorbox").css('display', 'inline-block').css('top', '0px').css('left', '240px').css('position', 'absolute').css('z-index', '99');
 
-                jQuery("#colorbox").css('display', 'inline-block').css('top', '137px').css('left', '240px').css('position', 'absolute').css('z-index', '99');
-
-                jQuery("#cboxOverlay").css('display', 'inline-block').css('top', '687px').css('left', '561px').css('width', '550px').css('height', '550px').css('position', 'relative').css('z-index', '29');
-
+            //    jQuery("#cboxOverlay").css('display', 'inline-block').css('top', '687px').css('left', '561px').css('width', '550px').css('height', '550px').css('position', 'relative').css('z-index', '29');
+            jQuery("#cboxOverlay").css('z-index', '19');
             // end our js code
   }
     };})(jQuery);
