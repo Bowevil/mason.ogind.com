@@ -6,16 +6,16 @@
  */
 
 function bootstrap_subtheme_oandg_preprocess_page(&$variables) {
-  
+
     $url =  "//{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
     $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
-  
+
        if (strpos($url,'mason-products') !== false) {
-             $col = ' class="col-sm-7"';       
+             $col = ' class="col-sm-7"';
         } else {
             $col = ' class="col-sm-3"';
     };
-    
+
  // Add information about the number of sidebars.
   if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
     $variables['content_column_class'] = ' class="col-sm-3"';
@@ -29,7 +29,7 @@ function bootstrap_subtheme_oandg_preprocess_page(&$variables) {
   if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
     $variables['content_column_class'] = $col;
   }
-  
+
 }
 
 function bootstrap_subtheme_oandg_preprocess_html(&$variables) {
