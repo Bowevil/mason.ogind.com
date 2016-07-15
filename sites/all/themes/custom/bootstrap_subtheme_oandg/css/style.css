@@ -162,8 +162,8 @@ hr {
   position: absolute !important;
   margin-top: 0px;
   margin-bottom:0px;
-  width: 480px !important;
-  height: 480px !important;
+  width: 600px !important;
+  height: auto;
   top: 0px;
   left: 0px;
   background-color: #ffffff;

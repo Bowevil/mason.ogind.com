@@ -102,6 +102,8 @@
                      // Grab the position of the button,
                      // colorbox can be positioned relative to it.
                     var pos = jQuery('.overlay-color').offset();
+                    var pwidth = jQuery('.product').width();
+                    var pheight = jQuery('.product').height();
                     //console.log(pos);
 
                     // Set the position of the colorbox div
@@ -109,6 +111,8 @@
                     // Example: top: (pos.top + 20) + "px"
                   //  jQuery("#block-block-1").text("position left: " + pos.left + ", position top: " + pos.top);
                     jQuery("#colorbox").css({
+                      width:pwidth*2,
+                      height:pheight*2,
                         position: "absolute",
                         top: pos.top + "px",
                         left: pos.left + "px"
