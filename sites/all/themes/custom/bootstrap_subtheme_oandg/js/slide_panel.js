@@ -107,7 +107,7 @@
                     var pwidth2 = Number(pwidth) + Number(pwidth);
                     var pheight = jQuery('.product').height();
                     var pheight2 = Number(pheight) + Number(pheight);
-                  //  jQuery("#block-block-1").text("pwidth: " + pwidth + ", pheight: " + pheight + "pwidth2: " + pwidth2 + ", pheigh2t: " + pheight2);
+                  jQuery("#block-block-1").text("pwidth: " + pwidth + ", pheight: " + pheight + "pwidth2: " + pwidth2 + ", pheigh2t: " + pheight2);
                     //console.log(pos);
 
                     // Set the position of the colorbox div
@@ -115,7 +115,7 @@
                     // Example: top: (pos.top + 20) + "px"
                   //  jQuery("#block-block-1").text("position left: " + pos.left + ", position top: " + pos.top);
 
-                  jQuery.colorbox.resize({width: pwidth2 , height: pheight2});
+                  jQuery.colorbox.resize({width: pwidth2 , height: pheight});
                   jQuery("#colorbox").css({
                         position: "absolute",
                         top: pos.top + "px",
