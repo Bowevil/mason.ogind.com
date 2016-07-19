@@ -288,7 +288,6 @@ hr {
 
 #block-system-main-menu li {
     text-align: center;
-    border-style: solid;
     border-top: none !important;
     border-left: none !important;
     border-right: none !important;
@@ -297,11 +296,17 @@ hr {
 
 #block-system-main-menu li > a {
     text-align: center;
-    border-style: solid;
     border-top: none !important;
     border-left: none !important;
     border-right: none !important;
     border-bottom: .2px dashed #a19146 !important;
+}
+
+#block-system-main-menu li.first.leaf.active {
+  border-style: dashed;
+  border-top: .2px dashed #a19146 !important;
+  border-left: none !important;
+  border-right: none !important;
 }
 
 #block-system-main-menu .dropdown-menu > li > a {
@@ -343,7 +348,7 @@ hr {
     left:187px;
     background-color: #E0D9B8;
     border: 0px solid #ccc;
-    border: 0px solid rgba(0,0,0,0.15);
+    border: 0px solid rgba(0,0,0,0);
     border-radius: 0px;
     -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.175);
     box-shadow: 0 0px 0px rgba(0,0,0,0.175);
@@ -358,15 +363,10 @@ hr {
     text-transform: capitalize !important;
     text-align: center;
     border-style: solid;
-    border-top: .2px dashed #000000 !important;
+    /*border-top: .2px dashed #000000 !important; */
     border-left: none !important;
     border-right: none !important;
 
-}
-
-.dropdown-menu.mason-dropdown > li.last {
-    border-style: solid;
-    border-bottom: .2px dashed #000000 !important;
 }
 
 #block-system-main-menu .dropdown-menu.mason-dropdown a:hover {
@@ -498,7 +498,7 @@ hr {
     background-color: transparent !important;
     text-transform: capitalize !important;
     text-align: center;
-    border-style: solid;
+    border-style: dashed;
     border-top: .2px dashed #000000 !important;
     border-left: none !important;
     border-right: none !important;
