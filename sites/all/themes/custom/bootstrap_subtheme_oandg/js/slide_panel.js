@@ -107,6 +107,8 @@
                     var pwidth2 = Number(pwidth) + Number(pwidth);
                     var pheight = jQuery('.product').height();
                     var pheight2 = Number(pheight) + Number(pheight);
+                    var safewidth = jQuery('.col-sm-7').width();
+                    var safeheight = jQuery('.col-sm-7').height();
                   jQuery("#block-block-1").text("pwidth: " + pwidth + ", pheight: " + pheight + "pwidth2: " + pwidth2 + ", pheigh2t: " + pheight2);
                     //console.log(pos);
 
@@ -116,6 +118,7 @@
                   //  jQuery("#block-block-1").text("position left: " + pos.left + ", position top: " + pos.top);
 
                   jQuery.colorbox.resize({width: pwidth2 , height: pheight2});
+
                   jQuery("#colorbox").css({
                         position: "absolute",
                         top: pos.top + "px",
