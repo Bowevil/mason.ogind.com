@@ -115,7 +115,7 @@
                     // Example: top: (pos.top + 20) + "px"
                   //  jQuery("#block-block-1").text("position left: " + pos.left + ", position top: " + pos.top);
 
-                  jQuery.colorbox.resize({width: pwidth2 , height: pheight});
+                  jQuery.colorbox.resize({width: pwidth2 , height: pheight2});
                   jQuery("#colorbox").css({
                         position: "absolute",
                         top: pos.top + "px",
