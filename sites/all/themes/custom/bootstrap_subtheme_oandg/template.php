@@ -9,8 +9,7 @@ function bootstrap_subtheme_oandg_preprocess_page(&$variables) {
 
     $url =  "//{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
     $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
-
-       if (strpos($url,'mason-products') !== false) {
+       if (strpos($url,'mason-products') or strpos($url,'sds') or strpos($url,'brochures-and-promotions')!== false) {
              $col = ' class="col-sm-7"';
         } else {
             $col = ' class="col-sm-3"';

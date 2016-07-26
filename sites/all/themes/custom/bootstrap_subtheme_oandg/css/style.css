@@ -493,6 +493,7 @@ hr {
 
 #block-menu-menu-secondary-menu {
     position: fixed;
+    top: 0px;
     right: 0px;
     z-index: 99;
     width: auto;
@@ -739,6 +740,38 @@ hr {
 }
 
 /* end mason product page */
+
+/* Begin mason webform */
+.node-mason-webform h2 {
+  display: none;
+}
+
+.views-field-nothing h3 {
+  text-align: center;
+}
+
+.views-field-title {
+  font-family: 'Balthazar', serif !important;
+  font-size: 1.00em;
+  line-height: 1.00em;
+  text-transform: none;
+  text-align: center;
+  padding-top: 5px;
+  height: 30px;
+}
+.view-brochures-and-promotions table td[class*="col-"] {
+  padding: 10px;
+}
+.brochures-and-promotions-thumbs .views-field-field-media-thumbnail img {
+  border-style: solid;
+  border-width: thin;
+  border-color: #000000;
+  width: 100px;
+  height: 140px;
+}
+
+
+/* End mason webform */
 
 /* Begin mason marketing product page */
 
