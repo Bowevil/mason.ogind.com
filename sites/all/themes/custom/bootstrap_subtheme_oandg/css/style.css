@@ -716,6 +716,15 @@ hr {
   width: 50%;
 }
 
+.sds-display .views-field-title, .sds-display .pdfpreview-field_pdf_file, .sds-display .views-field-field-pdf-file-1 {
+  float: left;
+}
+.view-safety-data-sheets table {
+  width: 600px !important;
+
+}
+
+
 /* End New Mason Divsion pages */
 
 
