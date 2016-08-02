@@ -706,12 +706,14 @@ hr {
     float: left;
     padding-left: 10px;
 }
-
-
 .page-header {
     padding-bottom: 0px;
     margin: 0px 0 0px;
     border-bottom: 1px dashed #000000;
+}
+
+#edit-field-sds-keywords-tid-wrapper, #edit-field-sds-category-tid-wrapper {
+  width: 50%;
 }
 
 /* End New Mason Divsion pages */
