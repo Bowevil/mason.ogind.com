@@ -712,16 +712,45 @@ hr {
     border-bottom: 1px dashed #000000;
 }
 
-#edit-field-sds-keywords-tid-wrapper, #edit-field-sds-category-tid-wrapper {
+#edit-field-sds-keywords-tid-wrapper {
   width: 50%;
 }
+#edit-field-sds-category-tid-wrapper {
+  width: 20%;
+}
+.sds-display {
+  padding-top: 20px;
+}
 
-.sds-display .views-field-title, .sds-display .pdfpreview-field_pdf_file, .sds-display .views-field-field-pdf-file-1 {
+.view-safety-data-sheets .view-header {
+  position: relative;
+  top: 75px;
+}
+.view-safety-data-sheets .view-filters{
+  position: absolute;
+  top: 0px;
+}
+
+#views-exposed-form-safety-data-sheets-page .views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 2em;
+}
+
+.sds-display .views-field-title {
+  width: 200px;
   float: left;
 }
+.sds-display .pdfpreview-field_pdf_file {
+  width: 100px;
+  float: left;
+}
+.sds-display .views-field-field-pdf-file-1 {
+    width: 200px;
+    float: left;
+}
+
 .view-safety-data-sheets table {
   width: 600px !important;
-
+  margin-top: 80px;
 }
 
 
