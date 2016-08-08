@@ -108,6 +108,7 @@ hr {
 }
 
 .dropdown-menu {
+  background-color: transparent;
   border: 0px solid #ccc;
   border: 0px solid rgba(0,0,0,0.15);
   border-radius: 4px;
