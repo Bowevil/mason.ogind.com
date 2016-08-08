@@ -307,17 +307,16 @@ hr {
   display: inline-block;
     position: fixed;
     z-index: -99;
-    top: -187px;
+    top: -170px;
     left:187px;
     width: 187px;
     height: 100%;
     padding: 0px;
     background-color: #E0D9B8;
-    border-bottom: .2px dashed #000000;
+
     background-image: url(../icons/sub_top.png);
     content: 'The Gold Standard in Masonry Products and Services';
 }
-
 
 #block-system-main-menu .mason-dropdown {
     position: absolute;
