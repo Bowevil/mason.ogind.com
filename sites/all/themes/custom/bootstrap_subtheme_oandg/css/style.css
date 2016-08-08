@@ -241,17 +241,6 @@ hr {
     margin-right: 5px;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.dropdown-menu {
-    top: 92%;
-}
-
-#block-system-main-menu {
-    position: absolute;
-}
 
 #mason-nav-container {
     position: fixed;
@@ -302,13 +291,25 @@ hr {
     display: none;
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    top: 92%;
+}
+
+#block-system-main-menu {
+    position: absolute;
+}
+
+
 #block-system-main-menu .dropdown-menu:before {
     display: inline-block;
     position: fixed;
     z-index: -99;
     top: 0px;
     left:187px;
-    width: 100%;
+    width: 187px;
     height: 100%;
     padding: 0px;
     background-color: #E0D9B8;
