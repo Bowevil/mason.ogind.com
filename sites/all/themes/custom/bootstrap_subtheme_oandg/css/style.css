@@ -302,7 +302,7 @@ hr {
     display: none;
 }
 
-#block-system-main-menu .dropdown-menu:before {
+#block-system-main-menu .mason-dropdown:before {
     display: inline-block;
     position: fixed;
     z-index: -99;
