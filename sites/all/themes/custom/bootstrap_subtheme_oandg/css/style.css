@@ -303,19 +303,19 @@ hr {
     position: absolute;
 }
 
-
 #block-system-main-menu .dropdown-menu:before {
   display: block;
-    position: absolute;
+    position: fixed;
     z-index: -99;
-    top: -170px;
-    left:0px;
+    top: 0px;
+    left:187px;
     width: 187px;
     height: 100%;
     padding: 0px;
     background-color: #E0D9B8;
-    background-image: url(../icons/sub_top.png);
-    content: 'The Gold Standard in Masonry Products and Services';
+    background-image: url(../icons/sub_top_new.png);
+    background-repeat: no-repeat;
+    content: '';
 }
 
 #block-system-main-menu .mason-dropdown {
