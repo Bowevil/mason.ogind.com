@@ -489,7 +489,7 @@ html[data-useragent*='Safari'] #block-system-main-menu .mason-dropdown {
 /* begin bottom menu code */
 
 #block-menu-menu-bottom-menu {
-    position: fixed;
+    position: static;
     width: 187px;
     bottom: 0px;
     z-index: 99;
