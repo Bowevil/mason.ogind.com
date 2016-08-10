@@ -56,10 +56,12 @@
                 if (jQuery("#mason-nav-container.shrink")[0]){
                 } else {
                     jQuery("#mason-nav-container").removeClass("grow").addClass("shrink");
+                                        jQuery('.ie-holder').show();
                 }
                 });
                 jQuery("#block-system-main-menu ul.menu.nav li.expanded.dropdown").mouseleave(function() {
                       jQuery("#mason-nav-container").removeClass("shrink").addClass("grow");
+                                          jQuery('.ie-holder').hide();
                 });
 
                 jQuery(document).ready(function(){
@@ -79,9 +81,6 @@
                 jQuery( "<div class='ie-holder green'></div>" ).insertBefore( "#block-search-form");
                 jQuery( "<div class='ie-holder blue'></div>" ).insertBefore( "#block-system-main-menu");
                 jQuery( "<div class='ie-holder yellow'></div>" ).insertBefore( "#block-menu-menu-bottom-menu");
-
-
-
 
                 //jQuery('.col-sm-7').css('background-color', '#ADD8E6');
                 var safeobj = jQuery('.col-sm-7');
