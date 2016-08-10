@@ -294,6 +294,10 @@ hr {
 }
 
 
+html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dropdown li {
+      background-color: #E0D9B8 !important;
+  }
+
 html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu::before {
       z-index: -99 !important;
       top: 0px !important;
@@ -320,7 +324,6 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu::before {
       box-shadow: 0 0px 0px rgba(0,0,0,0.175);
       background-clip: padding-box;
   }
-
 
   html[data-useragent*='Chrome'] #block-system-main-menu .dropdown-menu::before {
       display: block !important;
