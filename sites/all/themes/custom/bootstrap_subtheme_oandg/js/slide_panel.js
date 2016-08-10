@@ -7,6 +7,9 @@
 
         attach: function (context, settings) {
 
+                var doc = document.documentElement;
+                doc.setAttribute('data-useragent', navigator.userAgent);
+
                 jQuery(".form-type-bef-checkbox").addClass("col-md-4");
                 jQuery(".dropdown-menu").addClass("mason-dropdown");
                 jQuery(".block-title").addClass("mason-block-title");
