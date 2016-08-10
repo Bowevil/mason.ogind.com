@@ -315,11 +315,24 @@ html[data-useragent*='rv:11.0'] .ie-holder-open {
           z-index: -999 !important;
           left:187px !important;
           width: 187px !important;
-          height: 300px;
+          height: 100%;
           padding: 0px !important;
-          background-color: red !important;
           background-image: url(../icons/sub_top.png) !important;
     }
+
+  html[data-useragent*='rv:11.0'] .red{
+  background-color: red;
+}
+  html[data-useragent*='rv:11.0'] .green{
+  background-color: green;
+}
+  html[data-useragent*='rv:11.0'] .blue {
+  background-color: blue;
+}
+  html[data-useragent*='rv:11.0'] .yellow {
+  background-color: yellow;
+            height: auto;
+}
 
   html[data-useragent*='rv:11.0'] #block-system-main-menu .mason-dropdown {
       position: absolute;

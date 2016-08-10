@@ -75,10 +75,10 @@
                     }
                 });
 
-                jQuery( "<div class='ie-holder'></div>" ).insertBefore( "#block-views-mason-home-page-icon-block");
-                jQuery( "<div class='ie-holder'></div>" ).insertBefore( "#block-search-form");
-                jQuery( "<div class='ie-holder'></div>" ).insertBefore( "#block-system-main-menu");
-                jQuery( "<div class='ie-holder'></div>" ).insertBefore( "#block-menu-menu-bottom-menu");
+                jQuery( "<div class='ie-holder red'></div>" ).insertBefore( "#block-views-mason-home-page-icon-block");
+                jQuery( "<div class='ie-holder green'></div>" ).insertBefore( "#block-search-form");
+                jQuery( "<div class='ie-holder blue'></div>" ).insertBefore( "#block-system-main-menu");
+                jQuery( "<div class='ie-holder yellow'></div>" ).insertBefore( "#block-menu-menu-bottom-menu");
 
 
 
