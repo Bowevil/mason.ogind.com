@@ -294,7 +294,6 @@ hr {
 }
 
 html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu {
-    display: none;
     position: relative !important;
     z-index: -99 !important;
     top: 0px !important;
@@ -320,7 +319,6 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu {
 
 
 html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu::before {
-      display: block !important;
       position: absolute !important;
       z-index: -99 !important;
       top: 0px !important;
