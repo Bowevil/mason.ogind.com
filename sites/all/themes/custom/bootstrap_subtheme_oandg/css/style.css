@@ -298,7 +298,7 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
       background-color: #E0D9B8 !important;
   }
 
-html[data-useragent*='rv:11.0'] .ie-holder {
+html[data-useragent*='rv:11.0'] .ie-holder-open {
         position: absolute;
         z-index: -99 !important;
         top: -150px !important;
@@ -309,6 +309,14 @@ html[data-useragent*='rv:11.0'] .ie-holder {
         background-color: red !important;
         background-image: url(../icons/sub_top.png) !important;
   }
+
+  html[data-useragent*='rv:11.0'] .ie-holder {
+          width: 187px !important;
+          height: 100vh;
+          background-color: red !important;
+          background-image: url(../icons/sub_top.png) !important;
+    }
+
 
   html[data-useragent*='rv:11.0'] #block-system-main-menu .mason-dropdown {
       position: absolute;
