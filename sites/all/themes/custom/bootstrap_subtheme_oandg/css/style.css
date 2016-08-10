@@ -295,7 +295,7 @@ hr {
 
 
 html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu::before {
-      position: fixed !important;
+    /*  position: fixed !important;
       z-index: -99 !important;
       top: 0px !important;
       left:187px !important;
@@ -304,8 +304,24 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu::before {
       padding: 0px !important;
       background-color: #E0D9B8 !important;
       background-image: url(../icons/sub_top.png);
-      content: 'IE testing';
+      content: 'IE testing'; */
   }
+
+  html[data-useragent*='rv:11.0'] #block-system-main-menu .mason-dropdown {
+      position: absolute;
+      width: 187px;
+      height: 100%;
+      top: 0px;
+      z-index: 9;
+      left:187px;
+      border: 0px solid #ccc;
+      border: 0px solid rgba(0,0,0,0);
+      border-radius: 0px;
+      -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.175);
+      box-shadow: 0 0px 0px rgba(0,0,0,0.175);
+      background-clip: padding-box;
+  }
+
 
   html[data-useragent*='Chrome'] #block-system-main-menu .dropdown-menu::before {
       display: block !important;
@@ -392,8 +408,6 @@ html[data-useragent*='Safari'] #block-system-main-menu .mason-dropdown {
     box-shadow: 0 0px 0px rgba(0,0,0,0.175);
     background-clip: padding-box;
 }
-
-
 
 #block-system-main-menu .dropdown-menu.mason-dropdown a {
     font-family: 'Garamond', serif !important;
