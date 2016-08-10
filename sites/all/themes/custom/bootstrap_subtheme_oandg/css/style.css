@@ -299,7 +299,7 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
   }
 
 html[data-useragent*='rv:11.0'] .ie-holder-open {
-        position: absolute;
+        position: fixed;
         z-index: -99 !important;
         top: -150px !important;
         left:187px !important;
@@ -311,12 +311,16 @@ html[data-useragent*='rv:11.0'] .ie-holder-open {
   }
 
   html[data-useragent*='rv:11.0'] .ie-holder {
+          position: fixed;
+          z-index: -999 !important;
+
+          left:187px !important;
           width: 187px !important;
-          height: 100vh;
+          height: 300px;
+          padding: 0px !important;
           background-color: red !important;
           background-image: url(../icons/sub_top.png) !important;
     }
-
 
   html[data-useragent*='rv:11.0'] #block-system-main-menu .mason-dropdown {
       position: absolute;

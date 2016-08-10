@@ -75,8 +75,13 @@
                     }
                 });
 
-                //jQuery( "<div class='ie-holder'></div>" ).insertBefore( "#block-system-main-menu ul.dropdown-menu.mason-dropdown:first" );
-                jQuery( "#mason-nav-container" ).wrap( "<div class='ie-holder'></div>" );
+                jQuery( "<div class='ie-holder'></div>" ).insertBefore( "#block-views-mason-home-page-icon-block");
+                jQuery( "<div class='ie-holder'></div>" ).insertBefore( "#block-search-form");
+                jQuery( "<div class='ie-holder'></div>" ).insertBefore( "#block-system-main-menu");
+                jQuery( "<div class='ie-holder'></div>" ).insertBefore( "#block-menu-menu-bottom-menu");
+
+
+
 
                 //jQuery('.col-sm-7').css('background-color', '#ADD8E6');
                 var safeobj = jQuery('.col-sm-7');
