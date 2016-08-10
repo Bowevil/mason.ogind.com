@@ -289,8 +289,8 @@ hr {
     display: block;
 }
 
-#block-system-main-menu .mason-dropdown.dropdown-menu:before {
-    display: block !important;
+#block-system-main-menu .dropdown-menu::before {
+  display: block !important;
     position: fixed !important;
     z-index: -99 !important;
     top: 0px !important;
@@ -304,9 +304,8 @@ hr {
     content: '';
 }
 
-#block-system-main-menu .mason-dropdown.dropdown-menu {
+#block-system-main-menu .mason-dropdown {
     position: absolute;
-    display: block;
     width: 187px;
     height: 100%;
     top: 0px;
