@@ -310,6 +310,7 @@ html[data-useragent*='rv:11.0'] .ie-holder {
         background-image: url(../icons/sub_top.png) !important;
   }
 
+/*
   html[data-useragent*='rv:11.0'] #block-system-main-menu .mason-dropdown {
       position: absolute;
       width: 187px;
@@ -323,6 +324,7 @@ html[data-useragent*='rv:11.0'] .ie-holder {
       box-shadow: 0 0px 0px rgba(0,0,0,0.175);
       background-clip: padding-box;
   }
+*/
 
   html[data-useragent*='Chrome'] #block-system-main-menu .dropdown-menu::before {
       display: block !important;
