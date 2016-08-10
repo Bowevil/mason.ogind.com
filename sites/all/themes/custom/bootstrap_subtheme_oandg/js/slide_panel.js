@@ -57,14 +57,9 @@
                 } else {
                     jQuery("#mason-nav-container").removeClass("grow").addClass("shrink");
                 }
-                if (jQuery(".ie-holder.shrink")[0]){
-                } else {
-                    jQuery(".ie-holder").removeClass("grow").addClass("shrink");
-                }
                 });
                 jQuery("#block-system-main-menu ul.menu.nav li.expanded.dropdown").mouseleave(function() {
                       jQuery("#mason-nav-container").removeClass("shrink").addClass("grow");
-                      jQuery(".ie-holder").removeClass("shrink").addClass("grow");
                 });
 
                 jQuery(document).ready(function(){
