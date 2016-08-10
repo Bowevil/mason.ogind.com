@@ -31,6 +31,10 @@ function bootstrap_subtheme_oandg_preprocess_page(&$variables) {
 
 }
 
+/**
+ * Implements template_preprocess_html().
+ *
+ */
 function bootstrap_subtheme_oandg_preprocess_html(&$variables) {
     $viewport = array(
    '#tag' => 'meta',
@@ -40,10 +44,20 @@ function bootstrap_subtheme_oandg_preprocess_html(&$variables) {
    ),
   );
   drupal_add_html_head($viewport, 'viewport');
+  $element = array(
+      '#tag' => 'meta',
+      '#attributes' => array(
+        'http-equiv' => 'X-UA-Compatible',
+        'content' => 'IE=edge,chrome=1'
+      ),
+    );
+    drupal_add_html_head($element, 'http_equiv');
+
   drupal_add_js(drupal_get_path('theme', 'bootstrap_subtheme_oandg') . '/js/slide_panel.js', array(
     'scope' => 'footer',
     'weight' => '15'
   ));
+}
 }
 
 /**
