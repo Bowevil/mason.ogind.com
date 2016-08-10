@@ -16,6 +16,6 @@ function ie_edge_mode_preprocess_page(&$vars) {
         'content' => 'IE=edge,chrome=1',
       ),
     );
-    drupal_add_html_head($element, 'x_ua_compatible');
+    drupal_add_html_head($element, 'X-UA-Compatible');
   }
 }
