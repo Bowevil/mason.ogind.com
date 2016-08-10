@@ -75,6 +75,9 @@
                     }
                 });
 
+                jQuery( "<div class='ie-holder'></div>" ).insertBefore( "#block-system-main-menu ul.dropdown-menu.mason-dropdown" );
+
+
                 //jQuery('.col-sm-7').css('background-color', '#ADD8E6');
                 var safeobj = jQuery('.col-sm-7');
                 var safeobjp = safeobj.offset();
