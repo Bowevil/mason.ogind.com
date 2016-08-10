@@ -300,7 +300,7 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
 
 html[data-useragent*='rv:11.0'] .ie-holder {
         position: absolute;
-        z-index: -79 !important;
+        z-index: -99 !important;
         top: -150px !important;
         left:187px !important;
         width: 187px !important;
