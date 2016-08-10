@@ -290,7 +290,7 @@ hr {
 }
 
 #block-system-main-menu .mason-dropdown.dropdown-menu:before {
-  display: block !important;
+    display: block !important;
     position: fixed !important;
     z-index: -99 !important;
     top: 0px !important;
@@ -306,6 +306,7 @@ hr {
 
 #block-system-main-menu .mason-dropdown.dropdown-menu {
     position: absolute;
+    display: block;
     width: 187px;
     height: 100%;
     top: 0px;
