@@ -293,30 +293,6 @@ hr {
      /* IE10+ CSS styles go here */
 }
 
-html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu {
-    position: relative !important;
-    z-index: -99 !important;
-    top: 0px !important;
-    left:187px !important;
-    width: 187px !important;
-    height: 100% !important;
-    padding: 0px !important;
-    background-color: #E0D9B8 !important;
-
-    float: none;
-    min-width: 160px;
-    padding: 5px 0;
-    margin: 2px 0 0;
-    font-size: 14px;
-    list-style: none;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
-    background-clip: padding-box;
-  }
-
 
 html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu::before {
       position: absolute !important;
@@ -372,8 +348,37 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu::before {
     }
 
 
+    html[data-useragent*='Chrome'] #block-system-main-menu .mason-dropdown {
+        position: absolute;
+        width: 187px;
+        height: 100%;
+        top: 0px;
+        z-index: 9;
+        left:187px;
+        border: 0px solid #ccc;
+        border: 0px solid rgba(0,0,0,0);
+        border-radius: 0px;
+        -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.175);
+        box-shadow: 0 0px 0px rgba(0,0,0,0.175);
+        background-clip: padding-box;
+    }
 
-#block-system-main-menu .mason-dropdown {
+    html[data-useragent*='Firefox'] #block-system-main-menu .mason-dropdown {
+        position: absolute;
+        width: 187px;
+        height: 100%;
+        top: 0px;
+        z-index: 9;
+        left:187px;
+        border: 0px solid #ccc;
+        border: 0px solid rgba(0,0,0,0);
+        border-radius: 0px;
+        -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.175);
+        box-shadow: 0 0px 0px rgba(0,0,0,0.175);
+        background-clip: padding-box;
+    }
+
+html[data-useragent*='Safari'] #block-system-main-menu .mason-dropdown {
     position: absolute;
     width: 187px;
     height: 100%;
@@ -387,6 +392,8 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu::before {
     box-shadow: 0 0px 0px rgba(0,0,0,0.175);
     background-clip: padding-box;
 }
+
+
 
 #block-system-main-menu .dropdown-menu.mason-dropdown a {
     font-family: 'Garamond', serif !important;
