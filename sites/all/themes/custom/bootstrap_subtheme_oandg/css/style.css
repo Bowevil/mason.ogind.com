@@ -289,6 +289,13 @@ hr {
     display: block;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+
+
+}
+
+<!--[if !IE]-->
 #block-system-main-menu .dropdown-menu::before {
   display: block !important;
     position: fixed !important;
@@ -299,9 +306,8 @@ hr {
     height: 100% !important;
     padding: 0px !important;
     background-color: #E0D9B8 !important;
-    background-image: url(../icons/sub_top_new.png) !important;
-    background-repeat: no-repeat !important;
-    content: '';
+    background-image: url(../icons/sub_top.png);
+    content: 'The Gold Standard in Masonry Products and Services';
 }
 
 #block-system-main-menu .mason-dropdown {
@@ -318,6 +324,10 @@ hr {
     box-shadow: 0 0px 0px rgba(0,0,0,0.175);
     background-clip: padding-box;
 }
+
+<!--[endif]-->
+
+
 
 #block-system-main-menu .dropdown-menu.mason-dropdown a {
     font-family: 'Garamond', serif !important;

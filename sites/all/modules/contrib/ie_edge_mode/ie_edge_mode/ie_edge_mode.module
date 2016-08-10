@@ -10,6 +10,6 @@
 function ie_edge_mode_preprocess_page(&$vars) {
   $header = drupal_get_http_header('X-UA-Compatible');
   if (empty($header)) {
-    drupal_add_http_header('X-UA-Compatible', 'IE=EmulateIE8');
+    drupal_add_http_header('X-UA-Compatible', 'IE=edge,chrome=1');
   }
 }
