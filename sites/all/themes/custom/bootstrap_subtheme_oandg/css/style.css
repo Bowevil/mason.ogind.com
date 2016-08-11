@@ -88,6 +88,10 @@ hr {
     display: none;
 }
 
+.menu.nav {
+  background-color: #bea36c;
+}
+
 .col-sm-7 {
     z-index: 89;
     background-color: #ffffff;
