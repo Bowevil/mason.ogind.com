@@ -75,7 +75,7 @@ hr {
     background-color: transparent;
     height: auto;
     width: auto;
-    overflow-y: hiddden;
+    overflow: hiddden;
 }
 .fluid-container {
     background-color: transparent;
@@ -93,12 +93,13 @@ hr {
 }
 
 .col-sm-7 {
-    z-index: 89;
-    background-color: #ffffff;
+    z-index: 79;
+    background-color: transparent;
     /*overflow-y: scroll; */
 }
 .col-sm-3 {
     z-index: 79;
+    overflow-y: hidden;
     background-color: transparent;
 
 }
@@ -302,25 +303,13 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
       background-color: #E0D9B8 !important;
   }
 
-html[data-useragent*='rv:11.0'] .ie-holder-open {
-        position: fixed;
-        z-index: -99 !important;
-        top: -150px !important;
-        left:187px !important;
-        width: 187px !important;
-        height: 100vh;
-        padding: 0px !important;
-        background-color: red !important;
-        background-image: url(../icons/sub_top.png) !important;
-  }
-
   html[data-useragent*='rv:11.0'] .ie-holder {
           position: absolute;
           display: inline-block;
           z-index: -999 !important;
           left:187px !important;
           width: 187px !important;
-          height: 100vh  !important;
+          height: 100vh !important;
           padding: 0px !important;
     }
 
