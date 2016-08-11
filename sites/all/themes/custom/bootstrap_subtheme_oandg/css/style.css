@@ -75,7 +75,7 @@ hr {
     background-color: transparent;
     height: auto;
     width: auto;
-    overflow: hiddden;
+    overflow: hidden;
 }
 .fluid-container {
     background-color: transparent;
