@@ -504,26 +504,12 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
 /* begin bottom menu code */
 
 #block-menu-menu-bottom-menu {
+    position: fixed;
     width: 187px;
     bottom: 0px;
     z-index: 99;
     background-color: transparent;
 }
-html[data-useragent*='rv:11.0'] #block-menu-menu-bottom-menu {
-      position: absolute;
-  }
-
-  html[data-useragent*='Chrome'] #block-system-main-menu .dropdown-menu::before {
-      position: fixed;
-    }
-  html[data-useragent*='Firefox'] #block-system-main-menu .dropdown-menu::before {
-      position: fixed;
-    }
-  html[data-useragent*='Safari'] #block-system-main-menu .dropdown-menu::before {
-      position: fixed;
-    }
-
-
 
 #block-menu-menu-bottom-menu li {
     text-align: center;
