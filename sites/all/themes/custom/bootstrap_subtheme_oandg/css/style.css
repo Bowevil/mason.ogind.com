@@ -293,11 +293,6 @@ hr {
     display: block;
 }
 
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-     /* IE10+ CSS styles go here */
-}
-
-
 html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dropdown li {
       background-color: #E0D9B8 !important;
   }
@@ -448,16 +443,16 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
     -ms-transform: translate(-160px, 0px); /* IE 9 */
     -webkit-transform: translate(-160px, 0px);/* Safari */
     transform: translate(-160px, 0px);
-    -webkit-transition-duration: 1s; /* Safari */
-    transition-duration: 1s;
+    -webkit-transition-duration: 1.5s; /* Safari */
+    transition-duration: 1.5s;
 }
 
 .grow {
     -ms-transform: translate(0px, 0px); /* IE 9 */
     -webkit-transform: translate(0px, 0px);/* Safari */
     transform: translate(0px, 0px);
-    -webkit-transition-duration: 1s; /* Safari */
-    transition-duration: 1s;
+    -webkit-transition-duration: 1.5s; /* Safari */
+    transition-duration: 1.5s;
 }
 
 /* Begin awesome fade in code */
