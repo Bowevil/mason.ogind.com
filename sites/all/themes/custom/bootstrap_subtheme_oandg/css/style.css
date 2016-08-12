@@ -73,15 +73,13 @@ hr {
 
 .row-fluid {
     background-color: transparent;
-    height: auto;
-    width: auto;
-    overflow: hidden;
+
 }
 .fluid-container {
     background-color: transparent;
     height: auto;
     width: auto;
-    overflow-y: hiddden;
+    overflow-y: hidden;
 }
 
 #navbar {
@@ -243,7 +241,7 @@ hr {
 #mason-nav-container {
     position: static;
     left: 0px;
-    z-index: 99;
+    z-index: 79;
     background-color: #bea36c;
     width: 187px;
     height: 100vh;
@@ -502,7 +500,7 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
     position: relative;
     width: 187px;
     bottom: 0px;
-    z-index: 99;
+    z-index: 79;
     background-color: transparent;
 }
 
