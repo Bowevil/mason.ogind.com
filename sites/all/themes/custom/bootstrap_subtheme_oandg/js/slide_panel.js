@@ -106,10 +106,10 @@
                 	});
 
                 jQuery('#cboxClose').mouseup( "click", function() {
-                  jQuery('.product').removeClass('overlay-color');
+                //  jQuery('.product').removeClass('overlay-color');
                  });
                  jQuery('.cboxElement').mouseup(function(){
-                   jQuery(this).closest('.product').addClass('overlay-color');
+                   //jQuery(this).closest('.product').addClass('overlay-color');
                     //  var p = jQuery(this).closest('.product');
                     //  var positionP = p.position();
                     //  var offsetP = p.offset();
