@@ -52,10 +52,8 @@ function bootstrap_subtheme_oandg_preprocess_html(&$variables) {
     );
     drupal_add_html_head($element, 'http_equiv');
   drupal_add_html_head($viewport, 'viewport');
-  drupal_add_js(drupal_get_path('theme', 'bootstrap_subtheme_oandg') . '/js/slide_panel.js', array(
-  ));
+  drupal_add_js(drupal_get_path('theme', 'bootstrap_subtheme_oandg') . '/js/slide_panel.js', array('type' => 'file', 'scope' => 'footer'));
 }
-
 /**
  * Implements theme_menu_link().
  *
