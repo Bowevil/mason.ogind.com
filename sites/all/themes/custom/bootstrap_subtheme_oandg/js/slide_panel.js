@@ -14,6 +14,10 @@
                   jQuery('#loading').hide();
                 });
 
+                jQuery( "<div class='ie-holder red'></div>" ).insertBefore( "#block-views-mason-home-page-icon-block");
+                jQuery( "<div class='ie-holder green'></div>" ).insertBefore( "#block-search-form");
+                jQuery( "<div class='ie-holder blue'></div>" ).insertBefore( "#block-system-main-menu");
+                jQuery( "<div class='ie-holder yellow'></div>" ).insertBefore( "#block-menu-menu-bottom-menu");
                 jQuery(".form-type-bef-checkbox").addClass("col-md-4");
                 jQuery(".dropdown-menu").addClass("mason-dropdown");
                 jQuery(".block-title").addClass("mason-block-title");
@@ -80,11 +84,6 @@
                         jQuery("html").css("overflow", "auto");
                     }
                 });
-
-                jQuery( "<div class='ie-holder red'></div>" ).insertBefore( "#block-views-mason-home-page-icon-block");
-                jQuery( "<div class='ie-holder green'></div>" ).insertBefore( "#block-search-form");
-                jQuery( "<div class='ie-holder blue'></div>" ).insertBefore( "#block-system-main-menu");
-                jQuery( "<div class='ie-holder yellow'></div>" ).insertBefore( "#block-menu-menu-bottom-menu");
 
                 //jQuery('.col-sm-7').css('background-color', '#ADD8E6');
                 var safeobj = jQuery('.col-sm-7');
