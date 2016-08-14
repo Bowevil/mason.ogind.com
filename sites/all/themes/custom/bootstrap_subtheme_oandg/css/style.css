@@ -294,6 +294,14 @@ hr {
     border-bottom: .2px dashed #a19146 !important;
 }
 
+html[data-useragent*='rv:11.0'] .red #block-system-main-menu li > a {
+    text-align: center;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: .2px dashed transparent !important;
+}
+
 #block-system-main-menu li.first.leaf {
   border-style: dashed;
   border-top: .2px dashed #a19146 !important;
