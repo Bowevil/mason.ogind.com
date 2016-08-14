@@ -340,7 +340,6 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
           z-index: -999 !important;
           left:187px !important;
           width: 187px !important;
-          height: 100vh !important;
           padding: 0px !important;
     }
 
@@ -355,6 +354,8 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
     background-color: #E0D9B8 !important;
 }
   html[data-useragent*='rv:11.0'] .yellow {
+        position: static;
+                  height: 100vh !important;
     background-color: #E0D9B8 !important;
 }
 
