@@ -283,7 +283,7 @@ hr {
     border-top: none !important;
     border-left: none !important;
     border-right: none !important;
-    border-bottom: .2px dashed #E0D9B8;
+    border-bottom: .2px dashed #E0D9B8 !important;
 }
 
 #block-system-main-menu li > a {
