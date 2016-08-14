@@ -315,6 +315,7 @@ hr {
     display: none;
 }
 
+
 .dropdown:hover .dropdown-menu {
     display: block;
 }
@@ -446,8 +447,7 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
       top: 0px;
       z-index: 9;
       left:187px;
-      border: 0px solid #ccc;
-      border: 0px solid rgba(0,0,0,0);
+      border-bottom: .2px dashed #E0D9B8 !important;
       border-radius: 0px;
       -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.175);
       box-shadow: 0 0px 0px rgba(0,0,0,0.175);
@@ -460,11 +460,15 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
     background-color: transparent !important;
     text-transform: capitalize !important;
     text-align: center;
-    border-style: solid;
-    /*border-top: .2px dashed #000000 !important; */
-    border-left: none !important;
-    border-right: none !important;
+    border-style: none;
+    border-top: .2px dashed #a19146 !important;
+}
 
+ul.dropdown-menu.mason-dropdown l1 {
+  border-top: none;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: .2px dashed #E0D9B8;
 }
 
 #block-system-main-menu .dropdown-menu.mason-dropdown a:hover {
