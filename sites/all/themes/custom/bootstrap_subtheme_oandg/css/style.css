@@ -355,10 +355,10 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
     background-color: #E0D9B8 !important;
 }
 
-  html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dropdown li.first.last.leaf.active {
+  html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dropdown li.first.leaf {
       border-bottom: .2px dashed #a19146 !important;
 }
-  html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dropdown li.last.leaf.active {
+  html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dropdown li.last.leaf {
       border-bottom: .2px dashed #a19146 !important;
 }
 
