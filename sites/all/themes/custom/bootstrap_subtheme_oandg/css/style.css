@@ -271,6 +271,13 @@ hr {
     padding-right: 0px;
 }
 
+#mason-nav-container .expanded.dropdown {
+  padding: 10px 15px;
+}
+.block.block-search.clearfix {
+  height: 40px;
+}
+
 #block-system-main-menu li {
     text-align: center;
     border-top: none !important;
@@ -304,7 +311,7 @@ hr {
     background-color:#E0D9B8;
 }
 
-#block-system-main-menu li > a .caret {
+#block-system-main-menu li > span .caret {
     display: none;
 }
 
