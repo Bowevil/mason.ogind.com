@@ -60,12 +60,12 @@
                 if (jQuery("#mason-nav-container.shrink")[0]){
                 } else {
                     jQuery("#mason-nav-container").removeClass("grow").addClass("shrink");
-                                        jQuery('.ie-holder').show();
+                    jQuery('.ie-holder').show();
                 }
                 });
                 jQuery("#block-system-main-menu ul.menu.nav li.expanded.dropdown").mouseleave(function() {
                       jQuery("#mason-nav-container").removeClass("shrink").addClass("grow");
-                                          jQuery('.ie-holder').hide();
+                      jQuery('.ie-holder').hide();
                 });
 
                 jQuery(document).ready(function(){

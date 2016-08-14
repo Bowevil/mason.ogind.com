@@ -6,22 +6,22 @@ html, body {
 }
 
 #loading {
-   width: 100%;
-   height: 100%;
+   width: 100vw;
+   height: 100vh;
    top: 0;
    left: 0;
    position: fixed;
    display: block;
    opacity: 0.7;
-   background-color: #fff;
-   z-index: 99;
+   background-color: #red;
+   z-index: 999;
    text-align: center;
 }
 
 #loading-image {
   position: absolute;
-  top: 100px;
-  left: 240px;
+  top: 0px;
+  left: 0px;
   z-index: 100;
 }
 
@@ -310,6 +310,13 @@ hr {
 
 .dropdown:hover .dropdown-menu {
     display: block;
+}
+.overlay-color{
+  background-color: red !important;
+}
+
+.overlay-color-green {
+  background-color: green !important;
 }
 
 html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dropdown li {
