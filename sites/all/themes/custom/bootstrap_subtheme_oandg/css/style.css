@@ -121,6 +121,12 @@ hr {
     background-color: transparent;
 
 }
+
+.region-sidebar-second {
+  width: 1296px;
+  height: 1296px;  
+}
+
 .flexslider{
     position: fixed;
     width: 1296px;
