@@ -299,7 +299,7 @@ html[data-useragent*='rv:11.0'] .red #block-system-main-menu li > a {
     border-top: none !important;
     border-left: none !important;
     border-right: none !important;
-    border-bottom: .2px dashed transparent !important;
+    border-bottom: .2px dashed #E0D9B8 !important;
 }
 
 #block-system-main-menu li.first.leaf {
