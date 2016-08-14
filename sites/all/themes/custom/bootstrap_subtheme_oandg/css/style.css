@@ -123,6 +123,8 @@ hr {
 }
 .flexslider{
     position: fixed;
+    width: 1296px;
+    height: 1296px;
     top: 0px;
     z-index: 79;
     background-color: #ffffff;
