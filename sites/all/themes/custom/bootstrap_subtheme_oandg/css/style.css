@@ -288,7 +288,14 @@ hr {
 
 span .btn-primary {
   background-color: #bea36c;
+  border-color: transparent;
 }
+
+span .btn-primary:hover {
+background-color: #bea36c;
+}
+
+
 
 #block-system-main-menu li {
     text-align: center;
