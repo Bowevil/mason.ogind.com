@@ -5,27 +5,6 @@ html, body {
     height: 100%;
 }
 
-#loading {
-   width: 100vw;
-   height: 100vh;
-   top: 0;
-   left: 0;
-   position: fixed;
-   display: block;
-   opacity: 0.7;
-   background-color: #red;
-   z-index: 999;
-   text-align: center;
-}
-
-#loading-image {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: 100;
-}
-
-
 h1 {
     font-family: 'Balthazar', serif !important;
     color: #000000 !important;
@@ -361,7 +340,7 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
 
   html[data-useragent*='rv:11.0'] .ie-holder {
           position: absolute;
-          display: block;
+          display: none;
           z-index: -999 !important;
           left:187px !important;
           width: 187px !important;

@@ -10,10 +10,6 @@
                 var doc = document.documentElement;
                 doc.setAttribute('data-useragent', navigator.userAgent);
 
-                jQuery(window).load(function() {
-                  jQuery('#loading').hide();
-                });
-
                 jQuery( "<div class='ie-holder red'></div>" ).insertBefore( "#block-views-mason-home-page-icon-block");
                 jQuery( "<div class='ie-holder green'></div>" ).insertBefore( "#block-search-form");
                 jQuery( "<div class='ie-holder blue'></div>" ).insertBefore( "#block-system-main-menu");
