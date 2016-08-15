@@ -292,9 +292,8 @@ span .btn-primary {
 }
 
 span .btn-primary:hover, span .btn-primary:focus {
-
-} {
-background-color: #bea36c;
+  background-color: #b6985a;
+  border-color: transparent;
 }
 
 
