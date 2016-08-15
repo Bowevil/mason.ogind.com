@@ -100,8 +100,12 @@ hr {
     background-color: transparent;
     height: auto;
     width: auto;
-    overflow-y: hidden;
+    overflow: hidden;
 }
+
+html[data-useragent*='rv:11.0'] .fluid-container  {
+          background-color: green;
+  }
 
 #navbar {
     display: none;
@@ -123,6 +127,7 @@ hr {
 }
 
 .region-sidebar-second {
+  position: fixed;
   width: 1296px;
   height: 1296px;
 }
