@@ -286,6 +286,10 @@ hr {
   height: 40px;
 }
 
+span .btn-primary {
+  background-color: #bea36c;
+}
+
 #block-system-main-menu li {
     text-align: center;
     border-top: none;
@@ -295,7 +299,6 @@ hr {
 }
 
 #block-system-main-menu li.first.leaf {
-  border-style: dashed;
   border-bottom: .2px dashed #a19146 !important;
 }
 
@@ -475,9 +478,11 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
 }
 
 #block-system-main-menu .dropdown-menu.mason-dropdown li.first.last.leaf.active {
+      border-style: none;
       border-bottom: .2px dashed #a19146 !important;
 }
 #block-system-main-menu .dropdown-menu.mason-dropdown li.last.leaf.active {
+      border-style: none;
       border-bottom: .2px dashed #a19146 !important;
 }
 
@@ -562,7 +567,6 @@ ul.dropdown-menu.mason-dropdown l1 {
 
 #block-menu-menu-bottom-menu li {
     text-align: center;
-    border-style: solid;
     border-top: none !important;
     border-left: none !important;
     border-right: none !important;
@@ -605,7 +609,6 @@ ul.dropdown-menu.mason-dropdown l1 {
     background-color: transparent !important;
     text-transform: capitalize !important;
     text-align: center;
-    border-style: dashed;
     border-top: .2px dashed #000000 !important;
     border-left: none !important;
     border-right: none !important;
@@ -687,7 +690,6 @@ ul.dropdown-menu.mason-dropdown l1 {
     background-color: #b6985a;
     text-transform: capitalize !important;
     text-align: center;
-    border-style: solid;
     border-top: none !important;
     border-left: none !important;
     border-right: none !important;
