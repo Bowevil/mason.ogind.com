@@ -95,6 +95,7 @@ html[data-useragent*='rv:11.0'] .fluid-container  {
 }
 
 .col-sm-7 {
+    max-width: 30%;
     z-index: 79;
     background-color: transparent;
 }
@@ -103,12 +104,6 @@ html[data-useragent*='rv:11.0'] .fluid-container  {
     overflow-y: hidden;
     background-color: transparent;
 
-}
-
-.region-sidebar-second {
-  position: fixed;
-  width: 1296px;
-  height: 1296px;
 }
 
 .flexslider{
