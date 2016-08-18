@@ -82,70 +82,67 @@
                 });
 
                 //jQuery('.col-sm-7').css('background-color', '#ADD8E6');
-                var safeobj = jQuery('.col-sm-7');
-                var safeobjp = safeobj.offset();
-                var safewidth = Number(safeobj.width()) + Number(safeobjp.left);
-                var safeheight = Number(safeobj.height())  + Number(safeobjp.top);
-                //jQuery("#block-block-1").text("safewidth: " + safewidth + " safeheight:" + safeheight);
-                jQuery('.colorbox-inline.init-colorbox-inline-processed.cboxElement').addClass('callbacks');
-                jQuery("#cboxOverlay").css('z-index', '19');
-                jQuery(".callbacks").colorbox({
-                				//	onOpen:function(){ alert('onOpen: colorbox is about to open'); },
-                				//	onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
-                				//	onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
-                				//	onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
-                				//	onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
-                        // I removed the options that were set to the default.
-                        // The top and left can be left out or set to a default,
-                        // I used them as a test to see the difference when the event hook is used.
-                	});
+                 var safeobj = jQuery('.col-sm-7');
+                 var safeobjk = safeobj.width();
+                 var safeobjp = safeobj.offset();
+                 var safewidth = Number(safeobj.width()) + Number(safeobjp.left);
+                 var safeheight = Number(safeobj.height())  + Number(safeobjp.top);
+                 //jQuery("#block-block-1").text("safewidth: " + safewidth + " safeheight:" + safeheight);
+                 jQuery('.colorbox-inline.init-colorbox-inline-processed.cboxElement').addClass('callbacks');
+                 jQuery("#cboxOverlay").css('z-index', '19');
+                 jQuery(".callbacks").colorbox({
+                 				//	onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+                 				//	onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+                 				//	onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+                 				//	onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+                 				//	onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+                         // I removed the options that were set to the default.
+                         // The top and left can be left out or set to a default,
+                         // I used them as a test to see the difference when the event hook is used.
+                 	});
 
-                jQuery('#cboxClose').mouseup( "click", function() {
-                //  jQuery('.product').removeClass('overlay-color');
-                 });
-                 jQuery('.cboxElement').mouseup(function(){
-                   //jQuery(this).closest('.product').addClass('overlay-color');
-                    //  var p = jQuery(this).closest('.product');
-                    //  var positionP = p.position();
-                    //  var offsetP = p.offset();
+                 jQuery('#cboxClose').mouseup( "click", function() {
+                   jQuery('.product').removeClass('overlay-color');
+                  });
+                  jQuery('.cboxElement').mouseup(function(){
+                    jQuery(this).closest('.product').addClass('overlay-color');
+                     //  var p = jQuery(this).closest('.product');
+                     //  var positionP = p.position();
+                     //  var offsetP = p.offset();
+                     });
+
+                   // Use the "cbox_complete" event hook.
+                   // It allows the colorbox div to be positioned after it opens,
+                   // but before the content is loaded.
+                   jQuery(document).bind('cbox_complete', function(){
+                      // Grab the position of the button,
+                      // colorbox can be positioned relative to it.
+                     var pos = jQuery('.overlay-color').offset();
+                     //var zeropos = jQuery('.col-sm-7').offset();
+                     var pwidth = jQuery('.product').width();
+                     var pwidth2 = Number(pwidth) + Number(pwidth);
+                     var pheight = jQuery('.product').height();
+                     var pheight2 = Number(pheight) + Number(pheight);
+                     var widthtotal = Number(pos.left) + pwidth2;
+                     var heighttotal = Number(pos.top) + pheight2;
+                   //jQuery("#block-block-1").text("zeropos.top: " + zeropos.top + "zeropos.left: " + zeropos.left + "safewidth: " + safewidth + "widthtotal:" + widthtotal);
+                     //console.log(pos);
+                     if (widthtotal > safewidth){
+                       //alert('yes');
+                       pos.left = pos.left - pwidth;
+                     } else {
+                     };
+                     // Set the position of the colorbox div
+                     // You can add to or subtract from the pos values
+                     // Example: top: (pos.top + 20) + "px"
+                   jQuery("#block-block-1").text("safeobjk: " + safeobjk + "widthtotal: " + widthtotal + "safewidth: " + safewidth + "position left: " + pos.left + ", position top: " + pos.top);
+                   jQuery.colorbox.resize({width: pwidth2 , height: pheight2});
+                   jQuery("#colorbox").css({
+                         position: "absolute",
+                         top: pos.top + "px",
+                         left: pos.left + "px"
+                     }).show();
                     });
-
-                  // Use the "cbox_complete" event hook.
-                  // It allows the colorbox div to be positioned after it opens,
-                  // but before the content is loaded.
-                  jQuery(document).bind('cbox_complete', function(){
-                     // Grab the position of the button,
-                     // colorbox can be positioned relative to it.
-                    var pos = jQuery('.overlay-color').offset();
-                    //var zeropos = jQuery('.col-sm-7').offset();
-                    var pwidth = jQuery('.product').width();
-                    var pwidth2 = Number(pwidth) + Number(pwidth);
-                    var pheight = jQuery('.product').height();
-                    var pheight2 = Number(pheight) + Number(pheight);
-                    var widthtotal = Number(pos.left) + pwidth2;
-                    var heighttotal = Number(pos.top) + pheight2;
-                  //jQuery("#block-block-1").text("zeropos.top: " + zeropos.top + "zeropos.left: " + zeropos.left + "safewidth: " + safewidth + "widthtotal:" + widthtotal);
-                    //console.log(pos);
-                    if (widthtotal > safewidth){
-                      //alert('yes');
-                      pos.left = pos.left - pwidth;
-                    } else {
-                    };
-                    // Set the position of the colorbox div
-                    // You can add to or subtract from the pos values
-                    // Example: top: (pos.top + 20) + "px"
-                  //  jQuery("#block-block-1").text("position left: " + pos.left + ", position top: " + pos.top);
-                  jQuery.colorbox.resize({width: pwidth2 , height: pheight2});
-                  jQuery("#colorbox").css({
-                        position: "absolute",
-                        top: pos.top + "px",
-                        left: pos.left + "px"
-                    }).show();
-                   });
-
-            function b(x) {
-                alert(x);
-            }
             // end our js code
   }
     };})(jQuery);
