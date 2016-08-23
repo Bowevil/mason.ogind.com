@@ -329,6 +329,7 @@ span.dropdown-toggle {
   background-repeat: no-repeat;
 }
 
+/*
 .products {
   background-image: url(../icons/products.png);
 }
@@ -356,10 +357,7 @@ span.dropdown-toggle {
 .contact {
   background-image: url(../icons/contact.png);
 }
-
-
-
-
+*/
 
 #block-system-main-menu li > span .caret {
 display: none;
