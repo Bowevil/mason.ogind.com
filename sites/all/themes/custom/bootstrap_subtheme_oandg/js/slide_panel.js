@@ -72,6 +72,7 @@
                 if (jQuery("#mason-nav-container.shrink")[0]){
                 } else {
                     jQuery("#mason-nav-container").removeClass("grow").addClass("shrink");
+                    jQuery(".ie-holder").removeClass("grow").addClass("shrink-sub");
                     jQuery('.ie-holder').show();
                 }
                 });

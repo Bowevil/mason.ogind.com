@@ -108,8 +108,8 @@ aside.col-sm-7 {
 
 .flexslider{
     position: fixed;
-    width: 1296px;
-    height: 1296px;
+  /*  width: 1296px;
+    height: 1296px; */
     top: 0px;
     z-index: 79;
     background-color: #ffffff;
@@ -226,9 +226,9 @@ html[data-useragent*='rv:11.0'] .region-content {
 }
 
 .flexslider .slides img {
-    width: auto;
+  /*  width: auto;
     min-width: 0;
-    display: table;
+    display: table; */
 }
 
 .flex-direction-nav {
