@@ -57,7 +57,7 @@
                 jQuery( "span.blank").empty();
 
 
-                jQuery( "<div class='iconsmall products'></div>" ).insertAfter( "#block-system-main-menu li span:contains('PRODUCTS ')");
+                jQuery( "<div class='iconsmall products'></div>" ).insertBefore( "#block-system-main-menu li span:contains('PRODUCTS ')");
                 jQuery( "<div class='iconsmall service'></div>" ).insertAfter( "#block-system-main-menu li span:contains('SERVICES ')");
                 jQuery( "<div class='iconsmall events'></div>" ).insertAfter( "#block-system-main-menu li span:contains('EVENTS & CEU PROGRAMS ')");
                 jQuery( "<div class='iconsmall mason-stores'></div>" ).insertAfter( "#block-system-main-menu li span:contains('MASON STORES & YARDS ')");
