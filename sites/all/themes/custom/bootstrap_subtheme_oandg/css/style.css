@@ -267,6 +267,7 @@ html[data-useragent*='rv:11.0'] .region-content {
 
 #mason-nav-container .expanded.dropdown {
   padding: 10px 15px;
+  z-index: 9;
 }
 .block.block-search.clearfix {
   height: 40px;
@@ -297,6 +298,7 @@ span .btn-primary:hover, span .btn-primary:focus {
     padding: 10px;
 }
 
+
 #block-system-main-menu .dropdown-menu > li > ul > li {
   text-align: center;
   border-top: none;
@@ -311,10 +313,59 @@ span .btn-primary:hover, span .btn-primary:focus {
     background-color:#E0D9B8;
 }
 
-#block-system-main-menu li > span .caret {
-    display: none;
+.iconsmall {
+  position:relative;
+  display:block;
+  z-index: 19;
+  top: 0%;
+  left: 80%;
+  width: 30px;
+  height: 30px;
+  content: "";
 }
 
+.products {
+  content: url(../icons/products.png);
+}
+.service {
+  position:relative;
+  display:block;
+  z-index: 19;
+  top: 0%;
+  left: 80%;
+  width: 30px;
+  height: 30px;
+  content: url(../icons/service.png);
+}
+.events {
+  content: url(../icons/events.png);
+}
+.mason-stores {
+  content: url(../icons/mason-stores.png);
+}
+.showrooms {
+  content: url(../icons/showrooms.png);
+}
+.promotions {
+  content: url(../icons/promotions.png);
+}
+.brochures {
+  content: url(../icons/brochures.png);
+}
+.magazine {
+  content: url(../icons/magazine.png);
+}
+.contact {
+  content: url(../icons/contact.png);
+}
+
+
+
+
+
+#block-system-main-menu li > span .caret {
+display: none;
+}
 
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -489,9 +540,9 @@ ul.dropdown-menu.mason-dropdown l1 {
 }
 
 .shrink {
-    -ms-transform: translate(-160px, 0px); /* IE 9 */
-    -webkit-transform: translate(-160px, 0px);/* Safari */
-    transform: translate(-160px, 0px);
+    -ms-transform: translate(-110px, 0px); /* IE 9 */
+    -webkit-transform: translate(-110px, 0px);/* Safari */
+    transform: translate(-110px, 0px);
     -webkit-transition-duration: 1.5s; /* Safari */
     transition-duration: 1.5s;
 }

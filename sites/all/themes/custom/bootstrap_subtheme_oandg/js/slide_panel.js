@@ -56,6 +56,18 @@
                 jQuery( "span:contains('blank')" ).addClass("blank");
                 jQuery( "span.blank").empty();
 
+
+                jQuery( "<div class='iconsmall products'></div>" ).insertAfter( "#block-system-main-menu li span:contains('PRODUCTS ')");
+                jQuery( "<div class='iconsmall service'></div>" ).insertAfter( "#block-system-main-menu li span:contains('SERVICES ')");
+                jQuery( "<div class='iconsmall events'></div>" ).insertAfter( "#block-system-main-menu li span:contains('EVENTS & CEU PROGRAMS ')");
+                jQuery( "<div class='iconsmall mason-stores'></div>" ).insertAfter( "#block-system-main-menu li span:contains('MASON STORES & YARDS ')");
+                jQuery( "<div class='iconsmall showrooms'></div>" ).insertAfter( "#block-system-main-menu li span:contains('SHOWROOMS ')");
+
+                jQuery( "<div class='iconsmall promotions'></div>" ).insertAfter( "#block-system-main-menu li a:contains('Promotions')");
+                jQuery( "<div class='iconsmall brochures'></div>" ).insertAfter( "#block-system-main-menu li a:contains('Brochures')");
+                jQuery( "<div class='iconsmall magazine'></div>" ).insertAfter( "#block-system-main-menu li a:contains('STYLISH SPACES with MASONRY')");
+                jQuery( "<div class='iconsmall contact'></div>" ).insertAfter( "#block-system-main-menu li a:contains('Contact Us')");
+
                 jQuery("#block-system-main-menu ul.menu.nav li.expanded.dropdown").mouseover(function(){
                 if (jQuery("#mason-nav-container.shrink")[0]){
                 } else {
