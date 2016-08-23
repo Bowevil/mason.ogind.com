@@ -317,46 +317,40 @@ span .btn-primary:hover, span .btn-primary:focus {
   position:relative;
   display:block;
   z-index: 19;
-  top: 0%;
+  text-align: center;
   left: 80%;
   width: 30px;
   height: 30px;
-  content: "";
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
 }
 
 .products {
-  content: url(../icons/products.png);
+  background-image: url(../icons/products.png);
 }
 .service {
-  position:relative;
-  display:block;
-  z-index: 19;
-  top: 0%;
-  left: 80%;
-  width: 30px;
-  height: 30px;
-  content: url(../icons/service.png);
+  background-image: url(../icons/service.png);
 }
 .events {
-  content: url(../icons/events.png);
+  background-image: url(../icons/events.png);
 }
 .mason-stores {
-  content: url(../icons/mason-stores.png);
+  background-image: url(../icons/mason-stores.png);
 }
 .showrooms {
-  content: url(../icons/showrooms.png);
+  background-image: url(../icons/showrooms.png);
 }
 .promotions {
-  content: url(../icons/promotions.png);
+  background-image: url(../icons/promotions.png);
 }
 .brochures {
-  content: url(../icons/brochures.png);
+  background-image: url(../icons/brochures.png);
 }
 .magazine {
-  content: url(../icons/magazine.png);
+  background-image: url(../icons/magazine.png);
 }
 .contact {
-  content: url(../icons/contact.png);
+  background-image: url(../icons/contact.png);
 }
 
 
