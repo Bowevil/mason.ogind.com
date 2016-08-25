@@ -80,6 +80,12 @@
                       jQuery("#mason-nav-container").removeClass("shrink").addClass("grow");
                       jQuery('.ie-holder').hide();
                 });
+                jQuery("#block-system-main-menu .dropdown-menu.mason-dropdown a").click(function() {
+                      alert("hey");
+                      jQuery("li.dropdown").addClass('active');
+                      jQuery('.ie-holder').show();
+                });
+
 
                 jQuery(document).ready(function(){
                   jQuery('a[href^="http"]').attr('target','_blank');
