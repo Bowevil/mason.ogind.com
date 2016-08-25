@@ -251,13 +251,6 @@ html[data-useragent*='rv:11.0'] .region-content {
     margin-right: 5px;
 }
 
-/* begin gallery */
-
-
-
-/* end gallery */
-
-
 
 #mason-nav-container {
     position: static;
@@ -870,10 +863,17 @@ ul.dropdown-menu.mason-dropdown l1 {
   height: 200px;
 }
 
+/* begin gallery */
+
 .product-image img {
-  width: 100%;
+  width: 480px;
   height: 300px;
 }
+.gallery-slides {
+  width: 480px !important;
+  height: 300px !important;
+}
+/* end gallery */
 
 /* End product pop-up */
 

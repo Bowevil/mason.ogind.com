@@ -12,6 +12,14 @@
 
                 jQuery( "div .gallery-thumbs").hide();
 
+               if( jQuery(".field-name-field-media-flexslider").is(":visible") ) {
+                // alert(jQuery('.field-name-field-media-flexslider').length);
+                var grabit = jQuery(".field-name-field-media-flexslider").last("div[id^='colorbox-inline']").parent();
+                //jQuery(grabit).css( "background-color", "red" );
+              //  jQuery(grabit).children("img").css( "background-color", "blue" );
+                jQuery(grabit).children("img").css( "display", "none" );                
+               }
+
                 jQuery( "<div class='ie-holder red'></div>" ).insertBefore( "#block-views-mason-home-page-icon-block");
                 jQuery( "<div class='ie-holder green'></div>" ).insertBefore( "#block-search-form");
                 jQuery( "<div class='ie-holder blue'></div>" ).insertBefore( "#block-system-main-menu");
