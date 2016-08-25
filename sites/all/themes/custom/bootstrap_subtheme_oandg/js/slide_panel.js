@@ -81,7 +81,7 @@
                       jQuery('.ie-holder').hide();
                 });
                 jQuery("#block-system-main-menu .dropdown-menu.mason-dropdown a").click(function() {
-                      alert("hey");
+                      //alert("hey");
                       jQuery("li.dropdown").addClass('active');
                       jQuery('.ie-holder').show();
                 });
