@@ -286,12 +286,21 @@ span.dropdown-toggle {
   position: relative;
       z-index: 8 !important;
 }
+
 #block-system-main-menu li {
     text-align: center;
     border-top: none;
     border-left: none !important;
     border-right: none !important;
     border-bottom: .2px dashed #E0D9B8 !important;
+}
+
+ul.dropdown-menu.mason-dropdown {
+  width: 199px;
+}
+
+ul.menu.nav {
+    background-color: #C4AC7A;
 }
 
 #block-system-main-menu li.first.leaf {
@@ -304,6 +313,7 @@ span.dropdown-toggle {
 
 #block-system-main-menu .dropdown-menu > li > ul > li {
   text-align: center;
+  background-color: transparent;
   border-top: none;
   border-left: none !important;
   border-right: none !important;
@@ -328,33 +338,35 @@ span.dropdown-toggle {
   background-repeat: no-repeat;
 }
 
-/*
+
 .products {
-  background-image: url(../icons/products.png);
-}
-.service {
-  background-image: url(../icons/service.png);
+  background-image: url(../icons/sm-product-icon.png);
 }
 .events {
-  background-image: url(../icons/events.png);
+  background-image: url(../icons/sm-event-icon.png);
+}
+.magazine {
+  background-image: url(../icons/sm-magazine-icon.png);
+}
+.contact {
+  background-image: url(../icons/sm-contact-icon.png);
+}
+.brochures {
+  background-image: url(../icons/sm-brochures-icon.png);
+}
+/*
+.service {
+  background-image: url(../icons/service.png);
 }
 .mason-stores {
   background-image: url(../icons/mason-stores.png);
 }
+
 .showrooms {
   background-image: url(../icons/showrooms.png);
 }
 .promotions {
   background-image: url(../icons/promotions.png);
-}
-.brochures {
-  background-image: url(../icons/brochures.png);
-}
-.magazine {
-  background-image: url(../icons/magazine.png);
-}
-.contact {
-  background-image: url(../icons/contact.png);
 }
 */
 
@@ -409,7 +421,7 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
 
   html[data-useragent*='rv:11.0'] #block-system-main-menu .mason-dropdown {
       position: absolute;
-      width: 187px;
+      width: 157px;
       height: 100%;
       top: 0px;
       z-index: 9;
@@ -427,7 +439,7 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
         z-index: -99 !important;
         top: 0px !important;
         left:187px !important;
-        width: 187px !important;
+        width: 157px !important;
         height: 100% !important;
         padding: 0px !important;
         background-color: #E0D9B8 !important;
@@ -440,7 +452,7 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
         z-index: -99 !important;
         top: 0px !important;
         left:187px !important;
-        width: 187px !important;
+        width: 157px !important;
         height: 100% !important;
         padding: 0px !important;
         background-color: #E0D9B8 !important;
@@ -453,7 +465,7 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
         z-index: -99 !important;
         top: 0px !important;
         left:187px !important;
-        width: 187px !important;
+        width: 157px !important;
         height: 100% !important;
         padding: 0px !important;
         background-color: #E0D9B8 !important;
@@ -464,12 +476,11 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
 
     html[data-useragent*='Chrome'] #block-system-main-menu .mason-dropdown {
         position: absolute;
-        width: 187px;
+        width: 157px;
         height: 100%;
         top: 0px;
         z-index: 9;
         left:187px;
-
         border-radius: 0px;
         -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.175);
         box-shadow: 0 0px 0px rgba(0,0,0,0.175);
@@ -478,12 +489,11 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
 
     html[data-useragent*='Firefox'] #block-system-main-menu .mason-dropdown {
         position: absolute;
-        width: 187px;
+        width: 157px;
         height: 100%;
         top: 0px;
         z-index: 9;
         left:187px;
-
         border-radius: 0px;
         -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.175);
         box-shadow: 0 0px 0px rgba(0,0,0,0.175);
@@ -492,7 +502,7 @@ html[data-useragent*='rv:11.0'] #block-system-main-menu .dropdown-menu.mason-dro
 
   html[data-useragent*='Safari'] #block-system-main-menu .mason-dropdown {
       position: absolute;
-      width: 187px;
+      width: 157px;
       height: 100%;
       top: 0px;
       z-index: 9;
@@ -535,9 +545,9 @@ ul.dropdown-menu.mason-dropdown l1 {
 }
 
 .shrink {
-    -ms-transform: translate(-110px, 0px); /* IE 9 */
-    -webkit-transform: translate(-110px, 0px);/* Safari */
-    transform: translate(-110px, 0px);
+    -ms-transform: translate(-145px, 0px); /* IE 9 */
+    -webkit-transform: translate(-145px, 0px);/* Safari */
+    transform: translate(-145px, 0px);
     -webkit-transition-duration: 1.5s; /* Safari */
     transition-duration: 1.5s;
 }
