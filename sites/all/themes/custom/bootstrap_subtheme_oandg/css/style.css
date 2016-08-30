@@ -338,7 +338,7 @@ ul.menu.nav {
   background-repeat: no-repeat;
 }
 
-
+/*
 .products {
   background-image: url(../icons/sm-product-icon.png);
 }
@@ -354,7 +354,7 @@ ul.menu.nav {
 .brochures {
   background-image: url(../icons/sm-brochures-icon.png);
 }
-/*
+
 .service {
   background-image: url(../icons/service.png);
 }
